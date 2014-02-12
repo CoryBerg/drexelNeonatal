@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class guiTest2 : MonoBehaviour {
+public class GuiTest2 : MonoBehaviour {
 	public GameObject baby;
  
     public GUISkin leftnav;

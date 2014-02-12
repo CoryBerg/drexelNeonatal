@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Xml;
 
-public class guiTest : MonoBehaviour {
+public class GuiTest : MonoBehaviour {
 	public bool visible = false;
 	public string clipText = "Show Clipboard";
 	public Animator baby;
@@ -13,6 +14,9 @@ public class guiTest : MonoBehaviour {
 	public Texture clipTexture;
 	public GUIStyle clipStyle = new GUIStyle();
 	
+	public XmlDocument root;
+	public string filepath;
+		
 	void OnGUI() {
 		GUI.DrawTexture(clipboard, clipTexture, ScaleMode.ScaleToFit, true);
 		
@@ -30,12 +34,12 @@ public class guiTest : MonoBehaviour {
 		if(visible) {
     		if(GUI.Button(new Rect(((Screen.width/3)/3)-25, Screen.height-clipboard.height+50, 100, 25), "Play Anim1")) {
          		// Play Animation 1
-         		baby.Play("Take 001");
+         		ReadXML(1);
          		
        		}
        		if(GUI.Button(new Rect(((Screen.width/3)/3)-25, Screen.height-clipboard.height+100, 100, 25), "Play Anim2")) {
          		// Play Animation 2
-         		baby.Play("anim01");
+         		ReadXML(2);
        		}
     	}
 	}
@@ -49,5 +53,16 @@ public class guiTest : MonoBehaviour {
 			clipboard.y -= clipboard.height;
 			clipText = "Hide Clipboard";
 		}
-	}	
+	}
+	
+	public void Start() {
+		root = new XmlDocument();
+		root.Load(filepath);
+	}
+	
+	public void ReadXML(int babyState) {
+		string anim = root.SelectSingleNode("babyStates/baby[@id='" + babyState + "']/animation").InnerText;
+		
+		baby.Play(anim);
+	}
 }
