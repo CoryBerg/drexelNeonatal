@@ -1,0 +1,1509 @@
+fileFormatVersion: 2
+guid: cfc2a0b017f559c4da9687f154da98dc
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: arms_master_controller
+    100004: camera1
+    100006: Default
+    100008: l_arm_geom
+    100010: L_arm_master
+    100012: L_clavicle
+    100014: L_Elbow
+    100016: L_Elbow_FK
+    100018: L_Elbow_IK
+    100020: L_Hand
+    100022: L_Hand_FK
+    100024: L_Hand_IK
+    100026: L_handGrip
+    100028: L_index_a
+    100030: L_index_b
+    100032: L_index_c
+    100034: L_index_end
+    100036: L_middle_a
+    100038: L_middle_b
+    100040: L_middle_c
+    100042: L_middle_end
+    100044: L_pinky_a
+    100046: L_pinky_b
+    100048: L_pinky_c
+    100050: L_pinky_end
+    100052: L_ring_a
+    100054: L_ring_b
+    100056: L_ring_c
+    100058: L_ring_end
+    100060: L_shoulder
+    100062: L_shoulder_FK
+    100064: L_shoulder_IK
+    100066: L_thumb_a
+    100068: L_thumb_b
+    100070: L_thumb_c
+    100072: L_thumb_end
+    100074: L_Wrist
+    100076: L_Wrist_FK
+    100078: L_Wrist_IK
+    100080: r_arm_geom
+    100082: R_arm_master
+    100084: r_baby_swp_01:baby_rig_07:eyes_anim
+    100086: r_baby_swp_01:baby_rig_07:eyes_o
+    100088: r_baby_swp_01:baby_rig_07:head
+    100090: r_baby_swp_01:baby_rig_07:head_anim
+    100092: r_baby_swp_01:baby_rig_07:head_o
+    100094: r_baby_swp_01:baby_rig_07:headEnd
+    100096: r_baby_swp_01:baby_rig_07:jaw
+    100098: r_baby_swp_01:baby_rig_07:jaw_anim
+    100100: r_baby_swp_01:baby_rig_07:jaw_o
+    100102: r_baby_swp_01:baby_rig_07:jawEnd
+    100104: r_baby_swp_01:baby_rig_07:jawOrientNull
+    100106: r_baby_swp_01:baby_rig_07:jawOrientNull_grp
+    100108: r_baby_swp_01:baby_rig_07:L_ankle
+    100110: r_baby_swp_01:baby_rig_07:L_ankle_FK
+    100112: r_baby_swp_01:baby_rig_07:L_ankle_FK_anim
+    100114: r_baby_swp_01:baby_rig_07:L_ankle_FK_o
+    100116: r_baby_swp_01:baby_rig_07:L_ankle_IK
+    100118: r_baby_swp_01:baby_rig_07:L_arm
+    100120: r_baby_swp_01:baby_rig_07:L_ball
+    100122: r_baby_swp_01:baby_rig_07:L_ball_FK
+    100124: r_baby_swp_01:baby_rig_07:L_ball_FK_anim
+    100126: r_baby_swp_01:baby_rig_07:L_ball_FK_o
+    100128: r_baby_swp_01:baby_rig_07:L_ball_IK
+    100130: r_baby_swp_01:baby_rig_07:L_ballIkHandle
+    100132: r_baby_swp_01:baby_rig_07:L_ballNull
+    100134: r_baby_swp_01:baby_rig_07:L_btmLid
+    100136: r_baby_swp_01:baby_rig_07:L_btmLid_end
+    100138: r_baby_swp_01:baby_rig_07:L_clavicle
+    100140: r_baby_swp_01:baby_rig_07:L_clavicle_anim
+    100142: r_baby_swp_01:baby_rig_07:L_clavicle_anim_o
+    100144: r_baby_swp_01:baby_rig_07:L_elbow
+    100146: r_baby_swp_01:baby_rig_07:L_elbow_FK
+    100148: r_baby_swp_01:baby_rig_07:L_elbow_FK_anim
+    100150: r_baby_swp_01:baby_rig_07:L_elbow_FK_o
+    100152: r_baby_swp_01:baby_rig_07:L_elbow_IK
+    100154: r_baby_swp_01:baby_rig_07:L_eye
+    100156: r_baby_swp_01:baby_rig_07:L_eye_anim
+    100158: r_baby_swp_01:baby_rig_07:L_eye_o
+    100160: r_baby_swp_01:baby_rig_07:L_hand
+    100162: r_baby_swp_01:baby_rig_07:L_hand_FK
+    100164: r_baby_swp_01:baby_rig_07:L_hand_IK
+    100166: r_baby_swp_01:baby_rig_07:L_heelNull
+    100168: r_baby_swp_01:baby_rig_07:L_hip
+    100170: r_baby_swp_01:baby_rig_07:L_hip_FK
+    100172: r_baby_swp_01:baby_rig_07:L_hip_FK_anim
+    100174: r_baby_swp_01:baby_rig_07:L_hip_FK_o
+    100176: r_baby_swp_01:baby_rig_07:L_hip_IK
+    100178: r_baby_swp_01:baby_rig_07:L_hip_IK_anim
+    100180: r_baby_swp_01:baby_rig_07:L_hip_IK_ikHandle
+    100182: r_baby_swp_01:baby_rig_07:L_hip_IK_o
+    100184: r_baby_swp_01:baby_rig_07:L_hip_IK_PV_anim
+    100186: r_baby_swp_01:baby_rig_07:L_hipikFkSwitch
+    100188: r_baby_swp_01:baby_rig_07:L_index_a
+    100190: r_baby_swp_01:baby_rig_07:L_index_a_anim
+    100192: r_baby_swp_01:baby_rig_07:L_index_a_o
+    100194: r_baby_swp_01:baby_rig_07:L_index_b
+    100196: r_baby_swp_01:baby_rig_07:L_index_b_anim
+    100198: r_baby_swp_01:baby_rig_07:L_index_b_o
+    100200: r_baby_swp_01:baby_rig_07:L_index_c
+    100202: r_baby_swp_01:baby_rig_07:L_index_c_anim
+    100204: r_baby_swp_01:baby_rig_07:L_index_c_o
+    100206: r_baby_swp_01:baby_rig_07:L_indexEnd
+    100208: r_baby_swp_01:baby_rig_07:L_knee
+    100210: r_baby_swp_01:baby_rig_07:L_knee_FK
+    100212: r_baby_swp_01:baby_rig_07:L_knee_FK_anim
+    100214: r_baby_swp_01:baby_rig_07:L_knee_FK_o
+    100216: r_baby_swp_01:baby_rig_07:L_knee_IK
+    100218: r_baby_swp_01:baby_rig_07:L_leg
+    100220: r_baby_swp_01:baby_rig_07:L_middle_a
+    100222: r_baby_swp_01:baby_rig_07:L_middle_a_anim
+    100224: r_baby_swp_01:baby_rig_07:L_middle_a_o
+    100226: r_baby_swp_01:baby_rig_07:L_middle_b
+    100228: r_baby_swp_01:baby_rig_07:L_middle_b_anim
+    100230: r_baby_swp_01:baby_rig_07:L_middle_b_o
+    100232: r_baby_swp_01:baby_rig_07:L_middle_c
+    100234: r_baby_swp_01:baby_rig_07:L_middle_c_anim
+    100236: r_baby_swp_01:baby_rig_07:L_middle_c_o
+    100238: r_baby_swp_01:baby_rig_07:L_middleEnd
+    100240: r_baby_swp_01:baby_rig_07:L_pinky_a
+    100242: r_baby_swp_01:baby_rig_07:L_pinky_a_anim
+    100244: r_baby_swp_01:baby_rig_07:L_pinky_a_o
+    100246: r_baby_swp_01:baby_rig_07:L_pinky_b
+    100248: r_baby_swp_01:baby_rig_07:L_pinky_b_anim
+    100250: r_baby_swp_01:baby_rig_07:L_pinky_b_o
+    100252: r_baby_swp_01:baby_rig_07:L_pinky_c
+    100254: r_baby_swp_01:baby_rig_07:L_pinky_c_anim
+    100256: r_baby_swp_01:baby_rig_07:L_pinky_c_o
+    100258: r_baby_swp_01:baby_rig_07:L_pinkyEnd
+    100260: r_baby_swp_01:baby_rig_07:L_ring_a
+    100262: r_baby_swp_01:baby_rig_07:L_ring_a_anim
+    100264: r_baby_swp_01:baby_rig_07:L_ring_a_o
+    100266: r_baby_swp_01:baby_rig_07:L_ring_b
+    100268: r_baby_swp_01:baby_rig_07:L_ring_b_anim
+    100270: r_baby_swp_01:baby_rig_07:L_ring_b_o
+    100272: r_baby_swp_01:baby_rig_07:L_ring_c
+    100274: r_baby_swp_01:baby_rig_07:L_ring_c_anim
+    100276: r_baby_swp_01:baby_rig_07:L_ring_c_o
+    100278: r_baby_swp_01:baby_rig_07:L_ringEnd
+    100280: r_baby_swp_01:baby_rig_07:L_shoulder
+    100282: r_baby_swp_01:baby_rig_07:L_shoulder_FK
+    100284: r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim
+    100286: r_baby_swp_01:baby_rig_07:L_shoulder_FK_o
+    100288: r_baby_swp_01:baby_rig_07:L_shoulder_IK
+    100290: r_baby_swp_01:baby_rig_07:L_shoulder_IK_anim
+    100292: r_baby_swp_01:baby_rig_07:L_shoulder_IK_ikHandle
+    100294: r_baby_swp_01:baby_rig_07:L_shoulder_IK_o
+    100296: r_baby_swp_01:baby_rig_07:L_shoulder_IK_PV_anim
+    100298: r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch
+    100300: r_baby_swp_01:baby_rig_07:L_thumb_a
+    100302: r_baby_swp_01:baby_rig_07:L_thumb_a_anim
+    100304: r_baby_swp_01:baby_rig_07:L_thumb_a_o
+    100306: r_baby_swp_01:baby_rig_07:L_thumb_b
+    100308: r_baby_swp_01:baby_rig_07:L_thumb_b_anim
+    100310: r_baby_swp_01:baby_rig_07:L_thumb_b_o
+    100312: r_baby_swp_01:baby_rig_07:L_thumb_c
+    100314: r_baby_swp_01:baby_rig_07:L_thumb_c_anim
+    100316: r_baby_swp_01:baby_rig_07:L_thumb_c_o
+    100318: r_baby_swp_01:baby_rig_07:L_thumbEnd
+    100320: r_baby_swp_01:baby_rig_07:L_toe
+    100322: r_baby_swp_01:baby_rig_07:L_toe_FK
+    100324: r_baby_swp_01:baby_rig_07:L_toe_IK
+    100326: r_baby_swp_01:baby_rig_07:L_toeBendCtrl
+    100328: r_baby_swp_01:baby_rig_07:L_toeBendCtrl_o
+    100330: r_baby_swp_01:baby_rig_07:L_toeNull
+    100332: r_baby_swp_01:baby_rig_07:L_topLid
+    100334: r_baby_swp_01:baby_rig_07:L_topLid_end
+    100336: r_baby_swp_01:baby_rig_07:L_wrist
+    100338: r_baby_swp_01:baby_rig_07:L_wrist_FK
+    100340: r_baby_swp_01:baby_rig_07:L_wrist_FK_anim
+    100342: r_baby_swp_01:baby_rig_07:L_wrist_FK_o
+    100344: r_baby_swp_01:baby_rig_07:L_wrist_IK
+    100346: r_baby_swp_01:baby_rig_07:masterCtrl
+    100348: r_baby_swp_01:baby_rig_07:neck
+    100350: r_baby_swp_01:baby_rig_07:pelvis
+    100352: r_baby_swp_01:baby_rig_07:pelvis_anim
+    100354: r_baby_swp_01:baby_rig_07:pelvis_o
+    100356: r_baby_swp_01:baby_rig_07:R_ankle
+    100358: r_baby_swp_01:baby_rig_07:R_ankle_FK
+    100360: r_baby_swp_01:baby_rig_07:R_ankle_FK_anim
+    100362: r_baby_swp_01:baby_rig_07:R_ankle_FK_o
+    100364: r_baby_swp_01:baby_rig_07:R_ankle_IK
+    100366: r_baby_swp_01:baby_rig_07:R_arm
+    100368: r_baby_swp_01:baby_rig_07:R_ball
+    100370: r_baby_swp_01:baby_rig_07:R_ball_FK
+    100372: r_baby_swp_01:baby_rig_07:R_ball_FK_anim
+    100374: r_baby_swp_01:baby_rig_07:R_ball_FK_o
+    100376: r_baby_swp_01:baby_rig_07:R_ball_IK
+    100378: r_baby_swp_01:baby_rig_07:R_ballIkHandle
+    100380: r_baby_swp_01:baby_rig_07:R_ballNull
+    100382: r_baby_swp_01:baby_rig_07:R_btmRid
+    100384: r_baby_swp_01:baby_rig_07:R_btmRid_end
+    100386: r_baby_swp_01:baby_rig_07:R_clavicle
+    100388: r_baby_swp_01:baby_rig_07:R_clavicle_anim
+    100390: r_baby_swp_01:baby_rig_07:R_clavicle_anim_o
+    100392: r_baby_swp_01:baby_rig_07:R_elbow
+    100394: r_baby_swp_01:baby_rig_07:R_elbow_FK
+    100396: r_baby_swp_01:baby_rig_07:R_elbow_FK_anim
+    100398: r_baby_swp_01:baby_rig_07:R_elbow_FK_o
+    100400: r_baby_swp_01:baby_rig_07:R_elbow_IK
+    100402: r_baby_swp_01:baby_rig_07:R_eye
+    100404: r_baby_swp_01:baby_rig_07:R_eye_anim
+    100406: r_baby_swp_01:baby_rig_07:R_eye_o
+    100408: r_baby_swp_01:baby_rig_07:R_hand
+    100410: r_baby_swp_01:baby_rig_07:R_hand_FK
+    100412: r_baby_swp_01:baby_rig_07:R_hand_IK
+    100414: r_baby_swp_01:baby_rig_07:R_heelNull
+    100416: r_baby_swp_01:baby_rig_07:R_hip
+    100418: r_baby_swp_01:baby_rig_07:R_hip_FK
+    100420: r_baby_swp_01:baby_rig_07:R_hip_FK_anim
+    100422: r_baby_swp_01:baby_rig_07:R_hip_FK_o
+    100424: r_baby_swp_01:baby_rig_07:R_hip_IK
+    100426: r_baby_swp_01:baby_rig_07:R_hip_IK_anim
+    100428: r_baby_swp_01:baby_rig_07:R_hip_IK_ikHandle
+    100430: r_baby_swp_01:baby_rig_07:R_hip_IK_o
+    100432: r_baby_swp_01:baby_rig_07:R_hip_IK_PV_anim
+    100434: r_baby_swp_01:baby_rig_07:R_hipikFkSwitch
+    100436: r_baby_swp_01:baby_rig_07:R_index_a
+    100438: r_baby_swp_01:baby_rig_07:R_index_a_anim
+    100440: r_baby_swp_01:baby_rig_07:R_index_a_o
+    100442: r_baby_swp_01:baby_rig_07:R_index_b
+    100444: r_baby_swp_01:baby_rig_07:R_index_b_anim
+    100446: r_baby_swp_01:baby_rig_07:R_index_b_o
+    100448: r_baby_swp_01:baby_rig_07:R_index_c
+    100450: r_baby_swp_01:baby_rig_07:R_index_c_anim
+    100452: r_baby_swp_01:baby_rig_07:R_index_c_o
+    100454: r_baby_swp_01:baby_rig_07:R_indexEnd
+    100456: r_baby_swp_01:baby_rig_07:R_knee
+    100458: r_baby_swp_01:baby_rig_07:R_knee_FK
+    100460: r_baby_swp_01:baby_rig_07:R_knee_FK_anim
+    100462: r_baby_swp_01:baby_rig_07:R_knee_FK_o
+    100464: r_baby_swp_01:baby_rig_07:R_knee_IK
+    100466: r_baby_swp_01:baby_rig_07:R_leg
+    100468: r_baby_swp_01:baby_rig_07:R_middle_a
+    100470: r_baby_swp_01:baby_rig_07:R_middle_a_anim
+    100472: r_baby_swp_01:baby_rig_07:R_middle_a_o
+    100474: r_baby_swp_01:baby_rig_07:R_middle_b
+    100476: r_baby_swp_01:baby_rig_07:R_middle_b_anim
+    100478: r_baby_swp_01:baby_rig_07:R_middle_b_o
+    100480: r_baby_swp_01:baby_rig_07:R_middle_c
+    100482: r_baby_swp_01:baby_rig_07:R_middle_c_anim
+    100484: r_baby_swp_01:baby_rig_07:R_middle_c_o
+    100486: r_baby_swp_01:baby_rig_07:R_middleEnd
+    100488: r_baby_swp_01:baby_rig_07:R_pinky_a
+    100490: r_baby_swp_01:baby_rig_07:R_pinky_a_anim
+    100492: r_baby_swp_01:baby_rig_07:R_pinky_a_o
+    100494: r_baby_swp_01:baby_rig_07:R_pinky_b
+    100496: r_baby_swp_01:baby_rig_07:R_pinky_b_anim
+    100498: r_baby_swp_01:baby_rig_07:R_pinky_b_o
+    100500: r_baby_swp_01:baby_rig_07:R_pinky_c
+    100502: r_baby_swp_01:baby_rig_07:R_pinky_c_anim
+    100504: r_baby_swp_01:baby_rig_07:R_pinky_c_o
+    100506: r_baby_swp_01:baby_rig_07:R_pinkyEnd
+    100508: r_baby_swp_01:baby_rig_07:R_ring_a
+    100510: r_baby_swp_01:baby_rig_07:R_ring_a_anim
+    100512: r_baby_swp_01:baby_rig_07:R_ring_a_o
+    100514: r_baby_swp_01:baby_rig_07:R_ring_b
+    100516: r_baby_swp_01:baby_rig_07:R_ring_b_anim
+    100518: r_baby_swp_01:baby_rig_07:R_ring_b_o
+    100520: r_baby_swp_01:baby_rig_07:R_ring_c
+    100522: r_baby_swp_01:baby_rig_07:R_ring_c_anim
+    100524: r_baby_swp_01:baby_rig_07:R_ring_c_o
+    100526: r_baby_swp_01:baby_rig_07:R_ringEnd
+    100528: r_baby_swp_01:baby_rig_07:R_shoulder
+    100530: r_baby_swp_01:baby_rig_07:R_shoulder_FK
+    100532: r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim
+    100534: r_baby_swp_01:baby_rig_07:R_shoulder_FK_o
+    100536: r_baby_swp_01:baby_rig_07:R_shoulder_IK
+    100538: r_baby_swp_01:baby_rig_07:R_shoulder_IK_anim
+    100540: r_baby_swp_01:baby_rig_07:R_shoulder_IK_ikHandle
+    100542: r_baby_swp_01:baby_rig_07:R_shoulder_IK_o
+    100544: r_baby_swp_01:baby_rig_07:R_shoulder_IK_PV_anim
+    100546: r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch
+    100548: r_baby_swp_01:baby_rig_07:R_thumb_a
+    100550: r_baby_swp_01:baby_rig_07:R_thumb_a_anim
+    100552: r_baby_swp_01:baby_rig_07:R_thumb_a_o
+    100554: r_baby_swp_01:baby_rig_07:R_thumb_b
+    100556: r_baby_swp_01:baby_rig_07:R_thumb_b_anim
+    100558: r_baby_swp_01:baby_rig_07:R_thumb_b_o
+    100560: r_baby_swp_01:baby_rig_07:R_thumb_c
+    100562: r_baby_swp_01:baby_rig_07:R_thumb_c_anim
+    100564: r_baby_swp_01:baby_rig_07:R_thumb_c_o
+    100566: r_baby_swp_01:baby_rig_07:R_thumbEnd
+    100568: r_baby_swp_01:baby_rig_07:R_toe
+    100570: r_baby_swp_01:baby_rig_07:R_toe_FK
+    100572: r_baby_swp_01:baby_rig_07:R_toe_IK
+    100574: r_baby_swp_01:baby_rig_07:R_toeBendCtrl
+    100576: r_baby_swp_01:baby_rig_07:R_toeBendCtrl_o
+    100578: r_baby_swp_01:baby_rig_07:R_toeNull
+    100580: r_baby_swp_01:baby_rig_07:R_topRid
+    100582: r_baby_swp_01:baby_rig_07:R_topRid_end
+    100584: r_baby_swp_01:baby_rig_07:R_wrist
+    100586: r_baby_swp_01:baby_rig_07:R_wrist_FK
+    100588: r_baby_swp_01:baby_rig_07:R_wrist_FK_anim
+    100590: r_baby_swp_01:baby_rig_07:R_wrist_FK_o
+    100592: r_baby_swp_01:baby_rig_07:R_wrist_IK
+    100594: r_baby_swp_01:baby_rig_07:root
+    100596: r_baby_swp_01:baby_rig_07:root_anim
+    100598: r_baby_swp_01:baby_rig_07:root_o
+    100600: r_baby_swp_01:baby_rig_07:spine1
+    100602: r_baby_swp_01:baby_rig_07:spine1_anim
+    100604: r_baby_swp_01:baby_rig_07:spine1_o
+    100606: r_baby_swp_01:baby_rig_07:spine2
+    100608: r_baby_swp_01:baby_rig_07:spine2_anim
+    100610: r_baby_swp_01:baby_rig_07:spine2_o
+    100612: r_baby_swp_01:baby_rig_07:spine3
+    100614: r_baby_swp_01:baby_rig_07:spine3_anim
+    100616: r_baby_swp_01:baby_rig_07:spine3_o
+    100618: r_baby_swp_01:m_baby_kg_4:baby_geo
+    100620: r_baby_swp_01:m_baby_kg_4:body
+    100622: r_baby_swp_01:m_baby_kg_4:catheterCord
+    100624: r_baby_swp_01:m_baby_kg_4:catheterTape
+    100626: r_baby_swp_01:m_baby_kg_4:L_eye
+    100628: r_baby_swp_01:m_baby_kg_4:R_eye
+    100630: r_baby_swp_01:m_baby_kg_4:umbilicalCatheter
+    100632: R_clavicle
+    100634: R_clavicle_anim
+    100636: R_clavicle_anim_o
+    100638: R_Elbow
+    100640: R_Elbow_FK
+    100642: R_Elbow_IK
+    100644: R_Hand
+    100646: R_Hand_FK
+    100648: R_Hand_IK
+    100650: R_index_a
+    100652: R_index_b
+    100654: R_index_c
+    100656: R_index_end
+    100658: R_middle_a
+    100660: R_middle_b
+    100662: R_middle_c
+    100664: R_middle_end
+    100666: R_pinky_a
+    100668: R_pinky_b
+    100670: R_pinky_c
+    100672: R_pinky_end
+    100674: R_ring_a
+    100676: R_ring_b
+    100678: R_ring_c
+    100680: R_ring_end
+    100682: R_shoulder
+    100684: R_shoulder_FK
+    100686: R_shoulder_IK
+    100688: R_thumb_a
+    100690: R_thumb_b
+    100692: R_thumb_c
+    100694: R_thumb_end
+    100696: R_Wrist
+    100698: R_Wrist_FK
+    100700: R_Wrist_IK
+    400000: //RootNode
+    400002: arms_master_controller
+    400004: camera1
+    400006: Default
+    400008: l_arm_geom
+    400010: L_arm_master
+    400012: L_clavicle
+    400014: L_Elbow
+    400016: L_Elbow_FK
+    400018: L_Elbow_IK
+    400020: L_Hand
+    400022: L_Hand_FK
+    400024: L_Hand_IK
+    400026: L_handGrip
+    400028: L_index_a
+    400030: L_index_b
+    400032: L_index_c
+    400034: L_index_end
+    400036: L_middle_a
+    400038: L_middle_b
+    400040: L_middle_c
+    400042: L_middle_end
+    400044: L_pinky_a
+    400046: L_pinky_b
+    400048: L_pinky_c
+    400050: L_pinky_end
+    400052: L_ring_a
+    400054: L_ring_b
+    400056: L_ring_c
+    400058: L_ring_end
+    400060: L_shoulder
+    400062: L_shoulder_FK
+    400064: L_shoulder_IK
+    400066: L_thumb_a
+    400068: L_thumb_b
+    400070: L_thumb_c
+    400072: L_thumb_end
+    400074: L_Wrist
+    400076: L_Wrist_FK
+    400078: L_Wrist_IK
+    400080: r_arm_geom
+    400082: R_arm_master
+    400084: r_baby_swp_01:baby_rig_07:eyes_anim
+    400086: r_baby_swp_01:baby_rig_07:eyes_o
+    400088: r_baby_swp_01:baby_rig_07:head
+    400090: r_baby_swp_01:baby_rig_07:head_anim
+    400092: r_baby_swp_01:baby_rig_07:head_o
+    400094: r_baby_swp_01:baby_rig_07:headEnd
+    400096: r_baby_swp_01:baby_rig_07:jaw
+    400098: r_baby_swp_01:baby_rig_07:jaw_anim
+    400100: r_baby_swp_01:baby_rig_07:jaw_o
+    400102: r_baby_swp_01:baby_rig_07:jawEnd
+    400104: r_baby_swp_01:baby_rig_07:jawOrientNull
+    400106: r_baby_swp_01:baby_rig_07:jawOrientNull_grp
+    400108: r_baby_swp_01:baby_rig_07:L_ankle
+    400110: r_baby_swp_01:baby_rig_07:L_ankle_FK
+    400112: r_baby_swp_01:baby_rig_07:L_ankle_FK_anim
+    400114: r_baby_swp_01:baby_rig_07:L_ankle_FK_o
+    400116: r_baby_swp_01:baby_rig_07:L_ankle_IK
+    400118: r_baby_swp_01:baby_rig_07:L_arm
+    400120: r_baby_swp_01:baby_rig_07:L_ball
+    400122: r_baby_swp_01:baby_rig_07:L_ball_FK
+    400124: r_baby_swp_01:baby_rig_07:L_ball_FK_anim
+    400126: r_baby_swp_01:baby_rig_07:L_ball_FK_o
+    400128: r_baby_swp_01:baby_rig_07:L_ball_IK
+    400130: r_baby_swp_01:baby_rig_07:L_ballIkHandle
+    400132: r_baby_swp_01:baby_rig_07:L_ballNull
+    400134: r_baby_swp_01:baby_rig_07:L_btmLid
+    400136: r_baby_swp_01:baby_rig_07:L_btmLid_end
+    400138: r_baby_swp_01:baby_rig_07:L_clavicle
+    400140: r_baby_swp_01:baby_rig_07:L_clavicle_anim
+    400142: r_baby_swp_01:baby_rig_07:L_clavicle_anim_o
+    400144: r_baby_swp_01:baby_rig_07:L_elbow
+    400146: r_baby_swp_01:baby_rig_07:L_elbow_FK
+    400148: r_baby_swp_01:baby_rig_07:L_elbow_FK_anim
+    400150: r_baby_swp_01:baby_rig_07:L_elbow_FK_o
+    400152: r_baby_swp_01:baby_rig_07:L_elbow_IK
+    400154: r_baby_swp_01:baby_rig_07:L_eye
+    400156: r_baby_swp_01:baby_rig_07:L_eye_anim
+    400158: r_baby_swp_01:baby_rig_07:L_eye_o
+    400160: r_baby_swp_01:baby_rig_07:L_hand
+    400162: r_baby_swp_01:baby_rig_07:L_hand_FK
+    400164: r_baby_swp_01:baby_rig_07:L_hand_IK
+    400166: r_baby_swp_01:baby_rig_07:L_heelNull
+    400168: r_baby_swp_01:baby_rig_07:L_hip
+    400170: r_baby_swp_01:baby_rig_07:L_hip_FK
+    400172: r_baby_swp_01:baby_rig_07:L_hip_FK_anim
+    400174: r_baby_swp_01:baby_rig_07:L_hip_FK_o
+    400176: r_baby_swp_01:baby_rig_07:L_hip_IK
+    400178: r_baby_swp_01:baby_rig_07:L_hip_IK_anim
+    400180: r_baby_swp_01:baby_rig_07:L_hip_IK_ikHandle
+    400182: r_baby_swp_01:baby_rig_07:L_hip_IK_o
+    400184: r_baby_swp_01:baby_rig_07:L_hip_IK_PV_anim
+    400186: r_baby_swp_01:baby_rig_07:L_hipikFkSwitch
+    400188: r_baby_swp_01:baby_rig_07:L_index_a
+    400190: r_baby_swp_01:baby_rig_07:L_index_a_anim
+    400192: r_baby_swp_01:baby_rig_07:L_index_a_o
+    400194: r_baby_swp_01:baby_rig_07:L_index_b
+    400196: r_baby_swp_01:baby_rig_07:L_index_b_anim
+    400198: r_baby_swp_01:baby_rig_07:L_index_b_o
+    400200: r_baby_swp_01:baby_rig_07:L_index_c
+    400202: r_baby_swp_01:baby_rig_07:L_index_c_anim
+    400204: r_baby_swp_01:baby_rig_07:L_index_c_o
+    400206: r_baby_swp_01:baby_rig_07:L_indexEnd
+    400208: r_baby_swp_01:baby_rig_07:L_knee
+    400210: r_baby_swp_01:baby_rig_07:L_knee_FK
+    400212: r_baby_swp_01:baby_rig_07:L_knee_FK_anim
+    400214: r_baby_swp_01:baby_rig_07:L_knee_FK_o
+    400216: r_baby_swp_01:baby_rig_07:L_knee_IK
+    400218: r_baby_swp_01:baby_rig_07:L_leg
+    400220: r_baby_swp_01:baby_rig_07:L_middle_a
+    400222: r_baby_swp_01:baby_rig_07:L_middle_a_anim
+    400224: r_baby_swp_01:baby_rig_07:L_middle_a_o
+    400226: r_baby_swp_01:baby_rig_07:L_middle_b
+    400228: r_baby_swp_01:baby_rig_07:L_middle_b_anim
+    400230: r_baby_swp_01:baby_rig_07:L_middle_b_o
+    400232: r_baby_swp_01:baby_rig_07:L_middle_c
+    400234: r_baby_swp_01:baby_rig_07:L_middle_c_anim
+    400236: r_baby_swp_01:baby_rig_07:L_middle_c_o
+    400238: r_baby_swp_01:baby_rig_07:L_middleEnd
+    400240: r_baby_swp_01:baby_rig_07:L_pinky_a
+    400242: r_baby_swp_01:baby_rig_07:L_pinky_a_anim
+    400244: r_baby_swp_01:baby_rig_07:L_pinky_a_o
+    400246: r_baby_swp_01:baby_rig_07:L_pinky_b
+    400248: r_baby_swp_01:baby_rig_07:L_pinky_b_anim
+    400250: r_baby_swp_01:baby_rig_07:L_pinky_b_o
+    400252: r_baby_swp_01:baby_rig_07:L_pinky_c
+    400254: r_baby_swp_01:baby_rig_07:L_pinky_c_anim
+    400256: r_baby_swp_01:baby_rig_07:L_pinky_c_o
+    400258: r_baby_swp_01:baby_rig_07:L_pinkyEnd
+    400260: r_baby_swp_01:baby_rig_07:L_ring_a
+    400262: r_baby_swp_01:baby_rig_07:L_ring_a_anim
+    400264: r_baby_swp_01:baby_rig_07:L_ring_a_o
+    400266: r_baby_swp_01:baby_rig_07:L_ring_b
+    400268: r_baby_swp_01:baby_rig_07:L_ring_b_anim
+    400270: r_baby_swp_01:baby_rig_07:L_ring_b_o
+    400272: r_baby_swp_01:baby_rig_07:L_ring_c
+    400274: r_baby_swp_01:baby_rig_07:L_ring_c_anim
+    400276: r_baby_swp_01:baby_rig_07:L_ring_c_o
+    400278: r_baby_swp_01:baby_rig_07:L_ringEnd
+    400280: r_baby_swp_01:baby_rig_07:L_shoulder
+    400282: r_baby_swp_01:baby_rig_07:L_shoulder_FK
+    400284: r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim
+    400286: r_baby_swp_01:baby_rig_07:L_shoulder_FK_o
+    400288: r_baby_swp_01:baby_rig_07:L_shoulder_IK
+    400290: r_baby_swp_01:baby_rig_07:L_shoulder_IK_anim
+    400292: r_baby_swp_01:baby_rig_07:L_shoulder_IK_ikHandle
+    400294: r_baby_swp_01:baby_rig_07:L_shoulder_IK_o
+    400296: r_baby_swp_01:baby_rig_07:L_shoulder_IK_PV_anim
+    400298: r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch
+    400300: r_baby_swp_01:baby_rig_07:L_thumb_a
+    400302: r_baby_swp_01:baby_rig_07:L_thumb_a_anim
+    400304: r_baby_swp_01:baby_rig_07:L_thumb_a_o
+    400306: r_baby_swp_01:baby_rig_07:L_thumb_b
+    400308: r_baby_swp_01:baby_rig_07:L_thumb_b_anim
+    400310: r_baby_swp_01:baby_rig_07:L_thumb_b_o
+    400312: r_baby_swp_01:baby_rig_07:L_thumb_c
+    400314: r_baby_swp_01:baby_rig_07:L_thumb_c_anim
+    400316: r_baby_swp_01:baby_rig_07:L_thumb_c_o
+    400318: r_baby_swp_01:baby_rig_07:L_thumbEnd
+    400320: r_baby_swp_01:baby_rig_07:L_toe
+    400322: r_baby_swp_01:baby_rig_07:L_toe_FK
+    400324: r_baby_swp_01:baby_rig_07:L_toe_IK
+    400326: r_baby_swp_01:baby_rig_07:L_toeBendCtrl
+    400328: r_baby_swp_01:baby_rig_07:L_toeBendCtrl_o
+    400330: r_baby_swp_01:baby_rig_07:L_toeNull
+    400332: r_baby_swp_01:baby_rig_07:L_topLid
+    400334: r_baby_swp_01:baby_rig_07:L_topLid_end
+    400336: r_baby_swp_01:baby_rig_07:L_wrist
+    400338: r_baby_swp_01:baby_rig_07:L_wrist_FK
+    400340: r_baby_swp_01:baby_rig_07:L_wrist_FK_anim
+    400342: r_baby_swp_01:baby_rig_07:L_wrist_FK_o
+    400344: r_baby_swp_01:baby_rig_07:L_wrist_IK
+    400346: r_baby_swp_01:baby_rig_07:masterCtrl
+    400348: r_baby_swp_01:baby_rig_07:neck
+    400350: r_baby_swp_01:baby_rig_07:pelvis
+    400352: r_baby_swp_01:baby_rig_07:pelvis_anim
+    400354: r_baby_swp_01:baby_rig_07:pelvis_o
+    400356: r_baby_swp_01:baby_rig_07:R_ankle
+    400358: r_baby_swp_01:baby_rig_07:R_ankle_FK
+    400360: r_baby_swp_01:baby_rig_07:R_ankle_FK_anim
+    400362: r_baby_swp_01:baby_rig_07:R_ankle_FK_o
+    400364: r_baby_swp_01:baby_rig_07:R_ankle_IK
+    400366: r_baby_swp_01:baby_rig_07:R_arm
+    400368: r_baby_swp_01:baby_rig_07:R_ball
+    400370: r_baby_swp_01:baby_rig_07:R_ball_FK
+    400372: r_baby_swp_01:baby_rig_07:R_ball_FK_anim
+    400374: r_baby_swp_01:baby_rig_07:R_ball_FK_o
+    400376: r_baby_swp_01:baby_rig_07:R_ball_IK
+    400378: r_baby_swp_01:baby_rig_07:R_ballIkHandle
+    400380: r_baby_swp_01:baby_rig_07:R_ballNull
+    400382: r_baby_swp_01:baby_rig_07:R_btmRid
+    400384: r_baby_swp_01:baby_rig_07:R_btmRid_end
+    400386: r_baby_swp_01:baby_rig_07:R_clavicle
+    400388: r_baby_swp_01:baby_rig_07:R_clavicle_anim
+    400390: r_baby_swp_01:baby_rig_07:R_clavicle_anim_o
+    400392: r_baby_swp_01:baby_rig_07:R_elbow
+    400394: r_baby_swp_01:baby_rig_07:R_elbow_FK
+    400396: r_baby_swp_01:baby_rig_07:R_elbow_FK_anim
+    400398: r_baby_swp_01:baby_rig_07:R_elbow_FK_o
+    400400: r_baby_swp_01:baby_rig_07:R_elbow_IK
+    400402: r_baby_swp_01:baby_rig_07:R_eye
+    400404: r_baby_swp_01:baby_rig_07:R_eye_anim
+    400406: r_baby_swp_01:baby_rig_07:R_eye_o
+    400408: r_baby_swp_01:baby_rig_07:R_hand
+    400410: r_baby_swp_01:baby_rig_07:R_hand_FK
+    400412: r_baby_swp_01:baby_rig_07:R_hand_IK
+    400414: r_baby_swp_01:baby_rig_07:R_heelNull
+    400416: r_baby_swp_01:baby_rig_07:R_hip
+    400418: r_baby_swp_01:baby_rig_07:R_hip_FK
+    400420: r_baby_swp_01:baby_rig_07:R_hip_FK_anim
+    400422: r_baby_swp_01:baby_rig_07:R_hip_FK_o
+    400424: r_baby_swp_01:baby_rig_07:R_hip_IK
+    400426: r_baby_swp_01:baby_rig_07:R_hip_IK_anim
+    400428: r_baby_swp_01:baby_rig_07:R_hip_IK_ikHandle
+    400430: r_baby_swp_01:baby_rig_07:R_hip_IK_o
+    400432: r_baby_swp_01:baby_rig_07:R_hip_IK_PV_anim
+    400434: r_baby_swp_01:baby_rig_07:R_hipikFkSwitch
+    400436: r_baby_swp_01:baby_rig_07:R_index_a
+    400438: r_baby_swp_01:baby_rig_07:R_index_a_anim
+    400440: r_baby_swp_01:baby_rig_07:R_index_a_o
+    400442: r_baby_swp_01:baby_rig_07:R_index_b
+    400444: r_baby_swp_01:baby_rig_07:R_index_b_anim
+    400446: r_baby_swp_01:baby_rig_07:R_index_b_o
+    400448: r_baby_swp_01:baby_rig_07:R_index_c
+    400450: r_baby_swp_01:baby_rig_07:R_index_c_anim
+    400452: r_baby_swp_01:baby_rig_07:R_index_c_o
+    400454: r_baby_swp_01:baby_rig_07:R_indexEnd
+    400456: r_baby_swp_01:baby_rig_07:R_knee
+    400458: r_baby_swp_01:baby_rig_07:R_knee_FK
+    400460: r_baby_swp_01:baby_rig_07:R_knee_FK_anim
+    400462: r_baby_swp_01:baby_rig_07:R_knee_FK_o
+    400464: r_baby_swp_01:baby_rig_07:R_knee_IK
+    400466: r_baby_swp_01:baby_rig_07:R_leg
+    400468: r_baby_swp_01:baby_rig_07:R_middle_a
+    400470: r_baby_swp_01:baby_rig_07:R_middle_a_anim
+    400472: r_baby_swp_01:baby_rig_07:R_middle_a_o
+    400474: r_baby_swp_01:baby_rig_07:R_middle_b
+    400476: r_baby_swp_01:baby_rig_07:R_middle_b_anim
+    400478: r_baby_swp_01:baby_rig_07:R_middle_b_o
+    400480: r_baby_swp_01:baby_rig_07:R_middle_c
+    400482: r_baby_swp_01:baby_rig_07:R_middle_c_anim
+    400484: r_baby_swp_01:baby_rig_07:R_middle_c_o
+    400486: r_baby_swp_01:baby_rig_07:R_middleEnd
+    400488: r_baby_swp_01:baby_rig_07:R_pinky_a
+    400490: r_baby_swp_01:baby_rig_07:R_pinky_a_anim
+    400492: r_baby_swp_01:baby_rig_07:R_pinky_a_o
+    400494: r_baby_swp_01:baby_rig_07:R_pinky_b
+    400496: r_baby_swp_01:baby_rig_07:R_pinky_b_anim
+    400498: r_baby_swp_01:baby_rig_07:R_pinky_b_o
+    400500: r_baby_swp_01:baby_rig_07:R_pinky_c
+    400502: r_baby_swp_01:baby_rig_07:R_pinky_c_anim
+    400504: r_baby_swp_01:baby_rig_07:R_pinky_c_o
+    400506: r_baby_swp_01:baby_rig_07:R_pinkyEnd
+    400508: r_baby_swp_01:baby_rig_07:R_ring_a
+    400510: r_baby_swp_01:baby_rig_07:R_ring_a_anim
+    400512: r_baby_swp_01:baby_rig_07:R_ring_a_o
+    400514: r_baby_swp_01:baby_rig_07:R_ring_b
+    400516: r_baby_swp_01:baby_rig_07:R_ring_b_anim
+    400518: r_baby_swp_01:baby_rig_07:R_ring_b_o
+    400520: r_baby_swp_01:baby_rig_07:R_ring_c
+    400522: r_baby_swp_01:baby_rig_07:R_ring_c_anim
+    400524: r_baby_swp_01:baby_rig_07:R_ring_c_o
+    400526: r_baby_swp_01:baby_rig_07:R_ringEnd
+    400528: r_baby_swp_01:baby_rig_07:R_shoulder
+    400530: r_baby_swp_01:baby_rig_07:R_shoulder_FK
+    400532: r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim
+    400534: r_baby_swp_01:baby_rig_07:R_shoulder_FK_o
+    400536: r_baby_swp_01:baby_rig_07:R_shoulder_IK
+    400538: r_baby_swp_01:baby_rig_07:R_shoulder_IK_anim
+    400540: r_baby_swp_01:baby_rig_07:R_shoulder_IK_ikHandle
+    400542: r_baby_swp_01:baby_rig_07:R_shoulder_IK_o
+    400544: r_baby_swp_01:baby_rig_07:R_shoulder_IK_PV_anim
+    400546: r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch
+    400548: r_baby_swp_01:baby_rig_07:R_thumb_a
+    400550: r_baby_swp_01:baby_rig_07:R_thumb_a_anim
+    400552: r_baby_swp_01:baby_rig_07:R_thumb_a_o
+    400554: r_baby_swp_01:baby_rig_07:R_thumb_b
+    400556: r_baby_swp_01:baby_rig_07:R_thumb_b_anim
+    400558: r_baby_swp_01:baby_rig_07:R_thumb_b_o
+    400560: r_baby_swp_01:baby_rig_07:R_thumb_c
+    400562: r_baby_swp_01:baby_rig_07:R_thumb_c_anim
+    400564: r_baby_swp_01:baby_rig_07:R_thumb_c_o
+    400566: r_baby_swp_01:baby_rig_07:R_thumbEnd
+    400568: r_baby_swp_01:baby_rig_07:R_toe
+    400570: r_baby_swp_01:baby_rig_07:R_toe_FK
+    400572: r_baby_swp_01:baby_rig_07:R_toe_IK
+    400574: r_baby_swp_01:baby_rig_07:R_toeBendCtrl
+    400576: r_baby_swp_01:baby_rig_07:R_toeBendCtrl_o
+    400578: r_baby_swp_01:baby_rig_07:R_toeNull
+    400580: r_baby_swp_01:baby_rig_07:R_topRid
+    400582: r_baby_swp_01:baby_rig_07:R_topRid_end
+    400584: r_baby_swp_01:baby_rig_07:R_wrist
+    400586: r_baby_swp_01:baby_rig_07:R_wrist_FK
+    400588: r_baby_swp_01:baby_rig_07:R_wrist_FK_anim
+    400590: r_baby_swp_01:baby_rig_07:R_wrist_FK_o
+    400592: r_baby_swp_01:baby_rig_07:R_wrist_IK
+    400594: r_baby_swp_01:baby_rig_07:root
+    400596: r_baby_swp_01:baby_rig_07:root_anim
+    400598: r_baby_swp_01:baby_rig_07:root_o
+    400600: r_baby_swp_01:baby_rig_07:spine1
+    400602: r_baby_swp_01:baby_rig_07:spine1_anim
+    400604: r_baby_swp_01:baby_rig_07:spine1_o
+    400606: r_baby_swp_01:baby_rig_07:spine2
+    400608: r_baby_swp_01:baby_rig_07:spine2_anim
+    400610: r_baby_swp_01:baby_rig_07:spine2_o
+    400612: r_baby_swp_01:baby_rig_07:spine3
+    400614: r_baby_swp_01:baby_rig_07:spine3_anim
+    400616: r_baby_swp_01:baby_rig_07:spine3_o
+    400618: r_baby_swp_01:m_baby_kg_4:baby_geo
+    400620: r_baby_swp_01:m_baby_kg_4:body
+    400622: r_baby_swp_01:m_baby_kg_4:catheterCord
+    400624: r_baby_swp_01:m_baby_kg_4:catheterTape
+    400626: r_baby_swp_01:m_baby_kg_4:L_eye
+    400628: r_baby_swp_01:m_baby_kg_4:R_eye
+    400630: r_baby_swp_01:m_baby_kg_4:umbilicalCatheter
+    400632: R_clavicle
+    400634: R_clavicle_anim
+    400636: R_clavicle_anim_o
+    400638: R_Elbow
+    400640: R_Elbow_FK
+    400642: R_Elbow_IK
+    400644: R_Hand
+    400646: R_Hand_FK
+    400648: R_Hand_IK
+    400650: R_index_a
+    400652: R_index_b
+    400654: R_index_c
+    400656: R_index_end
+    400658: R_middle_a
+    400660: R_middle_b
+    400662: R_middle_c
+    400664: R_middle_end
+    400666: R_pinky_a
+    400668: R_pinky_b
+    400670: R_pinky_c
+    400672: R_pinky_end
+    400674: R_ring_a
+    400676: R_ring_b
+    400678: R_ring_c
+    400680: R_ring_end
+    400682: R_shoulder
+    400684: R_shoulder_FK
+    400686: R_shoulder_IK
+    400688: R_thumb_a
+    400690: R_thumb_b
+    400692: R_thumb_c
+    400694: R_thumb_end
+    400696: R_Wrist
+    400698: R_Wrist_FK
+    400700: R_Wrist_IK
+    2300000: Default
+    2300002: r_baby_swp_01:m_baby_kg_4:catheterCord
+    2300004: r_baby_swp_01:m_baby_kg_4:catheterTape
+    3300000: Default
+    3300002: r_baby_swp_01:m_baby_kg_4:catheterCord
+    3300004: r_baby_swp_01:m_baby_kg_4:catheterTape
+    4300000: r_arm_geom
+    4300002: l_arm_geom
+    4300004: Default
+    4300006: r_baby_swp_01:m_baby_kg_4:body
+    4300008: r_baby_swp_01:m_baby_kg_4:R_eye
+    4300010: r_baby_swp_01:m_baby_kg_4:L_eye
+    4300012: r_baby_swp_01:m_baby_kg_4:catheterCord
+    4300014: r_baby_swp_01:m_baby_kg_4:catheterTape
+    7400000: insertLargynoscope
+    9500000: //RootNode
+    13700000: l_arm_geom
+    13700002: r_arm_geom
+    13700004: r_baby_swp_01:m_baby_kg_4:body
+    13700006: r_baby_swp_01:m_baby_kg_4:L_eye
+    13700008: r_baby_swp_01:m_baby_kg_4:R_eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: insertLargynoscope
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arms_master_controller
+        weight: 1
+      - path: arms_master_controller/L_arm_master
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumb_end
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_FK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK/L_Hand_FK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_IK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK
+        weight: 1
+      - path: arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK/L_Hand_IK
+        weight: 1
+      - path: arms_master_controller/R_arm_master
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c/R_index_end
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c/R_middle_end
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c/R_pinky_end
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c/R_ring_end
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c/R_thumb_end
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle_anim_o
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_clavicle_anim_o/R_clavicle_anim
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_FK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK/R_Hand_FK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_IK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK
+        weight: 1
+      - path: arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK/R_Hand_IK
+        weight: 1
+      - path: camera1
+        weight: 1
+      - path: l_arm_geom
+        weight: 1
+      - path: L_handGrip
+        weight: 1
+      - path: L_handGrip/Default
+        weight: 1
+      - path: r_arm_geom
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK/r_baby_swp_01:baby_rig_07:L_elbow_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK/r_baby_swp_01:baby_rig_07:L_elbow_FK/r_baby_swp_01:baby_rig_07:L_wrist_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK/r_baby_swp_01:baby_rig_07:L_elbow_FK/r_baby_swp_01:baby_rig_07:L_wrist_FK/r_baby_swp_01:baby_rig_07:L_hand_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o/r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o/r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:L_elbow_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o/r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:L_elbow_FK_o/r_baby_swp_01:baby_rig_07:L_elbow_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o/r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:L_elbow_FK_o/r_baby_swp_01:baby_rig_07:L_elbow_FK_anim/r_baby_swp_01:baby_rig_07:L_wrist_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_FK_o/r_baby_swp_01:baby_rig_07:L_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:L_elbow_FK_o/r_baby_swp_01:baby_rig_07:L_elbow_FK_anim/r_baby_swp_01:baby_rig_07:L_wrist_FK_o/r_baby_swp_01:baby_rig_07:L_wrist_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK/r_baby_swp_01:baby_rig_07:L_elbow_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK/r_baby_swp_01:baby_rig_07:L_elbow_IK/r_baby_swp_01:baby_rig_07:L_wrist_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK/r_baby_swp_01:baby_rig_07:L_elbow_IK/r_baby_swp_01:baby_rig_07:L_wrist_IK/r_baby_swp_01:baby_rig_07:L_hand_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK_ikHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK_o/r_baby_swp_01:baby_rig_07:L_shoulder_IK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulder_IK_PV_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o/r_baby_swp_01:baby_rig_07:L_index_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o/r_baby_swp_01:baby_rig_07:L_index_a_anim/r_baby_swp_01:baby_rig_07:L_index_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o/r_baby_swp_01:baby_rig_07:L_index_a_anim/r_baby_swp_01:baby_rig_07:L_index_b_o/r_baby_swp_01:baby_rig_07:L_index_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o/r_baby_swp_01:baby_rig_07:L_index_a_anim/r_baby_swp_01:baby_rig_07:L_index_b_o/r_baby_swp_01:baby_rig_07:L_index_b_anim/r_baby_swp_01:baby_rig_07:L_index_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_index_a_o/r_baby_swp_01:baby_rig_07:L_index_a_anim/r_baby_swp_01:baby_rig_07:L_index_b_o/r_baby_swp_01:baby_rig_07:L_index_b_anim/r_baby_swp_01:baby_rig_07:L_index_c_o/r_baby_swp_01:baby_rig_07:L_index_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o/r_baby_swp_01:baby_rig_07:L_middle_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o/r_baby_swp_01:baby_rig_07:L_middle_a_anim/r_baby_swp_01:baby_rig_07:L_middle_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o/r_baby_swp_01:baby_rig_07:L_middle_a_anim/r_baby_swp_01:baby_rig_07:L_middle_b_o/r_baby_swp_01:baby_rig_07:L_middle_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o/r_baby_swp_01:baby_rig_07:L_middle_a_anim/r_baby_swp_01:baby_rig_07:L_middle_b_o/r_baby_swp_01:baby_rig_07:L_middle_b_anim/r_baby_swp_01:baby_rig_07:L_middle_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_middle_a_o/r_baby_swp_01:baby_rig_07:L_middle_a_anim/r_baby_swp_01:baby_rig_07:L_middle_b_o/r_baby_swp_01:baby_rig_07:L_middle_b_anim/r_baby_swp_01:baby_rig_07:L_middle_c_o/r_baby_swp_01:baby_rig_07:L_middle_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o/r_baby_swp_01:baby_rig_07:L_pinky_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o/r_baby_swp_01:baby_rig_07:L_pinky_a_anim/r_baby_swp_01:baby_rig_07:L_pinky_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o/r_baby_swp_01:baby_rig_07:L_pinky_a_anim/r_baby_swp_01:baby_rig_07:L_pinky_b_o/r_baby_swp_01:baby_rig_07:L_pinky_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o/r_baby_swp_01:baby_rig_07:L_pinky_a_anim/r_baby_swp_01:baby_rig_07:L_pinky_b_o/r_baby_swp_01:baby_rig_07:L_pinky_b_anim/r_baby_swp_01:baby_rig_07:L_pinky_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_pinky_a_o/r_baby_swp_01:baby_rig_07:L_pinky_a_anim/r_baby_swp_01:baby_rig_07:L_pinky_b_o/r_baby_swp_01:baby_rig_07:L_pinky_b_anim/r_baby_swp_01:baby_rig_07:L_pinky_c_o/r_baby_swp_01:baby_rig_07:L_pinky_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o/r_baby_swp_01:baby_rig_07:L_ring_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o/r_baby_swp_01:baby_rig_07:L_ring_a_anim/r_baby_swp_01:baby_rig_07:L_ring_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o/r_baby_swp_01:baby_rig_07:L_ring_a_anim/r_baby_swp_01:baby_rig_07:L_ring_b_o/r_baby_swp_01:baby_rig_07:L_ring_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o/r_baby_swp_01:baby_rig_07:L_ring_a_anim/r_baby_swp_01:baby_rig_07:L_ring_b_o/r_baby_swp_01:baby_rig_07:L_ring_b_anim/r_baby_swp_01:baby_rig_07:L_ring_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_ring_a_o/r_baby_swp_01:baby_rig_07:L_ring_a_anim/r_baby_swp_01:baby_rig_07:L_ring_b_o/r_baby_swp_01:baby_rig_07:L_ring_b_anim/r_baby_swp_01:baby_rig_07:L_ring_c_o/r_baby_swp_01:baby_rig_07:L_ring_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o/r_baby_swp_01:baby_rig_07:L_thumb_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o/r_baby_swp_01:baby_rig_07:L_thumb_a_anim/r_baby_swp_01:baby_rig_07:L_thumb_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o/r_baby_swp_01:baby_rig_07:L_thumb_a_anim/r_baby_swp_01:baby_rig_07:L_thumb_b_o/r_baby_swp_01:baby_rig_07:L_thumb_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o/r_baby_swp_01:baby_rig_07:L_thumb_a_anim/r_baby_swp_01:baby_rig_07:L_thumb_b_o/r_baby_swp_01:baby_rig_07:L_thumb_b_anim/r_baby_swp_01:baby_rig_07:L_thumb_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_arm/r_baby_swp_01:baby_rig_07:L_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:L_thumb_a_o/r_baby_swp_01:baby_rig_07:L_thumb_a_anim/r_baby_swp_01:baby_rig_07:L_thumb_b_o/r_baby_swp_01:baby_rig_07:L_thumb_b_anim/r_baby_swp_01:baby_rig_07:L_thumb_c_o/r_baby_swp_01:baby_rig_07:L_thumb_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK/r_baby_swp_01:baby_rig_07:L_knee_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK/r_baby_swp_01:baby_rig_07:L_knee_FK/r_baby_swp_01:baby_rig_07:L_ankle_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK/r_baby_swp_01:baby_rig_07:L_knee_FK/r_baby_swp_01:baby_rig_07:L_ankle_FK/r_baby_swp_01:baby_rig_07:L_ball_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK/r_baby_swp_01:baby_rig_07:L_knee_FK/r_baby_swp_01:baby_rig_07:L_ankle_FK/r_baby_swp_01:baby_rig_07:L_ball_FK/r_baby_swp_01:baby_rig_07:L_toe_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o/r_baby_swp_01:baby_rig_07:L_knee_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o/r_baby_swp_01:baby_rig_07:L_knee_FK_anim/r_baby_swp_01:baby_rig_07:L_ankle_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o/r_baby_swp_01:baby_rig_07:L_knee_FK_anim/r_baby_swp_01:baby_rig_07:L_ankle_FK_o/r_baby_swp_01:baby_rig_07:L_ankle_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o/r_baby_swp_01:baby_rig_07:L_knee_FK_anim/r_baby_swp_01:baby_rig_07:L_ankle_FK_o/r_baby_swp_01:baby_rig_07:L_ankle_FK_anim/r_baby_swp_01:baby_rig_07:L_ball_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_FK_o/r_baby_swp_01:baby_rig_07:L_hip_FK_anim/r_baby_swp_01:baby_rig_07:L_knee_FK_o/r_baby_swp_01:baby_rig_07:L_knee_FK_anim/r_baby_swp_01:baby_rig_07:L_ankle_FK_o/r_baby_swp_01:baby_rig_07:L_ankle_FK_anim/r_baby_swp_01:baby_rig_07:L_ball_FK_o/r_baby_swp_01:baby_rig_07:L_ball_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK/r_baby_swp_01:baby_rig_07:L_knee_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK/r_baby_swp_01:baby_rig_07:L_knee_IK/r_baby_swp_01:baby_rig_07:L_ankle_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK/r_baby_swp_01:baby_rig_07:L_knee_IK/r_baby_swp_01:baby_rig_07:L_ankle_IK/r_baby_swp_01:baby_rig_07:L_ball_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK/r_baby_swp_01:baby_rig_07:L_knee_IK/r_baby_swp_01:baby_rig_07:L_ankle_IK/r_baby_swp_01:baby_rig_07:L_ball_IK/r_baby_swp_01:baby_rig_07:L_toe_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull/r_baby_swp_01:baby_rig_07:L_ballNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull/r_baby_swp_01:baby_rig_07:L_ballNull/r_baby_swp_01:baby_rig_07:L_ballIkHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull/r_baby_swp_01:baby_rig_07:L_ballNull/r_baby_swp_01:baby_rig_07:L_hip_IK_ikHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull/r_baby_swp_01:baby_rig_07:L_toeBendCtrl_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_o/r_baby_swp_01:baby_rig_07:L_hip_IK_anim/r_baby_swp_01:baby_rig_07:L_heelNull/r_baby_swp_01:baby_rig_07:L_toeNull/r_baby_swp_01:baby_rig_07:L_toeBendCtrl_o/r_baby_swp_01:baby_rig_07:L_toeBendCtrl
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hip_IK_PV_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:L_leg/r_baby_swp_01:baby_rig_07:L_hipikFkSwitch
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK/r_baby_swp_01:baby_rig_07:R_elbow_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK/r_baby_swp_01:baby_rig_07:R_elbow_FK/r_baby_swp_01:baby_rig_07:R_wrist_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK/r_baby_swp_01:baby_rig_07:R_elbow_FK/r_baby_swp_01:baby_rig_07:R_wrist_FK/r_baby_swp_01:baby_rig_07:R_hand_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o/r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o/r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:R_elbow_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o/r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:R_elbow_FK_o/r_baby_swp_01:baby_rig_07:R_elbow_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o/r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:R_elbow_FK_o/r_baby_swp_01:baby_rig_07:R_elbow_FK_anim/r_baby_swp_01:baby_rig_07:R_wrist_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_FK_o/r_baby_swp_01:baby_rig_07:R_shoulder_FK_anim/r_baby_swp_01:baby_rig_07:R_elbow_FK_o/r_baby_swp_01:baby_rig_07:R_elbow_FK_anim/r_baby_swp_01:baby_rig_07:R_wrist_FK_o/r_baby_swp_01:baby_rig_07:R_wrist_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK/r_baby_swp_01:baby_rig_07:R_elbow_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK/r_baby_swp_01:baby_rig_07:R_elbow_IK/r_baby_swp_01:baby_rig_07:R_wrist_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK/r_baby_swp_01:baby_rig_07:R_elbow_IK/r_baby_swp_01:baby_rig_07:R_wrist_IK/r_baby_swp_01:baby_rig_07:R_hand_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK_ikHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK_o/r_baby_swp_01:baby_rig_07:R_shoulder_IK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulder_IK_PV_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o/r_baby_swp_01:baby_rig_07:R_index_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o/r_baby_swp_01:baby_rig_07:R_index_a_anim/r_baby_swp_01:baby_rig_07:R_index_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o/r_baby_swp_01:baby_rig_07:R_index_a_anim/r_baby_swp_01:baby_rig_07:R_index_b_o/r_baby_swp_01:baby_rig_07:R_index_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o/r_baby_swp_01:baby_rig_07:R_index_a_anim/r_baby_swp_01:baby_rig_07:R_index_b_o/r_baby_swp_01:baby_rig_07:R_index_b_anim/r_baby_swp_01:baby_rig_07:R_index_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_index_a_o/r_baby_swp_01:baby_rig_07:R_index_a_anim/r_baby_swp_01:baby_rig_07:R_index_b_o/r_baby_swp_01:baby_rig_07:R_index_b_anim/r_baby_swp_01:baby_rig_07:R_index_c_o/r_baby_swp_01:baby_rig_07:R_index_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o/r_baby_swp_01:baby_rig_07:R_middle_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o/r_baby_swp_01:baby_rig_07:R_middle_a_anim/r_baby_swp_01:baby_rig_07:R_middle_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o/r_baby_swp_01:baby_rig_07:R_middle_a_anim/r_baby_swp_01:baby_rig_07:R_middle_b_o/r_baby_swp_01:baby_rig_07:R_middle_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o/r_baby_swp_01:baby_rig_07:R_middle_a_anim/r_baby_swp_01:baby_rig_07:R_middle_b_o/r_baby_swp_01:baby_rig_07:R_middle_b_anim/r_baby_swp_01:baby_rig_07:R_middle_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_middle_a_o/r_baby_swp_01:baby_rig_07:R_middle_a_anim/r_baby_swp_01:baby_rig_07:R_middle_b_o/r_baby_swp_01:baby_rig_07:R_middle_b_anim/r_baby_swp_01:baby_rig_07:R_middle_c_o/r_baby_swp_01:baby_rig_07:R_middle_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o/r_baby_swp_01:baby_rig_07:R_pinky_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o/r_baby_swp_01:baby_rig_07:R_pinky_a_anim/r_baby_swp_01:baby_rig_07:R_pinky_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o/r_baby_swp_01:baby_rig_07:R_pinky_a_anim/r_baby_swp_01:baby_rig_07:R_pinky_b_o/r_baby_swp_01:baby_rig_07:R_pinky_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o/r_baby_swp_01:baby_rig_07:R_pinky_a_anim/r_baby_swp_01:baby_rig_07:R_pinky_b_o/r_baby_swp_01:baby_rig_07:R_pinky_b_anim/r_baby_swp_01:baby_rig_07:R_pinky_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_pinky_a_o/r_baby_swp_01:baby_rig_07:R_pinky_a_anim/r_baby_swp_01:baby_rig_07:R_pinky_b_o/r_baby_swp_01:baby_rig_07:R_pinky_b_anim/r_baby_swp_01:baby_rig_07:R_pinky_c_o/r_baby_swp_01:baby_rig_07:R_pinky_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o/r_baby_swp_01:baby_rig_07:R_ring_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o/r_baby_swp_01:baby_rig_07:R_ring_a_anim/r_baby_swp_01:baby_rig_07:R_ring_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o/r_baby_swp_01:baby_rig_07:R_ring_a_anim/r_baby_swp_01:baby_rig_07:R_ring_b_o/r_baby_swp_01:baby_rig_07:R_ring_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o/r_baby_swp_01:baby_rig_07:R_ring_a_anim/r_baby_swp_01:baby_rig_07:R_ring_b_o/r_baby_swp_01:baby_rig_07:R_ring_b_anim/r_baby_swp_01:baby_rig_07:R_ring_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_ring_a_o/r_baby_swp_01:baby_rig_07:R_ring_a_anim/r_baby_swp_01:baby_rig_07:R_ring_b_o/r_baby_swp_01:baby_rig_07:R_ring_b_anim/r_baby_swp_01:baby_rig_07:R_ring_c_o/r_baby_swp_01:baby_rig_07:R_ring_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o/r_baby_swp_01:baby_rig_07:R_thumb_a_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o/r_baby_swp_01:baby_rig_07:R_thumb_a_anim/r_baby_swp_01:baby_rig_07:R_thumb_b_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o/r_baby_swp_01:baby_rig_07:R_thumb_a_anim/r_baby_swp_01:baby_rig_07:R_thumb_b_o/r_baby_swp_01:baby_rig_07:R_thumb_b_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o/r_baby_swp_01:baby_rig_07:R_thumb_a_anim/r_baby_swp_01:baby_rig_07:R_thumb_b_o/r_baby_swp_01:baby_rig_07:R_thumb_b_anim/r_baby_swp_01:baby_rig_07:R_thumb_c_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_arm/r_baby_swp_01:baby_rig_07:R_shoulderikFkSwitch/r_baby_swp_01:baby_rig_07:R_thumb_a_o/r_baby_swp_01:baby_rig_07:R_thumb_a_anim/r_baby_swp_01:baby_rig_07:R_thumb_b_o/r_baby_swp_01:baby_rig_07:R_thumb_b_anim/r_baby_swp_01:baby_rig_07:R_thumb_c_o/r_baby_swp_01:baby_rig_07:R_thumb_c_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK/r_baby_swp_01:baby_rig_07:R_knee_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK/r_baby_swp_01:baby_rig_07:R_knee_FK/r_baby_swp_01:baby_rig_07:R_ankle_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK/r_baby_swp_01:baby_rig_07:R_knee_FK/r_baby_swp_01:baby_rig_07:R_ankle_FK/r_baby_swp_01:baby_rig_07:R_ball_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK/r_baby_swp_01:baby_rig_07:R_knee_FK/r_baby_swp_01:baby_rig_07:R_ankle_FK/r_baby_swp_01:baby_rig_07:R_ball_FK/r_baby_swp_01:baby_rig_07:R_toe_FK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o/r_baby_swp_01:baby_rig_07:R_knee_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o/r_baby_swp_01:baby_rig_07:R_knee_FK_anim/r_baby_swp_01:baby_rig_07:R_ankle_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o/r_baby_swp_01:baby_rig_07:R_knee_FK_anim/r_baby_swp_01:baby_rig_07:R_ankle_FK_o/r_baby_swp_01:baby_rig_07:R_ankle_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o/r_baby_swp_01:baby_rig_07:R_knee_FK_anim/r_baby_swp_01:baby_rig_07:R_ankle_FK_o/r_baby_swp_01:baby_rig_07:R_ankle_FK_anim/r_baby_swp_01:baby_rig_07:R_ball_FK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_FK_o/r_baby_swp_01:baby_rig_07:R_hip_FK_anim/r_baby_swp_01:baby_rig_07:R_knee_FK_o/r_baby_swp_01:baby_rig_07:R_knee_FK_anim/r_baby_swp_01:baby_rig_07:R_ankle_FK_o/r_baby_swp_01:baby_rig_07:R_ankle_FK_anim/r_baby_swp_01:baby_rig_07:R_ball_FK_o/r_baby_swp_01:baby_rig_07:R_ball_FK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK/r_baby_swp_01:baby_rig_07:R_knee_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK/r_baby_swp_01:baby_rig_07:R_knee_IK/r_baby_swp_01:baby_rig_07:R_ankle_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK/r_baby_swp_01:baby_rig_07:R_knee_IK/r_baby_swp_01:baby_rig_07:R_ankle_IK/r_baby_swp_01:baby_rig_07:R_ball_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK/r_baby_swp_01:baby_rig_07:R_knee_IK/r_baby_swp_01:baby_rig_07:R_ankle_IK/r_baby_swp_01:baby_rig_07:R_ball_IK/r_baby_swp_01:baby_rig_07:R_toe_IK
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull/r_baby_swp_01:baby_rig_07:R_ballNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull/r_baby_swp_01:baby_rig_07:R_ballNull/r_baby_swp_01:baby_rig_07:R_ballIkHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull/r_baby_swp_01:baby_rig_07:R_ballNull/r_baby_swp_01:baby_rig_07:R_hip_IK_ikHandle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull/r_baby_swp_01:baby_rig_07:R_toeBendCtrl_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_o/r_baby_swp_01:baby_rig_07:R_hip_IK_anim/r_baby_swp_01:baby_rig_07:R_heelNull/r_baby_swp_01:baby_rig_07:R_toeNull/r_baby_swp_01:baby_rig_07:R_toeBendCtrl_o/r_baby_swp_01:baby_rig_07:R_toeBendCtrl
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hip_IK_PV_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:R_leg/r_baby_swp_01:baby_rig_07:R_hipikFkSwitch
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:L_hip
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:L_hip/r_baby_swp_01:baby_rig_07:L_knee
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:L_hip/r_baby_swp_01:baby_rig_07:L_knee/r_baby_swp_01:baby_rig_07:L_ankle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:L_hip/r_baby_swp_01:baby_rig_07:L_knee/r_baby_swp_01:baby_rig_07:L_ankle/r_baby_swp_01:baby_rig_07:L_ball
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:L_hip/r_baby_swp_01:baby_rig_07:L_knee/r_baby_swp_01:baby_rig_07:L_ankle/r_baby_swp_01:baby_rig_07:L_ball/r_baby_swp_01:baby_rig_07:L_toe
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:R_hip
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:R_hip/r_baby_swp_01:baby_rig_07:R_knee
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:R_hip/r_baby_swp_01:baby_rig_07:R_knee/r_baby_swp_01:baby_rig_07:R_ankle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:R_hip/r_baby_swp_01:baby_rig_07:R_knee/r_baby_swp_01:baby_rig_07:R_ankle/r_baby_swp_01:baby_rig_07:R_ball
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:pelvis/r_baby_swp_01:baby_rig_07:R_hip/r_baby_swp_01:baby_rig_07:R_knee/r_baby_swp_01:baby_rig_07:R_ankle/r_baby_swp_01:baby_rig_07:R_ball/r_baby_swp_01:baby_rig_07:R_toe
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_index_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_index_a/r_baby_swp_01:baby_rig_07:L_index_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_index_a/r_baby_swp_01:baby_rig_07:L_index_b/r_baby_swp_01:baby_rig_07:L_index_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_index_a/r_baby_swp_01:baby_rig_07:L_index_b/r_baby_swp_01:baby_rig_07:L_index_c/r_baby_swp_01:baby_rig_07:L_indexEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_middle_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_middle_a/r_baby_swp_01:baby_rig_07:L_middle_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_middle_a/r_baby_swp_01:baby_rig_07:L_middle_b/r_baby_swp_01:baby_rig_07:L_middle_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_middle_a/r_baby_swp_01:baby_rig_07:L_middle_b/r_baby_swp_01:baby_rig_07:L_middle_c/r_baby_swp_01:baby_rig_07:L_middleEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_pinky_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_pinky_a/r_baby_swp_01:baby_rig_07:L_pinky_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_pinky_a/r_baby_swp_01:baby_rig_07:L_pinky_b/r_baby_swp_01:baby_rig_07:L_pinky_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_pinky_a/r_baby_swp_01:baby_rig_07:L_pinky_b/r_baby_swp_01:baby_rig_07:L_pinky_c/r_baby_swp_01:baby_rig_07:L_pinkyEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_ring_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_ring_a/r_baby_swp_01:baby_rig_07:L_ring_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_ring_a/r_baby_swp_01:baby_rig_07:L_ring_b/r_baby_swp_01:baby_rig_07:L_ring_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_ring_a/r_baby_swp_01:baby_rig_07:L_ring_b/r_baby_swp_01:baby_rig_07:L_ring_c/r_baby_swp_01:baby_rig_07:L_ringEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_thumb_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_thumb_a/r_baby_swp_01:baby_rig_07:L_thumb_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_thumb_a/r_baby_swp_01:baby_rig_07:L_thumb_b/r_baby_swp_01:baby_rig_07:L_thumb_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:L_clavicle/r_baby_swp_01:baby_rig_07:L_shoulder/r_baby_swp_01:baby_rig_07:L_elbow/r_baby_swp_01:baby_rig_07:L_wrist/r_baby_swp_01:baby_rig_07:L_hand/r_baby_swp_01:baby_rig_07:L_thumb_a/r_baby_swp_01:baby_rig_07:L_thumb_b/r_baby_swp_01:baby_rig_07:L_thumb_c/r_baby_swp_01:baby_rig_07:L_thumbEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:headEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:jaw
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:jaw/r_baby_swp_01:baby_rig_07:jawEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:L_eye
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:L_eye/r_baby_swp_01:baby_rig_07:L_btmLid
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:L_eye/r_baby_swp_01:baby_rig_07:L_btmLid/r_baby_swp_01:baby_rig_07:L_btmLid_end
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:L_eye/r_baby_swp_01:baby_rig_07:L_topLid
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:L_eye/r_baby_swp_01:baby_rig_07:L_topLid/r_baby_swp_01:baby_rig_07:L_topLid_end
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:R_eye
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:R_eye/r_baby_swp_01:baby_rig_07:R_btmRid
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:R_eye/r_baby_swp_01:baby_rig_07:R_btmRid/r_baby_swp_01:baby_rig_07:R_btmRid_end
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:R_eye/r_baby_swp_01:baby_rig_07:R_topRid
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:neck/r_baby_swp_01:baby_rig_07:head/r_baby_swp_01:baby_rig_07:R_eye/r_baby_swp_01:baby_rig_07:R_topRid/r_baby_swp_01:baby_rig_07:R_topRid_end
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_index_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_index_a/r_baby_swp_01:baby_rig_07:R_index_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_index_a/r_baby_swp_01:baby_rig_07:R_index_b/r_baby_swp_01:baby_rig_07:R_index_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_index_a/r_baby_swp_01:baby_rig_07:R_index_b/r_baby_swp_01:baby_rig_07:R_index_c/r_baby_swp_01:baby_rig_07:R_indexEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_middle_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_middle_a/r_baby_swp_01:baby_rig_07:R_middle_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_middle_a/r_baby_swp_01:baby_rig_07:R_middle_b/r_baby_swp_01:baby_rig_07:R_middle_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_middle_a/r_baby_swp_01:baby_rig_07:R_middle_b/r_baby_swp_01:baby_rig_07:R_middle_c/r_baby_swp_01:baby_rig_07:R_middleEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_pinky_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_pinky_a/r_baby_swp_01:baby_rig_07:R_pinky_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_pinky_a/r_baby_swp_01:baby_rig_07:R_pinky_b/r_baby_swp_01:baby_rig_07:R_pinky_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_pinky_a/r_baby_swp_01:baby_rig_07:R_pinky_b/r_baby_swp_01:baby_rig_07:R_pinky_c/r_baby_swp_01:baby_rig_07:R_pinkyEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_ring_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_ring_a/r_baby_swp_01:baby_rig_07:R_ring_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_ring_a/r_baby_swp_01:baby_rig_07:R_ring_b/r_baby_swp_01:baby_rig_07:R_ring_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_ring_a/r_baby_swp_01:baby_rig_07:R_ring_b/r_baby_swp_01:baby_rig_07:R_ring_c/r_baby_swp_01:baby_rig_07:R_ringEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_thumb_a
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_thumb_a/r_baby_swp_01:baby_rig_07:R_thumb_b
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_thumb_a/r_baby_swp_01:baby_rig_07:R_thumb_b/r_baby_swp_01:baby_rig_07:R_thumb_c
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root/r_baby_swp_01:baby_rig_07:spine1/r_baby_swp_01:baby_rig_07:spine2/r_baby_swp_01:baby_rig_07:spine3/r_baby_swp_01:baby_rig_07:R_clavicle/r_baby_swp_01:baby_rig_07:R_shoulder/r_baby_swp_01:baby_rig_07:R_elbow/r_baby_swp_01:baby_rig_07:R_wrist/r_baby_swp_01:baby_rig_07:R_hand/r_baby_swp_01:baby_rig_07:R_thumb_a/r_baby_swp_01:baby_rig_07:R_thumb_b/r_baby_swp_01:baby_rig_07:R_thumb_c/r_baby_swp_01:baby_rig_07:R_thumbEnd
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:pelvis_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:pelvis_o/r_baby_swp_01:baby_rig_07:pelvis_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o/r_baby_swp_01:baby_rig_07:eyes_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o/r_baby_swp_01:baby_rig_07:eyes_anim/r_baby_swp_01:baby_rig_07:L_eye_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o/r_baby_swp_01:baby_rig_07:eyes_anim/r_baby_swp_01:baby_rig_07:L_eye_o/r_baby_swp_01:baby_rig_07:L_eye_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o/r_baby_swp_01:baby_rig_07:eyes_anim/r_baby_swp_01:baby_rig_07:R_eye_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:eyes_o/r_baby_swp_01:baby_rig_07:eyes_anim/r_baby_swp_01:baby_rig_07:R_eye_o/r_baby_swp_01:baby_rig_07:R_eye_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:jaw_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:jaw_o/r_baby_swp_01:baby_rig_07:jaw_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:jawOrientNull_grp
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:head_o/r_baby_swp_01:baby_rig_07:head_anim/r_baby_swp_01:baby_rig_07:jawOrientNull_grp/r_baby_swp_01:baby_rig_07:jawOrientNull
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:L_clavicle_anim_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:L_clavicle_anim_o/r_baby_swp_01:baby_rig_07:L_clavicle_anim
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:R_clavicle_anim_o
+        weight: 1
+      - path: r_baby_swp_01:baby_rig_07:masterCtrl/r_baby_swp_01:baby_rig_07:root_o/r_baby_swp_01:baby_rig_07:root_anim/r_baby_swp_01:baby_rig_07:spine1_o/r_baby_swp_01:baby_rig_07:spine1_anim/r_baby_swp_01:baby_rig_07:spine2_o/r_baby_swp_01:baby_rig_07:spine2_anim/r_baby_swp_01:baby_rig_07:spine3_o/r_baby_swp_01:baby_rig_07:spine3_anim/r_baby_swp_01:baby_rig_07:R_clavicle_anim_o/r_baby_swp_01:baby_rig_07:R_clavicle_anim
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:body
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:L_eye
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:R_eye
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:umbilicalCatheter
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:umbilicalCatheter/r_baby_swp_01:m_baby_kg_4:catheterCord
+        weight: 1
+      - path: r_baby_swp_01:m_baby_kg_4:baby_geo/r_baby_swp_01:m_baby_kg_4:umbilicalCatheter/r_baby_swp_01:m_baby_kg_4:catheterTape
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .400000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d54f3230393c5482585248afd884772b
+guid: 6b004ccbc7e4e3642b0f6eef9cda93a5
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,8 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: infantWarmer
-    4300002: infantWarmer_mesh
+    4300000: infantWarmer_mesh
     9500000: //RootNode
   materials:
     importMaterials: 1
