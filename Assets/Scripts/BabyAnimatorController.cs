@@ -7,9 +7,14 @@ public class BabyAnimatorController : MonoBehaviour {
 	public string currentState;
 
 	public GameObject baby;
+	public Avatar a1;
 	public GameObject needle;
+	public Avatar a2;
 	public GameObject lar;
+	public Avatar a3;
 	public GameObject syringe;
+	public Avatar a4;
+
 
 
 	public bool hasChanged = false;
@@ -32,6 +37,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					needle.SetActive(false);
 					lar.SetActive(false);
 					syringe.SetActive(false);
+					this.animator.avatar = a1;
 					animator.SetBool("a", false);
 					animator.SetBool("b", true);
 					animator.SetBool("c", false);
@@ -44,6 +50,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					needle.SetActive(true);
 					lar.SetActive(false);
 					syringe.SetActive(false);
+					this.animator.avatar = a2;
 					animator.SetBool("a", false);
 					animator.SetBool("b", false);
 					animator.SetBool("c", true);
@@ -56,6 +63,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					needle.SetActive(false);
 					lar.SetActive(true);
 					syringe.SetActive(false);
+					this.animator.avatar = a3;
 					animator.SetBool("a", false);
 					animator.SetBool("b", false);
 					animator.SetBool("c", false);
@@ -67,6 +75,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					needle.SetActive(false);
 					lar.SetActive(false);
 					syringe.SetActive(true);
+					this.animator.avatar = a4;
 					animator.SetBool("a", false);
 					animator.SetBool("b", false);
 					animator.SetBool("c", false);
@@ -80,6 +89,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					needle.SetActive(false);
 					lar.SetActive(false);
 					syringe.SetActive(false);
+					this.animator.avatar = a1;
 					animator.SetBool("a", true);
 					animator.SetBool("b", false);
 					animator.SetBool("c", false);
