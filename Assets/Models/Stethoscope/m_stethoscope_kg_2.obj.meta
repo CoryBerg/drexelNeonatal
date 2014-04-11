@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 50b07394b4bab9d41966bdbd85360b4a
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
     100002: stethoscope_mesh
@@ -62,5 +62,4 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 0
   userData: 
