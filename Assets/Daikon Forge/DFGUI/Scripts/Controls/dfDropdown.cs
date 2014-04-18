@@ -568,6 +568,7 @@ public class dfDropdown : dfInteractiveBase, IDFMultiRender
 			}
 		}
 	}
+	
 
 	#endregion 
 
@@ -830,7 +831,7 @@ public class dfDropdown : dfInteractiveBase, IDFMultiRender
 		using( var textRenderer = font.ObtainRenderer() )
 		{
 
-			textRenderer.WordWrap = false;
+			textRenderer.WordWrap = true;
 			textRenderer.MaxSize = maxSize;
 			textRenderer.PixelRatio = p2u;
 			textRenderer.TextScale = TextScale;
