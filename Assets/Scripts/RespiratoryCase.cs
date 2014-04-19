@@ -98,7 +98,7 @@ public class RespiratoryCase : MonoBehaviour {
 
 		//baby.GetComponent<BabyAnimatorController>().currentState = "";
 
-		Debug.Log("Baby recovered.");
+		Invoke ("ChangeScene", 3.0f);
 	}
 
 	// No needle decomp by 10 min (5+5, regardless of interations or lack thereof) or needle decomp in incorrect location
@@ -119,8 +119,14 @@ public class RespiratoryCase : MonoBehaviour {
 
 		// END SCENARIO WITH FAIL
 
-		baby.GetComponent<BabyAnimatorController>().currentState = "";
+		Invoke ("ChangeScene", 3.0f);
+	}
 
-		Debug.Log("Baby died :(");
+	void ChangeScene() {
+			if (currentState == 2) {
+					Application.LoadLevel ("Success");
+			} else {
+					Application.LoadLevel ("Failure");
+			}
 	}
 }

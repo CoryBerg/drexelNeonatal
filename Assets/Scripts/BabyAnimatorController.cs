@@ -15,7 +15,7 @@ public class BabyAnimatorController : MonoBehaviour {
 	public GameObject syringe;
 	public Avatar a4;
 
-
+	public GameObject player;
 
 	public bool hasChanged = false;
 
@@ -57,8 +57,10 @@ public class BabyAnimatorController : MonoBehaviour {
 					animator.SetBool("d", false);
 					animator.SetBool("e", false);
 					hasChanged = false;
+					player.GetComponent<RespiratoryCase>().isCorrect = true;
+
 					break;
-				case "ButtonPulmonology":
+				case "ButtonSurgery":
 					baby.SetActive(false);
 					needle.SetActive(false);
 					lar.SetActive(true);
@@ -70,7 +72,7 @@ public class BabyAnimatorController : MonoBehaviour {
 					animator.SetBool("d", true);
 					animator.SetBool("e", false);
 					break;
-				case "ButtonSurgery":
+				case "ButtonPulmonology":
 					baby.SetActive(true);
 					needle.SetActive(false);
 					lar.SetActive(false);

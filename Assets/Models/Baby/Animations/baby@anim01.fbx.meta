@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 3244413c5aa85d149b0ec6f764037cf6
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
     100002: baby_10:baby_geo
@@ -1176,4 +1176,5 @@ ModelImporter:
     rootMotionBoneName: baby_10:baby_geo
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  additionalBone: 0
   userData: 

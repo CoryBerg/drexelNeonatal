@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 76ac6565ff6ea4a4badec4ad06afd7d8
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
     100002: m_arm_kg_2:Group1
@@ -214,4 +214,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  additionalBone: 0
   userData: 
