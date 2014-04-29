@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: bfe04d6384d170e4493b69cd89b7cb99
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: body
     100002: catheterCord
@@ -89,5 +89,4 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 0
   userData: 
