@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 05ca1792cc1fdb34cb8256fef56cefff
+guid: dc558b64f423d4076b3a77828a64e854
 ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
@@ -7,7 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: m_scalpel_kg_1_pCube1
+    4300000: Default
     9500000: //RootNode
   materials:
     importMaterials: 1
