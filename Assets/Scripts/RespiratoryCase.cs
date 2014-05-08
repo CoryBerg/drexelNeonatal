@@ -2,13 +2,8 @@
 using System.Collections;
 
 public class RespiratoryCase : MonoBehaviour {
-
 	public Animator baby;
-
-	public GameObject but;
-	public GameObject lar;
-	public GameObject syr;
-
+	public bool isCorrect = false;
 	public float timer = 0.0f;
 
 	int currentState = 0;
@@ -19,9 +14,6 @@ public class RespiratoryCase : MonoBehaviour {
 	*		2 - Correct needle decomp, baby healthy
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
-	
-	public bool isCorrect = false;
-
 	
 	// Update is called once per frame
 	void Update () {
