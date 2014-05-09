@@ -97,9 +97,9 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 			if (!bFlatLinePlayed)
 				PlayHeartSound(1, HeartVolume);
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, (50f * BlipMonitorHeightModifier) + Random.Range(0f, (2f * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, (10f * BlipMonitorHeightModifier) + Random.Range(0f, (2f * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
 			yield return new WaitForSeconds(0.03f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, (-5f * BlipMonitorHeightModifier) - Random.Range(0f, (3f * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, (-5f * BlipMonitorHeightModifier) - Random.Range(0f, (10f * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
 			yield return new WaitForSeconds(0.02f);		
 			NewClone.transform.position = new Vector3(NewClone.transform.position.x, (3f * BlipMonitorHeightModifier) + Random.Range(0f, (2f * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
 			yield return new WaitForSeconds(0.02f);		
