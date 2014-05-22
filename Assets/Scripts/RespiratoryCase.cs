@@ -6,7 +6,7 @@ public class RespiratoryCase : MonoBehaviour {
 	public bool isCorrect = false;
 	public float timer = 0.0f;
 
-	int currentState = 0;
+	public int currentState = 0;
 	/*
 	*	States:
 	*		0 - Initial
