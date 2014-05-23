@@ -165,6 +165,7 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 	void CreateClone()
 	{
 		NewClone = Instantiate(Blip, new Vector3(BlipOffset.x, BlipOffset.y, BlipOffset.z), Quaternion.identity) as GameObject;
+		NewClone.layer = 9;
 		NewClone.transform.parent = gameObject.transform;
 		
 		NewClone.GetComponentInChildren<TrailRenderer>().startWidth = BlipTrailStartSize;

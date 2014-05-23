@@ -16,7 +16,6 @@ Build/*
 !Library/guidmapper
 !Library/unity default resources
 !Library/unity editor resources
-!Library/metadata/
 
 *.pidb
 *.userprefs
