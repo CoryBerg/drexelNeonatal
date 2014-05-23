@@ -2392,6 +2392,11 @@ MonoBehaviour:
   baby: {fileID: 1296379338}
   isCorrect: 0
   timer: 0
+  bpm: 0
+  heartRate: 
+  Sp02: 
+  bloodPressure: 
+  temperature: 
   currentState: 0
 --- !u!1 &114695819
 GameObject:
@@ -5208,7 +5213,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Materials.Array.data[2]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 02253e4da6363e747b265af6bbd1a954, type: 3}
     - target: {fileID: 6500086, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Enabled
       value: 0
@@ -5380,7 +5385,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Materials.Array.data[3]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: b524d7a0bdaa57b49a90a71f6ecbac59, type: 3}
     - target: {fileID: 6500018, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Size.x
       value: .710000038
@@ -6040,7 +6045,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
     - target: {fileID: 6500040, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Size.x
       value: 1.63666666
@@ -6112,7 +6117,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
     - target: {fileID: 100162, guid: 12ca86077ab5044adb006e2659252fdc, type: 2}
       propertyPath: m_TagString
       value: Popup
@@ -9303,10 +9308,10 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
+  - {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
+  - {fileID: 2100000, guid: 02253e4da6363e747b265af6bbd1a954, type: 3}
+  - {fileID: 2100000, guid: b524d7a0bdaa57b49a90a71f6ecbac59, type: 3}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -10459,6 +10464,7 @@ GameObject:
   - 4: {fileID: 490259779}
   - 114: {fileID: 490259781}
   - 65: {fileID: 490259780}
+  - 114: {fileID: 490259782}
   m_Layer: 8
   m_Name: bloodPressure
   m_TagString: Untagged
@@ -10571,6 +10577,19 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &490259782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490259778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48cad62bda3aee4794950cfc06895d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respiratoryCase: {fileID: 0}
+  labelName: 
 --- !u!1 &490770556
 GameObject:
   m_ObjectHideFlags: 0
@@ -11053,6 +11072,7 @@ GameObject:
   - 4: {fileID: 511773087}
   - 114: {fileID: 511773089}
   - 65: {fileID: 511773088}
+  - 114: {fileID: 511773090}
   m_Layer: 8
   m_Name: temperature
   m_TagString: Untagged
@@ -11165,6 +11185,19 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &511773090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 511773086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48cad62bda3aee4794950cfc06895d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respiratoryCase: {fileID: 0}
+  labelName: 
 --- !u!1 &512339644
 GameObject:
   m_ObjectHideFlags: 0
@@ -17891,6 +17924,7 @@ GameObject:
   - 4: {fileID: 963418541}
   - 114: {fileID: 963418543}
   - 65: {fileID: 963418542}
+  - 114: {fileID: 963418544}
   m_Layer: 8
   m_Name: SpO2
   m_TagString: Untagged
@@ -18003,6 +18037,19 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &963418544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 963418540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48cad62bda3aee4794950cfc06895d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respiratoryCase: {fileID: 0}
+  labelName: 
 --- !u!1 &965075599
 GameObject:
   m_ObjectHideFlags: 0
@@ -35125,6 +35172,7 @@ GameObject:
   - 4: {fileID: 1982389136}
   - 114: {fileID: 1982389138}
   - 65: {fileID: 1982389137}
+  - 114: {fileID: 1982389139}
   m_Layer: 8
   m_Name: heartRate
   m_TagString: Untagged
@@ -35237,6 +35285,19 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &1982389139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1982389135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c48cad62bda3aee4794950cfc06895d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respiratoryCase: {fileID: 0}
+  labelName: 
 --- !u!1 &1983114552
 GameObject:
   m_ObjectHideFlags: 0

@@ -34,7 +34,13 @@ public class QuestionReader : MonoBehaviour {
 			anwerBText = aBText;
 			anwerCText = aCText;
 			anwerDText = aDText;
-			
+		}
+		
+		public Question(string qText, string aAText, string aBText, string aCText){
+			questionText = qText;
+			anwerAText = aAText;
+			anwerBText = aBText;
+			anwerCText = aCText;
 		}
 		
 		public Question(){
@@ -46,16 +52,17 @@ public class QuestionReader : MonoBehaviour {
 		}
 	}
 	
-	
 	// initialize question class array
-	
 	void Start(){
-		arrayOfQuestions = new Question[10];
+		arrayOfQuestions = new Question[7];
 		
-		
-		arrayOfQuestions[0] = new Question("Number of post graduate training years", "One", "Two", "Three", "Four and beyond");
-		arrayOfQuestions[1] = new Question("Current Career goals", "Gen Peds", "Outpatient subspecialty care", "Inpatient subspecialty care", "Other");
-		arrayOfQuestions[2] = new Question("Current comfort level in managing  a patient with a tension pneumothorax?", "Very comfortable", "Somewhat comfortable", "Somewhat uncomfortable", "Very uncomfortable");
+		arrayOfQuestions [0] = new Question("Number of post graduate training years", "One", "Two", "Three", "Four and beyond");
+		arrayOfQuestions [1] = new Question("Current Career goals", "Gen Peds", "Outpatient subspecialty care", "Inpatient subspecialty care", "Other");
+		arrayOfQuestions [2] = new Question("Current comfort level in managing  a patient with a tension pneumothorax?", "Very comfortable", "Somewhat comfortable", "Somewhat uncomfortable", "Very uncomfortable");
+		arrayOfQuestions [3] = new Question ("Current comfort level with Neonatal Emergencies", "Very comfortable", "Somewhat comfortable", "Somewhat uncomfortable", "Very uncomfortable");
+		arrayOfQuestions [4] = new Question ("Current level of medical knowledge pertaining to NICU", "Above average", "Average", "Below average");
+		arrayOfQuestions [5] = new Question ("Level of interest in pursuing a career in neonatology", "Very interested", "Somewhat interested", "Somewhat disinterested", "Very disinterested");
+		arrayOfQuestions [6] = new Question ("Number of previous participation in simulation experiences", "One", "Two", "Three or more", "None");
 		
 		//initialize Discriptions of the first question
 		questionGUI.GetComponent<dfLabel> ().Text = arrayOfQuestions [qNumber].questionText;
@@ -80,41 +87,39 @@ public class QuestionReader : MonoBehaviour {
 			NextQuestion();
 			aPressed = false;
 		}
-
+		
 		if (bPressed) {
 			NextQuestion();
 			bPressed = false;
 		}
-
+		
 		if (cPressed) {
 			NextQuestion();
 			cPressed = false;
 		}
-
+		
 		if (dPressed) {
 			NextQuestion();
 			cPressed = false;
 		}
-
 	}
-
+	
 	void NextQuestion(){
-		if (qNumber >= 9) {
+		if (qNumber >= 6) {
 			LoadLevel();
 		}
-
-		qNumber ++;
+		
 		questionGUI.GetComponent<dfLabel> ().Text = arrayOfQuestions [qNumber].questionText;
 		aAGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerAText;
 		aBGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerBText;
 		aCGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerCText;
 		aDGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerDText;
-
-
+		
+		qNumber ++;
 	}
-
+	
 	void LoadLevel(){
-		Application.LoadLevel ("Evaluation");
+		Application.LoadLevel ("IntroRespCase");
 	}
-
+	
 }
