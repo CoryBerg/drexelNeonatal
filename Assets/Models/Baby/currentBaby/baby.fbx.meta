@@ -285,6 +285,8 @@ ModelImporter:
     100558: spine3_anim
     100560: spine3_o
     100562: umbilicalCatheter
+    100564: blendshapes
+    100566: m_baby_kg_7_baby_geo
     400000: //RootNode
     400002: baby_geo
     400004: body
@@ -567,6 +569,8 @@ ModelImporter:
     400558: spine3_anim
     400560: spine3_o
     400562: umbilicalCatheter
+    400564: blendshapes
+    400566: m_baby_kg_7_baby_geo
     2300000: catheterCord
     2300002: catheterTape
     3300000: catheterCord
@@ -621,9 +625,9 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
   tangentSpace:
-    normalSmoothAngle: 60
+    normalSmoothAngle: 180
     splitTangentsAcrossUV: 1
-    normalImportMode: 0
+    normalImportMode: 1
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0

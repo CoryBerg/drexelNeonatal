@@ -13,7 +13,7 @@ public class Breathing : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		breath = Mathf.Sin(Time.time * 2) *50+50;
+		skinMeshRenderer.SetBlendShapeWeight(1, breath);
 		skinMeshRenderer.SetBlendShapeWeight(2, breath);
-		skinMeshRenderer.SetBlendShapeWeight(3, breath);
 	}
 }
