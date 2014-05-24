@@ -151,7 +151,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.346666694
+      value: -.333333373
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: m_LocalPosition.y
@@ -159,27 +159,27 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: size.x
-      value: 207
+      value: 201
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: layout.margins.right
-      value: 372
+      value: 373
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: text
-      value: Take the Pre test
+      value: Restart Scenario
       objectReference: {fileID: 0}
     - target: {fileID: 6500008, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: m_Size.x
-      value: .689999998
+      value: .670000017
       objectReference: {fileID: 0}
     - target: {fileID: 6500008, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: m_Center.x
-      value: .344999999
+      value: .335000008
       objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: layout.margins.left
-      value: 381
+      value: 386
       objectReference: {fileID: 0}
     - target: {fileID: 11400010, guid: c67a85ef02d58498bafd51dc0753cdbc, type: 2}
       propertyPath: LevelName
@@ -227,7 +227,7 @@ Transform:
   m_PrefabInternal: {fileID: 258847575}
   m_GameObject: {fileID: 544434509}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.346666694, y: -.613333344, z: 0}
+  m_LocalPosition: {x: -.333333373, y: -.613333344, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1912507243}
@@ -246,7 +246,7 @@ MonoBehaviour:
   LevelName: PreTest
 --- !u!65 &544434512
 BoxCollider:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 6500008, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -255,8 +255,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .689999998, y: .153333336, z: .00100000005}
-  m_Center: {x: .344999999, y: -.0766666681, z: 0}
+  m_Size: {x: .670000017, y: .153333336, z: .00100000005}
+  m_Center: {x: .335000008, y: -.0766666681, z: 0}
 --- !u!114 &544434513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -282,7 +282,7 @@ MonoBehaviour:
   disabledColor:
     serializedVersion: 2
     rgba: 4294967295
-  size: {x: 207, y: 46}
+  size: {x: 201, y: 46}
   minSize: {x: 0, y: 0}
   maxSize: {x: 0, y: 0}
   clipChildren: 0
@@ -292,9 +292,9 @@ MonoBehaviour:
   layout:
     anchorStyle: 65
     margins:
-      left: 381
+      left: 386
       top: 484
-      right: 372
+      right: 373
       bottom: 70
     owner: {fileID: 544434513}
   renderOrder: 2
@@ -309,7 +309,7 @@ MonoBehaviour:
   pressedSprite: button-normal
   state: 0
   group: {fileID: 0}
-  text: Take the Pre test
+  text: Restart Scenario
   textAlign: 0
   vertAlign: 1
   normalColor:
@@ -384,7 +384,7 @@ Transform:
   m_Father: {fileID: 1912507243}
 --- !u!65 &839115325
 BoxCollider:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 6500002, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -522,7 +522,7 @@ Transform:
   m_Father: {fileID: 1912507243}
 --- !u!65 &1114018081
 BoxCollider:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 6500000, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -644,7 +644,7 @@ Transform:
   m_Father: {fileID: 1912507243}
 --- !u!65 &1204195223
 BoxCollider:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 6500006, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -840,7 +840,7 @@ GameObject:
   m_IsActive: 1
 --- !u!33 &1912507238
 MeshFilter:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 3300000, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -848,7 +848,7 @@ MeshFilter:
   m_Mesh: {fileID: 0}
 --- !u!23 &1912507239
 Renderer:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 2300000, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}
@@ -897,7 +897,7 @@ MonoBehaviour:
   guides: []
 --- !u!65 &1912507241
 BoxCollider:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 6500004, guid: c67a85ef02d58498bafd51dc0753cdbc,
     type: 2}
   m_PrefabInternal: {fileID: 258847575}

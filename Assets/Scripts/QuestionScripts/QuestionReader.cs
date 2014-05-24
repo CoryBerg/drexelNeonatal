@@ -23,36 +23,36 @@ public class QuestionReader : MonoBehaviour {
 	// a question class with constructors
 	public class Question{
 		public string questionText;
-		public string anwerAText;
-		public string anwerBText;
-		public string anwerCText;
-		public string anwerDText;
+		public string answerAText;
+		public string answerBText;
+		public string answerCText;
+		public string answerDText;
 		
 		public Question(string qText, string aAText, string aBText, string aCText, string aDText){
 			questionText = qText;
-			anwerAText = aAText;
-			anwerBText = aBText;
-			anwerCText = aCText;
-			anwerDText = aDText;
+			answerAText = aAText;
+			answerBText = aBText;
+			answerCText = aCText;
+			answerDText = aDText;
 		}
 		
 		public Question(string qText, string aAText, string aBText, string aCText){
 			questionText = qText;
-			anwerAText = aAText;
-			anwerBText = aBText;
-			anwerCText = aCText;
+			answerAText = aAText;
+			answerBText = aBText;
+			answerCText = aCText;
 		}
 		
 		public Question(){
 			questionText = "qText";
-			anwerAText = "aAText";
-			anwerBText = "aBText";
-			anwerCText = "aCText";
-			anwerDText = "aDText";
+			answerAText = "aAText";
+			answerBText = "aBText";
+			answerCText = "aCText";
+			answerDText = "aDText";
 		}
 	}
 	
-	// initialize question class array
+	// Initialize question class array
 	void Start(){
 		arrayOfQuestions = new Question[7];
 		
@@ -64,62 +64,68 @@ public class QuestionReader : MonoBehaviour {
 		arrayOfQuestions [5] = new Question ("Level of interest in pursuing a career in neonatology", "Very interested", "Somewhat interested", "Somewhat disinterested", "Very disinterested");
 		arrayOfQuestions [6] = new Question ("Number of previous participation in simulation experiences", "One", "Two", "Three or more", "None");
 		
-		//initialize Discriptions of the first question
+		// Initialize descriptions of the first question
 		questionGUI.GetComponent<dfLabel> ().Text = arrayOfQuestions [qNumber].questionText;
-		aAGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerAText;
-		aBGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerBText;
-		aCGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerCText;
-		aDGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerDText;
-		
-		//        for (int i = 0; i < 10; i++) {
-		//
-		//            string someQ = "Q number: " + i;
-		//            string someA = "A number: " + i;
-		//
-		//            Question freshQ = new Question(someQ, someA);
-		//            arrayOfQuestions[i] = freshQ;
-		//        }
+		aAGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerAText;
+		aBGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerBText;
+		aCGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerCText;
+		aDGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerDText;
 	}
 	
 	void Update(){
-		// check if a button is pressed
+		// Check if a button is pressed
 		if (aPressed) {
-			NextQuestion();
-			aPressed = false;
+			if (qNumber >= 6) {
+				LoadLevel();
+			}
+			else {
+				NextQuestion();
+				aPressed = false;
+			}
 		}
 		
 		if (bPressed) {
-			NextQuestion();
-			bPressed = false;
+			if (qNumber >= 6) {
+				LoadLevel();
+			}
+			else {
+				NextQuestion();
+				bPressed = false;
+			}
 		}
 		
 		if (cPressed) {
-			NextQuestion();
-			cPressed = false;
+			if (qNumber >= 6) {
+				LoadLevel();
+			}
+			else {
+				NextQuestion();
+				cPressed = false;
+			}
 		}
 		
 		if (dPressed) {
-			NextQuestion();
-			cPressed = false;
+			if (qNumber >= 6) {
+				LoadLevel();
+			}
+			else {
+				NextQuestion();
+				dPressed = false;
+			}
 		}
 	}
 	
 	void NextQuestion(){
-		if (qNumber >= 6) {
-			LoadLevel();
-		}
-		
+		qNumber++;
+
 		questionGUI.GetComponent<dfLabel> ().Text = arrayOfQuestions [qNumber].questionText;
-		aAGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerAText;
-		aBGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerBText;
-		aCGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerCText;
-		aDGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].anwerDText;
-		
-		qNumber ++;
+		aAGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerAText;
+		aBGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerBText;
+		aCGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerCText;
+		aDGUI.GetComponent<dfButton> ().Text = arrayOfQuestions [qNumber].answerDText;
 	}
 	
 	void LoadLevel(){
 		Application.LoadLevel ("IntroRespCase");
 	}
-	
 }
