@@ -31,14 +31,14 @@ Material:
         first:
           name: _SpecularTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: c62694f2db2a34f35b4d20f35ad33fc3, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _BRDFTex
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: 9f2602c5c68aa4b52a95b517dc6d37bd, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -49,11 +49,11 @@ Material:
       data:
         first:
           name: _CurvatureScale
-        second: 2.23000002
+        second: 0
       data:
         first:
           name: _Fresnel
-        second: .25
+        second: -.189999998
       data:
         first:
           name: _BumpBias
