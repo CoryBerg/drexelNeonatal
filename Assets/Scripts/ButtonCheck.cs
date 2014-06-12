@@ -1,4 +1,4 @@
-﻿// report what is the current action
+// report what is the current action
 // record how many times the same button has been pressed
 
 using UnityEngine;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class TextPopup : MonoBehaviour {
+public class ButtonCheck : MonoBehaviour {
 
 	public bool showCurrentOperation = true;
 
