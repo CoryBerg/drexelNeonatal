@@ -1,10 +1,13 @@
-Shader "Custom/Skin Shader" {
+Shader "Custom/Skin Shader 2" {
 Properties {
 _Color ("Main Color", Color) = (1,1,1,1)
 _MainTex ("Texture1 (RGB)", 2D) = "white" {}
 _Texture2 ("Texture2 (RGB)", 2D) = "white" {}
 _SpecularTex ("Specular (R) Gloss (G) SSS Mask (B)", 2D) = "yellow" {}
 _BumpMap ("Normal (Normal)", 2D) = "bump" {}
+_Alpha ("Alpha", Range(0,1)) = 1
+
+
 // BRDF Lookup texture, light direction on x and curvature on y.
 
     _BRDFTex ("BRDF Lookup (RGB)", 2D) = "gray" {}
@@ -22,11 +25,11 @@ _BumpMap ("Normal (Normal)", 2D) = "bump" {}
 }
 
 SubShader{
-    Tags { "Queue" = "Geometry" "RenderType" = "Opaque" }
+    Tags { "Queue" = "Transparent" "RenderType" = "Opaque" }
 
     CGPROGRAM
 
-        #pragma surface surf SkinShader fullforwardshadows
+        #pragma surface surf SkinShader fullforwardshadows alpha
         #pragma target 3.0
         // Bit complex for non-desktop.
         #pragma only_renderers d3d9 d3d11 opengl
@@ -49,11 +52,13 @@ SubShader{
             float2 uv_Texture2;
             float3 worldPos;
             float3 worldNormal;
+
             INTERNAL_DATA
         };
 
         sampler2D _MainTex, _Texture2 , _SpecularTex, _BumpMap, _BRDFTex;
-        float _BumpBias, _CurvatureScale, _Fresnel, _Blend;
+        float4 _RimColor;
+        float _BumpBias, _CurvatureScale, _Fresnel, _Blend, _Alpha;
 
         void surf (Input IN, inout SurfaceOutputSkinShader o)
         {   
@@ -62,12 +67,16 @@ SubShader{
             float4 albedo = tex2D ( _MainTex, IN.uv_MainTex ) * (1 - _Blend);
             albedo += tex2D ( _Texture2, IN.uv_Texture2 ) * _Blend;
             o.Albedo = albedo.rgb;
+            
+            o.Alpha = _Alpha;
 
             // ********* Don - Major modification of diffuss *************
 
             o.Normal = UnpackNormal ( tex2D ( _BumpMap, IN.uv_MainTex ) );
 
             o.Specular = tex2D ( _SpecularTex, IN.uv_MainTex ).rgb;
+            
+
 
             // Calculate the curvature of the model dynamically.
 
