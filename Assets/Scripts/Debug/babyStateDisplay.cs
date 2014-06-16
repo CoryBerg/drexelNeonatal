@@ -3,12 +3,12 @@ using System.Collections;
 
 public class babyStateDisplay : MonoBehaviour {
 	
-	public GameObject respiratoryCase;
+	public RespiratoryCase respiratoryCase;
 	int state;
 	
 	// diaplay the state of baby with gui lable
 	void Update(){
-		state = respiratoryCase.GetComponent<RespiratoryCase> ().currentState;
+		state = respiratoryCase.currentState;
 		
 		switch(state)
 		{	
