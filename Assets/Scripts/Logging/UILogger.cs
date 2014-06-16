@@ -8,6 +8,7 @@ public class UILogger : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 //		dfButton buttons = gameObject.GetComponentsInChildren<
+		UILog = new Dictionary<string, int>();
 		foreach(dfButton button in gameObject.GetComponentsInChildren(typeof(dfButton))) {
 			button.gameObject.AddComponent<UIButtonLogger>();
 		}
