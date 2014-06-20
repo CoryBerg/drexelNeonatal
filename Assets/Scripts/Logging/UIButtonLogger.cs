@@ -4,12 +4,18 @@ using System.Collections.Generic;
 
 public class UIButtonLogger : MonoBehaviour 
 {
+	void Start() {
+		if(UILogger.UILog.ContainsKey(this.name) == false) {
+			UILogger.UILog.Add(this.name,0);
+		}
+	}
+
 	public void OnClick( dfControl control, dfMouseEventArgs mouseEvent )
 	{
-		if(UILogger.UILog.ContainsKey(control.name)) {
-			UILogger.UILog[control.name]++;
+		if(UILogger.UILog.ContainsKey(this.name)) {
+			UILogger.UILog[this.name]++;
 		} else {
-			UILogger.UILog.Add(control.name,0);
+			UILogger.UILog.Add(this.name,1);
 		}
 	}
 }
