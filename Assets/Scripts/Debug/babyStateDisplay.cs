@@ -8,7 +8,7 @@ public class babyStateDisplay : MonoBehaviour {
 	
 	// diaplay the state of baby with gui lable
 	void Update(){
-		state = respiratoryCase.currentState;
+		state = CaseInitializer.Instance.ActiveCase.currentState;
 		
 		switch(state)
 		{	

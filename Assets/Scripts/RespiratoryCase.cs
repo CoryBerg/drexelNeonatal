@@ -19,7 +19,8 @@ public class RespiratoryCase : MonoBehaviour {
 	*		2 - Correct needle decomp, baby healthy
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
-	protected virtual void Start() {
+	protected virtual void Awake() {
+		InitialState();
 		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
 	}
 	// Update is called once per frame

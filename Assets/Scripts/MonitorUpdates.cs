@@ -3,29 +3,35 @@ using System.Collections;
 
 public class MonitorUpdates : MonoBehaviour {
 
-	public GameObject respiratoryCase;
+	public RespiratoryCase neonatalCase;
 	public string labelName;
-
+	private dfLabel lbl;
 	// Use this for initialization
 	void Start () {
-		respiratoryCase = GameObject.Find ("Player");
+		neonatalCase = CaseInitializer.Instance.ActiveCase;
+		lbl = GetComponent<dfLabel>();
 		labelName = gameObject.name;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if(neonatalCase == null) {
+		}
+		if(neonatalCase == null) {
+			return;
+		}
 		switch (labelName) {
 			case "Sp02":
-				GetComponent<dfLabel>().Text = respiratoryCase.GetComponent<RespiratoryCase> ().Sp02;
+				lbl.Text = neonatalCase.Sp02;
 				break;
 			case "heartRate":
-				GetComponent<dfLabel>().Text = respiratoryCase.GetComponent<RespiratoryCase> ().heartRate;
+				lbl.Text = neonatalCase.heartRate;
 				break;
 			case "bloodPressure":
-				GetComponent<dfLabel>().Text = respiratoryCase.GetComponent<RespiratoryCase> ().bloodPressure;
+				lbl.Text = neonatalCase.bloodPressure;
 				break;
 			case "temperature":
-				GetComponent<dfLabel>().Text = respiratoryCase.GetComponent<RespiratoryCase> ().temperature;
+				lbl.Text = neonatalCase.temperature;
 				break;
 		}
 	}
