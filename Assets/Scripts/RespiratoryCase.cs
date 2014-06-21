@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+// Also acting as parent class for all cases
 public class RespiratoryCase : MonoBehaviour {
 	public Animator baby;
 	public bool isCorrect = false;
@@ -10,7 +11,7 @@ public class RespiratoryCase : MonoBehaviour {
 	public string heartRate, Sp02, bloodPressure, temperature;
 	
 	public int currentState = 0;
-	private SWP_HeartRateMonitor heartMonitor;
+	protected SWP_HeartRateMonitor heartMonitor;
 	/*
 	*	States:
 	*		0 - Initial
@@ -18,11 +19,11 @@ public class RespiratoryCase : MonoBehaviour {
 	*		2 - Correct needle decomp, baby healthy
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
-	void Start() {
+	protected virtual void Start() {
 		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
 	}
 	// Update is called once per frame
-	void Update () {
+	protected virtual void Update () {
 		heartMonitor.BeatsPerMinute = bpm/4;
 		
 		if(!isCorrect) {
@@ -44,7 +45,7 @@ public class RespiratoryCase : MonoBehaviour {
 	}
 	
 	// Initial state of baby
-	void InitialState() {
+	protected virtual void InitialState() {
 		// Chest retractions
 		// Nasal flaring
 		// Grunting
@@ -71,7 +72,7 @@ public class RespiratoryCase : MonoBehaviour {
 	}
 	
 	// No needle decomp by 5 min (regardless of interations or lack thereof) or needle decomp in incorrect location
-	void FurtherDecomp() {
+	protected virtual void FurtherDecomp() {
 		currentState = 1;
 		
 		// Chest retraction
@@ -92,7 +93,7 @@ public class RespiratoryCase : MonoBehaviour {
 	}
 	
 	// Needle decomp by 5 min in correct location
-	void BabyRecovery() {
+	protected virtual void BabyRecovery() {
 		currentState = 2;
 		
 		// No retrations
@@ -119,7 +120,7 @@ public class RespiratoryCase : MonoBehaviour {
 	}
 	
 	// No needle decomp by 10 min (5+5, regardless of interations or lack thereof) or needle decomp in incorrect location
-	void BabyDeath() {
+	protected virtual void BabyDeath() {
 		currentState = 3;
 		
 		// Lethargic
