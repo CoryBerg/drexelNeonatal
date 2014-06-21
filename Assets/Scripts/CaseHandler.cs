@@ -16,6 +16,7 @@ public class CaseHandler : MonoBehaviour {
 			Destroy(this.gameObject);
 			return;
 		}
+		DontDestroyOnLoad(this.gameObject);
 		Instance = this;
 	}
 

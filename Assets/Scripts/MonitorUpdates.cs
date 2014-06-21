@@ -15,11 +15,6 @@ public class MonitorUpdates : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(neonatalCase == null) {
-		}
-		if(neonatalCase == null) {
-			return;
-		}
 		switch (labelName) {
 			case "Sp02":
 				lbl.Text = neonatalCase.Sp02;

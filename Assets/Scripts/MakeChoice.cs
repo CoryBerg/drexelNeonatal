@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class MakeChoice : MonoBehaviour {
 	private GameObject baby;
+	public bool IsAnswer;
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
 		baby = GameObject.FindGameObjectWithTag ("Baby");
@@ -11,5 +12,6 @@ public class MakeChoice : MonoBehaviour {
 
 		baby.GetComponent<BabyAnimatorController>().currentState = transform.name;
 		baby.GetComponent<BabyAnimatorController>().hasChanged = true;
+		CaseInitializer.Instance.ActiveCase.isCorrect = IsAnswer;
 	}
 }

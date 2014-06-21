@@ -37,7 +37,6 @@ public class BabyAnimatorController : MonoBehaviour {
 					animator.SetBool(lary, false);
 					animator.SetBool(bag, false);
 					hasChanged = false;
-					player.GetComponent<RespiratoryCase>().isCorrect = true;
 					break;
 
 				case "ButtonSteth":

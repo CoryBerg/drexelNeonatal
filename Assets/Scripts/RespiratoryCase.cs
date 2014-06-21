@@ -146,7 +146,7 @@ public class RespiratoryCase : MonoBehaviour {
 		Invoke ("ChangeScene", 3.0f);
 	}
 	
-	void ChangeScene() {
+	protected void ChangeScene() {
 		if (currentState == 2) {
 			Application.LoadLevel ("Success");
 		} else {
