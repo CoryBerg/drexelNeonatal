@@ -28,7 +28,7 @@ public class CaseHandler : MonoBehaviour {
 		ActivateCase(NeonatalCase.Cardiac);
 	}
 
-	public void ActivateREspiratory() {
+	public void ActivateRespiratory() {
 		ActivateCase(NeonatalCase.Respiratory);
 	}
 }

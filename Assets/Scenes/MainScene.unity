@@ -1278,6 +1278,7 @@ GameObject:
   - 4: {fileID: 50480831}
   - 114: {fileID: 50480833}
   - 65: {fileID: 50480832}
+  - 114: {fileID: 50480834}
   m_Layer: 8
   m_Name: Anwser
   m_TagString: Untagged
@@ -1391,6 +1392,21 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &50480834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 50480830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6f74d213b5bb4cbbe59fa3c434aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaseToShow: 0
+  labelToModify: {fileID: 0}
+  value: "The baby has been desaturating, and I can\u2019t get the sats to come up.
+    \ The baby has also has low blood pressure.    "
 --- !u!1 &51151392
 GameObject:
   m_ObjectHideFlags: 0
@@ -5626,6 +5642,7 @@ GameObject:
   - 4: {fileID: 230821369}
   - 114: {fileID: 230821371}
   - 65: {fileID: 230821370}
+  - 114: {fileID: 230821372}
   m_Layer: 8
   m_Name: Label
   m_TagString: Untagged
@@ -5738,6 +5755,20 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &230821372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 230821368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6f74d213b5bb4cbbe59fa3c434aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaseToShow: 0
+  labelToModify: {fileID: 0}
+  value: 'pH 6.9, CO2 50, O2 30, HCO3 10, Base Deficit -15  '
 --- !u!1 &231277584
 GameObject:
   m_ObjectHideFlags: 0
@@ -7262,6 +7293,7 @@ GameObject:
   - 4: {fileID: 301694837}
   - 114: {fileID: 301694839}
   - 65: {fileID: 301694838}
+  - 114: {fileID: 301694840}
   m_Layer: 8
   m_Name: Anwser
   m_TagString: Untagged
@@ -7378,6 +7410,24 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &301694840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 301694836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6f74d213b5bb4cbbe59fa3c434aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaseToShow: 0
+  labelToModify: {fileID: 0}
+  value: 'The mother is a 25yo G2P2002 with a past medical history of asthma requiring
+    albuterol as needed.  She received regular prenatal care, and prenatal labs included
+    A+, Ab neg, HepBSAg neg, RI, RPR NR, GBS -, HIV neg, GC/CT neg.  She had a second
+    trimester ultrasound which showed normal results.  She underwent a normal spontaneous
+    vaginal delivery about 28 hours ago.  '
 --- !u!1 &303795562
 GameObject:
   m_ObjectHideFlags: 0
@@ -14952,6 +15002,7 @@ GameObject:
   - 4: {fileID: 685514412}
   - 114: {fileID: 685514414}
   - 65: {fileID: 685514413}
+  - 114: {fileID: 685514415}
   m_Layer: 8
   m_Name: Anwser
   m_TagString: Untagged
@@ -15064,6 +15115,20 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &685514415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 685514411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6f74d213b5bb4cbbe59fa3c434aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaseToShow: 0
+  labelToModify: {fileID: 685514414}
+  value: No, I didn't know what to do.
 --- !u!1 &686227429
 GameObject:
   m_ObjectHideFlags: 0
@@ -23784,7 +23849,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
       propertyPath: currentCase
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
@@ -31397,7 +31462,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9d71f099f8ece4b945ec5b30553e2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCase: 1
+  currentCase: 0
 --- !u!4 &1525723583
 Transform:
   m_ObjectHideFlags: 0
@@ -38292,7 +38357,7 @@ MonoBehaviour:
   autoSize: 0
   autoHeight: 0
   wordWrap: 1
-  text: 'WBC 5, Hb 12, Hct 40, Platelets 250, N 20, BO, L40, M10. E3
+  text: 'WBC 5, Hb 12, Hct 40, Platelets 250, N 20, BO, L40, M10, E3
 
 '
   bottomColor:
