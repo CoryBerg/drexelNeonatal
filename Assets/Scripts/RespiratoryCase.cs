@@ -10,6 +10,7 @@ public class RespiratoryCase : MonoBehaviour {
 	public string heartRate, Sp02, bloodPressure, temperature;
 	
 	public int currentState = 0;
+	private SWP_HeartRateMonitor heartMonitor;
 	/*
 	*	States:
 	*		0 - Initial
@@ -17,10 +18,12 @@ public class RespiratoryCase : MonoBehaviour {
 	*		2 - Correct needle decomp, baby healthy
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
-	
+	void Start() {
+		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
+	}
 	// Update is called once per frame
 	void Update () {
-		GameObject.Find ("HeartMonitor").GetComponent<SWP_HeartRateMonitor> ().BeatsPerMinute = bpm/4;
+		heartMonitor.BeatsPerMinute = bpm/4;
 		
 		if(!isCorrect) {
 			timer += Time.deltaTime;
