@@ -149,6 +149,7 @@ public class RespiratoryCase : MonoBehaviour {
 	protected void ChangeScene() {
 		if (currentState == 2) {
 			Application.LoadLevel ("Success");
+			CaseHandler.Instance.ActivateCardiac(); // Beating this activates the cardiac test.
 		} else {
 			Application.LoadLevel ("Failure");
 		}

@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 1843555348}
   m_GameObject: {fileID: 46787873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: .00166666671, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 862612588}
@@ -166,6 +166,7 @@ GameObject:
   - 4: {fileID: 81558948}
   - 114: {fileID: 81558950}
   - 65: {fileID: 81558949}
+  - 114: {fileID: 81558951}
   m_Layer: 8
   m_Name: Label 1
   m_TagString: Untagged
@@ -280,6 +281,21 @@ MonoBehaviour:
     m_Bottom: 0
   tabSize: 48
   tabStops: 
+--- !u!114 &81558951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 81558947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ada6f74d213b5bb4cbbe59fa3c434aeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CaseToShow: 0
+  labelToModify: {fileID: 0}
+  value: One day old male infant born at 36 weeks gestation who was admitted to the
+    NICU for suspected neonatal sepsis.
 --- !u!1 &199010812
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,8 +801,8 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
-  - {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1951,6 +1967,10 @@ Prefab:
     - target: {fileID: 100000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
       propertyPath: m_Name
       value: _CaseHandler
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
+      propertyPath: currentCase
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
