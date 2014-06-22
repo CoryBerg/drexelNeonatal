@@ -5,10 +5,12 @@ using System.Collections.Generic;
 public class UILogger : MonoBehaviour {
 	public dfLabel textbox;
 	public static Dictionary<string,int> UILog; // Mapped button to count of times pressed
+	public static List<string> ButtonsPressed; // Order in which buttons are pressed... for evaluation log
 	// Use this for initialization
 	void Start () {
 //		dfButton buttons = gameObject.GetComponentsInChildren<
 		UILog = new Dictionary<string, int>();
+		ButtonsPressed = new List<string>();
 		foreach(dfButton button in gameObject.GetComponentsInChildren(typeof(dfButton))) {
 			button.gameObject.AddComponent<UIButtonLogger>();
 		}

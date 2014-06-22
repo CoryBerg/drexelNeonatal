@@ -17,5 +17,6 @@ public class UIButtonLogger : MonoBehaviour
 		} else {
 			UILogger.UILog.Add(this.name,1);
 		}
+		UILogger.ButtonsPressed.Add(this.name);
 	}
 }
