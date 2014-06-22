@@ -7491,6 +7491,7 @@ GameObject:
   - 20: {fileID: 309211500}
   - 124: {fileID: 309211499}
   - 92: {fileID: 309211498}
+  - 81: {fileID: 309211497}
   m_Layer: 0
   m_Name: RoomCam
   m_TagString: Untagged
@@ -7509,6 +7510,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 828037753}
+--- !u!81 &309211497
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 78377a86a213043b48ce72c02f51cfee,
+    type: 2}
+  m_PrefabInternal: {fileID: 386627765}
+  m_GameObject: {fileID: 309211495}
+  m_Enabled: 1
 --- !u!92 &309211498
 Behaviour:
   m_ObjectHideFlags: 0
@@ -7550,7 +7559,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
@@ -19020,7 +19029,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 896265258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .00166666671, z: 0}
+  m_LocalPosition: {x: .00166666671, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 615988969}

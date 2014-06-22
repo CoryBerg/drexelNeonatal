@@ -801,8 +801,8 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
+  - {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1055,6 +1055,7 @@ GameObject:
   - 20: {fileID: 1063981325}
   - 124: {fileID: 1063981324}
   - 92: {fileID: 1063981323}
+  - 81: {fileID: 1063981327}
   m_Layer: 0
   m_Name: RoomCam
   m_TagString: Untagged
@@ -1103,7 +1104,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967039
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
@@ -1119,6 +1120,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1426849250}
+--- !u!81 &1063981327
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 8100000, guid: 78377a86a213043b48ce72c02f51cfee,
+    type: 2}
+  m_PrefabInternal: {fileID: 1911101771}
+  m_GameObject: {fileID: 1063981321}
+  m_Enabled: 1
 --- !u!1 &1426849249
 GameObject:
   m_ObjectHideFlags: 0

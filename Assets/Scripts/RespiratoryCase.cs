@@ -145,11 +145,12 @@ public class RespiratoryCase : MonoBehaviour {
 		
 		Invoke ("ChangeScene", 3.0f);
 	}
-	
-	protected void ChangeScene() {
+
+	// Overridable, cardiac case and any future cases may not always do the same thing or activate specific scenarios
+	protected virtual void ChangeScene() {
 		if (currentState == 2) {
-			Application.LoadLevel ("Success");
 			CaseHandler.Instance.ActivateCardiac(); // Beating this activates the cardiac test.
+			Application.LoadLevel ("Success");
 		} else {
 			Application.LoadLevel ("Failure");
 		}
