@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b9d71f099f8ece4b945ec5b30553e2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCase: 1
+  currentCase: 0
 --- !u!4 &890234229
 Transform:
   m_ObjectHideFlags: 0
@@ -1877,8 +1877,8 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
+  - {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -1998,6 +1998,10 @@ Prefab:
     - target: {fileID: 400000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
+      propertyPath: currentCase
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c5b0d5c9c8c4b64387836cb08e19950, type: 2}
