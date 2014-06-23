@@ -63,12 +63,12 @@ SubShader{
             albedo += tex2D ( _Texture2, IN.uv_Texture2 ) * _Blend;
             o.Albedo = albedo.rgb;
             
-            float4 normal =  tex2D ( _BumpMap, IN.uv_MainTex ) * (1 - _Blend) ;
-            normal += tex2D ( _BumpMap, IN.uv_Texture2 ) * _Blend;
+            float4 normal =  tex2D ( _BumpMap, IN.uv_MainTex ) ;
+            //normal += tex2D ( _BumpMap, IN.uv_Texture2 ) * _Blend;
             o.Normal = UnpackNormal ( normal );
             
-            float4 specular = tex2D ( _SpecularTex, IN.uv_MainTex )  * (1 - _Blend);
-            specular += tex2D ( _SpecularTex, IN.uv_Texture2 )  * _Blend;
+            float4 specular = tex2D ( _SpecularTex, IN.uv_MainTex );
+            //specular += tex2D ( _SpecularTex, IN.uv_Texture2 )  * _Blend;
             o.Specular = specular.rgb;
             
             // ********* Don - Major modification *************
@@ -78,12 +78,12 @@ SubShader{
 
             // Get a mip of the normal map to ignore any small details for regular shading.
             
-            float4 normalBlur = tex2Dlod ( _BumpMap, float4 ( IN.uv_MainTex, 0.0, _BumpBias )  * (1 - _Blend));
-            normalBlur += tex2Dlod ( _BumpMap, float4 ( IN.uv_Texture2, 0.0, _BumpBias )  * _Blend);
+            float4 normalBlur = tex2Dlod ( _BumpMap, float4 ( IN.uv_MainTex, 1.0, _BumpBias ));
+            //normalBlur += tex2Dlod ( _BumpMap, float4 ( IN.uv_Texture2, 0.0, _BumpBias )  * _Blend);
             
             
             
-            o.NormalBlur = UnpackNormal( normalBlur );
+            o.NormalBlur = UnpackNormal( normalBlur ) * 0.001;
             // Transform it back into a world normal so we can get good derivatives from it.
             float3 worldNormal = WorldNormalVector( IN, o.NormalBlur );
             // Get the scale of the derivatives of the blurred world normal and the world position.
@@ -98,7 +98,7 @@ SubShader{
                 float deltaWorldPosition = length( fwidth ( IN.worldPos ) );
             #endif
 
-            o.Curvature = ( deltaWorldNormal / deltaWorldPosition ) * _CurvatureScale;
+            //o.Curvature = ( deltaWorldNormal / deltaWorldPosition ) * _CurvatureScale * 0.000000001;
         }
 
         inline fixed4 LightingSkinShader( SurfaceOutputSkinShader s, fixed3 lightDir, fixed3 viewDir, fixed atten )
