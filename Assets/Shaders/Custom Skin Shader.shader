@@ -58,21 +58,32 @@ SubShader{
         void surf (Input IN, inout SurfaceOutputSkinShader o)
         {   
 
-            // ********* Don - Major modification of diffuss *************
+            // ********* Don - Major modification *************
             float4 albedo = tex2D ( _MainTex, IN.uv_MainTex ) * (1 - _Blend);
             albedo += tex2D ( _Texture2, IN.uv_Texture2 ) * _Blend;
             o.Albedo = albedo.rgb;
-
-            // ********* Don - Major modification of diffuss *************
-
-            o.Normal = UnpackNormal ( tex2D ( _BumpMap, IN.uv_MainTex ) );
-
-            o.Specular = tex2D ( _SpecularTex, IN.uv_MainTex ).rgb;
+            
+            float4 normal =  tex2D ( _BumpMap, IN.uv_MainTex ) * (1 - _Blend) ;
+            normal += tex2D ( _BumpMap, IN.uv_Texture2 ) * _Blend;
+            o.Normal = UnpackNormal ( normal );
+            
+            float4 specular = tex2D ( _SpecularTex, IN.uv_MainTex )  * (1 - _Blend);
+            specular += tex2D ( _SpecularTex, IN.uv_Texture2 )  * _Blend;
+            o.Specular = specular.rgb;
+            
+            // ********* Don - Major modification *************
 
             // Calculate the curvature of the model dynamically.
+            
 
             // Get a mip of the normal map to ignore any small details for regular shading.
-            o.NormalBlur = UnpackNormal( tex2Dlod ( _BumpMap, float4 ( IN.uv_MainTex, 0.0, _BumpBias ) ) );
+            
+            float4 normalBlur = tex2Dlod ( _BumpMap, float4 ( IN.uv_MainTex, 0.0, _BumpBias )  * (1 - _Blend));
+            normalBlur += tex2Dlod ( _BumpMap, float4 ( IN.uv_Texture2, 0.0, _BumpBias )  * _Blend);
+            
+            
+            
+            o.NormalBlur = UnpackNormal( normalBlur );
             // Transform it back into a world normal so we can get good derivatives from it.
             float3 worldNormal = WorldNormalVector( IN, o.NormalBlur );
             // Get the scale of the derivatives of the blurred world normal and the world position.

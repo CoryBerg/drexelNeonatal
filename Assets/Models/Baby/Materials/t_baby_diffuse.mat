@@ -59,6 +59,10 @@ Material:
         second: 0
       data:
         first:
+          name: _Alpha
+        second: 1
+      data:
+        first:
           name: _CurvatureScale
         second: 0
       data:
@@ -69,10 +73,6 @@ Material:
         first:
           name: _BumpBias
         second: 39.7999992
-      data:
-        first:
-          name: _Alpha
-        second: 1
     m_Colors:
       data:
         first:
@@ -80,9 +80,9 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _SpecColor
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _Emission
         second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
