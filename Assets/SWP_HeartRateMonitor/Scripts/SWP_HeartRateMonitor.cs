@@ -36,7 +36,7 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 	private float TrailTime;
 	private float BeatsPerSecond;
 	private float LastUpdate = 0f;
-	private Vector3 BlipOffset = Vector3.zero;
+	public Vector3 BlipOffset = Vector3.zero;
 	private float DisplayXEnd;
 	
 	// Use this for initialization
@@ -53,7 +53,6 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 	void Update()
 	{
 		BeatsPerSecond = 60f / BeatsPerMinute;
-		BlipOffset = new Vector3 (transform.position.x - (BlipMonitorWidth / 2), transform.position.y, transform.position.z);
 		DisplayXEnd = BlipOffset.x + BlipMonitorWidth;
 		
 		if (NewClone.transform.position.x > DisplayXEnd)
@@ -67,10 +66,10 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 			CreateClone();
 		}
 		else if (!FlatLine)
-			NewClone.transform.position += new Vector3(BlipMonitorWidth * Time.deltaTime * LineSpeed, (!EnableRealWave ? Random.Range(-0.001f, 0.001f) : 0f), 0);
+			NewClone.transform.position += new Vector3(BlipMonitorWidth * Time.deltaTime * LineSpeed, (!EnableRealWave ? Random.Range(-0.001f, 0.001f) : 0f), BlipMonitorWidth * Time.deltaTime * LineSpeed);
 		else
 		{
-			NewClone.transform.position += new Vector3(BlipMonitorWidth * Time.deltaTime * LineSpeed, 0, 0);
+			NewClone.transform.position += new Vector3(BlipMonitorWidth * Time.deltaTime * LineSpeed, 0, BlipMonitorWidth * Time.deltaTime * LineSpeed);
 			
 			if (!bFlatLinePlayed)
 			{
@@ -98,16 +97,16 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 			if (!bFlatLinePlayed)
 				PlayHeartSound(1, HeartVolume);
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 10f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 2f) * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 10f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 2f) * BlipMonitorHeightModifier)) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.03f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -5f) * BlipMonitorHeightModifier) - Random.Range(0f, ((ScaleAmount * 10f) * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -5f) * BlipMonitorHeightModifier) - Random.Range(0f, ((ScaleAmount * 10f) * BlipMonitorHeightModifier)) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.02f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 3f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 2f) * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 3f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 2f) * BlipMonitorHeightModifier)) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.02f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 1f) * BlipMonitorHeightModifier)) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2f) * BlipMonitorHeightModifier) + Random.Range(0f, ((ScaleAmount * 1f) * BlipMonitorHeightModifier)) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.02f);		
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, 0f + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, 0f + BlipOffset.y, NewClone.transform.position.z);
 			
 			yield return new WaitForSeconds(0.2f);		
 			
@@ -116,50 +115,50 @@ public class SWP_HeartRateMonitor : MonoBehaviour
 		}
 		else
 		{
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.5f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.5f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.03f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.2f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.2f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 0f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 0f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.1f);		
 			
 			if (!bFlatLinePlayed)
 				PlayHeartSound(1, HeartVolume);
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -1f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -1f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 10f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 10f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.03f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -3f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * -3f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.02f);		
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 0f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 0f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.2f);		
 			
 			if (!bFlatLinePlayed)
 				PlayHeartSound(2, HeartVolume);
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.0f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1.0f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.3f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.3f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.5f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.5f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.05f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.3f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.3f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.0f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 2.0f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, ((ScaleAmount * 1f) * BlipMonitorHeightModifier) + BlipOffset.y, NewClone.transform.position.z);
 			yield return new WaitForSeconds(0.01f);		
 			
-			NewClone.transform.position = new Vector3(NewClone.transform.position.x, 0f + BlipOffset.y, BlipOffset.z);
+			NewClone.transform.position = new Vector3(NewClone.transform.position.x, 0f + BlipOffset.y, NewClone.transform.position.z);
 		}
 	}
 	
