@@ -12,8 +12,9 @@ public class ChestVisualization : MonoBehaviour {
 	}
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
-		chestCamera.enabled = true;
-		/*mainCamera.enabled = false;
-		blipCamera.enabled = false;*/
+		print ("Bah");
+		chestCamera.gameObject.SetActive(true);
+		mainCamera.enabled = false;
+		blipCamera.enabled = false;
 	}
 }
