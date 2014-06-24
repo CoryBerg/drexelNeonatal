@@ -44,7 +44,21 @@ public class TestHandler : MonoBehaviour {
 
 	IEnumerator DoTest(TestStuff aTest) {
 		TestsCompleted[aTest.name] = false;
-		yield return new WaitForSeconds(aTest.length);
+		
+		lbl.Text = aTest.name + " Test Begun";
+		// This tweening will be buggy.
+		if(!tweener.IsPlaying) {
+			tweener.Play();
+		}
+		float t = 0;
+		while(t <= 2.5f) {
+			t += Time.deltaTime;
+			yield return 0;
+		}
+		if(!reverseTweener.IsPlaying) {
+			reverseTweener.Play();
+		}
+		yield return new WaitForSeconds(aTest.length - t);
 		TestsCompleted[aTest.name] = true;
 		lbl.Text = aTest.name + " Results Available";
 		// This tweening will be buggy.
