@@ -63,7 +63,7 @@ public class RespiratoryCase : MonoBehaviour {
 
 	// Update is called once per frame
 	protected virtual void Update () {
-		heartMonitor.BeatsPerMinute = bpm/4;
+		heartMonitor.BeatsPerMinute = bpm;///4;
 	}
 
 	protected void UpdateMonitor() {
