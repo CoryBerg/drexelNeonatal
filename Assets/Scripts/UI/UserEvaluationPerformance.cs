@@ -4,6 +4,11 @@ using System.Collections.Generic;
 
 public class UserEvaluationPerformance : MonoBehaviour {
 	private dfLabel lbl;
+	static Dictionary<string, string> _translationDict = new Dictionary<string, string>
+	{
+		{"ButtonConsultServices","Consult Services"},
+		{"ButtonPhysicalExam","Physical Exam"}
+	};
 	// Use this for initialization
 	void Start () {
 		lbl = this.GetComponent<dfLabel>();
@@ -19,8 +24,14 @@ public class UserEvaluationPerformance : MonoBehaviour {
 //		UILogger.ButtonsPressed.Add("Meowth, That's Right");
 		if(UILogger.ButtonsPressed != null) {
 			string textVal = string.Format("{0:D}. {1}", 1, UILogger.ButtonsPressed[0]);
+			int c = 2;
 			for(int i = 1; i < UILogger.ButtonsPressed.Count; i++) {
-				textVal = string.Format("{0}\n{1:D}. {2}",textVal,i + 1,UILogger.ButtonsPressed[i]);
+				if(UILogger.ButtonsPressed[i].Contains("Exit")) {
+					continue;
+				}
+				string v = _translationDict.ContainsKey(UILogger.ButtonsPressed[i]) ? _translationDict[UILogger.ButtonsPressed[i]] : UILogger.ButtonsPressed[i];
+				textVal = string.Format("{0}\n{1:D}. {2}",textVal,c,v);
+				c++;
 			}
 			lbl.Text = textVal;
 		} else {
