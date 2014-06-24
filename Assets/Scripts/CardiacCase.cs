@@ -17,7 +17,7 @@ public class CardiacCase : RespiratoryCase {
 			else if((timer >= 1800.0f) && (currentState == 1)) {
 				BabyDeath();
 			}
-			else {
+			else if(currentState == 0) {
 				InitialState();
 			}
 		}
@@ -32,6 +32,7 @@ public class CardiacCase : RespiratoryCase {
 		bloodPressure = "50/25";
 		heartRate = "180";
 		bpm = 180;
+		UpdateMonitor();
 	}
 
 	protected override void BabyDeath () {
@@ -42,6 +43,7 @@ public class CardiacCase : RespiratoryCase {
 		heartRate = "140";
 		bpm = 140;
 		// Pulse strength strong
+		UpdateMonitor();
 	}
 
 	protected override void BabyRecovery ()	{
@@ -54,6 +56,7 @@ public class CardiacCase : RespiratoryCase {
 		// strong pulse
 		// cyanosis disabled
 		Invoke ("ChangeScene", 3.0f);
+		UpdateMonitor();
 	}
 
 	// After 20 minutes without prostaglandin drip
@@ -66,6 +69,7 @@ public class CardiacCase : RespiratoryCase {
 		bloodPressure = "30/10";
 		heartRate = "220";
 		bpm = 220;
+		UpdateMonitor();
 		// weak pulse strength
 	}
 }

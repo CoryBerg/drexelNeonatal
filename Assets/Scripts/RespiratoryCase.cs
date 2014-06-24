@@ -6,12 +6,14 @@ public class RespiratoryCase : MonoBehaviour {
 	public Animator baby;
 	public bool isCorrect = false;
 	public float timer = 0.0f;
-	
+
+
 	public int bpm;
 	public string heartRate, Sp02, bloodPressure, temperature;
 	
 	public int currentState = 0;
 	protected SWP_HeartRateMonitor heartMonitor;
+	private float firstTime = 3f;
 	/*
 	*	States:
 	*		0 - Initial
@@ -29,20 +31,25 @@ public class RespiratoryCase : MonoBehaviour {
 		
 		if(!isCorrect) {
 			timer += Time.deltaTime;
-			
+
+			// should be 300f
 			if((timer >= 300.0f) && (currentState == 0)) {
 				FurtherDecomp();
 			}
 			else if((timer >= 600.0f) && (currentState == 1)) {
 				BabyDeath();
 			}
-			else {
+			else if(currentState == 0) {
 				InitialState();
 			}
 		}
 		else {
 			BabyRecovery();
 		}
+	}
+
+	protected void UpdateMonitor() {
+		MonitorUpdates.Instance.UpdateMonitor(Sp02,temperature,bloodPressure,heartRate);
 	}
 	
 	// Initial state of baby
@@ -70,12 +77,13 @@ public class RespiratoryCase : MonoBehaviour {
 		heartRate = "180";
 		bpm = 180;
 		// Pulse strength weak
+		UpdateMonitor();
 	}
 	
 	// No needle decomp by 5 min (regardless of interations or lack thereof) or needle decomp in incorrect location
 	protected virtual void FurtherDecomp() {
+		print ("DECOMPING");
 		currentState = 1;
-		
 		// Chest retraction
 		// Nasal flaring
 		// Grunting
@@ -91,6 +99,7 @@ public class RespiratoryCase : MonoBehaviour {
 		bpm = 220;
 		heartRate = "220";
 		// Pulse strength weak
+		UpdateMonitor();
 	}
 	
 	// Needle decomp by 5 min in correct location
@@ -118,6 +127,7 @@ public class RespiratoryCase : MonoBehaviour {
 		//baby.GetComponent<BabyAnimatorController>().currentState = "";
 		
 		Invoke ("ChangeScene", 3.0f);
+		UpdateMonitor();
 	}
 	
 	// No needle decomp by 10 min (5+5, regardless of interations or lack thereof) or needle decomp in incorrect location
@@ -144,6 +154,7 @@ public class RespiratoryCase : MonoBehaviour {
 		// END SCENARIO WITH FAIL
 		
 		Invoke ("ChangeScene", 3.0f);
+		UpdateMonitor();
 	}
 
 	// Overridable, cardiac case and any future cases may not always do the same thing or activate specific scenarios
