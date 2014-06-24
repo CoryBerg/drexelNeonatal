@@ -33,7 +33,7 @@ public class RespiratoryCase : MonoBehaviour {
 			timer += Time.deltaTime;
 
 			// should be 300f
-			if((timer >= 300.0f) && (currentState == 0)) {
+			if((timer >= 300.0) && (currentState == 0)) {
 				FurtherDecomp();
 			}
 			else if((timer >= 600.0f) && (currentState == 1)) {
