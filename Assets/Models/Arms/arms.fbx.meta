@@ -165,6 +165,8 @@ ModelImporter:
     100318: R_Wrist_FK_anim
     100320: R_Wrist_FK_o
     100322: R_Wrist_IK
+    100324: Default
+    100326: needle_a_o
     400000: arm_root
     400002: //RootNode
     400004: arms_master_controller
@@ -327,8 +329,13 @@ ModelImporter:
     400318: R_Wrist_FK_anim
     400320: R_Wrist_FK_o
     400322: R_Wrist_IK
+    400324: Default
+    400326: needle_a_o
+    2300000: Default
+    3300000: Default
     4300000: polySurface1
     4300002: polySurface2
+    4300004: Default
     7400000: Take 001
     9500000: //RootNode
     13700000: polySurface1
