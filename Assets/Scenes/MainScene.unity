@@ -14408,7 +14408,7 @@ GameObject:
   - 114: {fileID: 516964316}
   m_Layer: 0
   m_Name: baby
-  m_TagString: Untagged
+  m_TagString: Baby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27566,6 +27566,10 @@ Prefab:
     - target: {fileID: 400000, guid: 4d2b4f141863d1946b4f30bef343aa21, type: 3}
       propertyPath: m_RootOrder
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4d2b4f141863d1946b4f30bef343aa21, type: 3}
+      propertyPath: m_TagString
+      value: Baby
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4d2b4f141863d1946b4f30bef343aa21, type: 3}
