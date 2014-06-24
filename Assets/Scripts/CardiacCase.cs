@@ -6,24 +6,11 @@ public class CardiacCase : RespiratoryCase {
 	// 1 = furtherdecomp
 	// 2 = win
 	// 3 = death
-	protected override void Update () {
-		heartMonitor.BeatsPerMinute = bpm/4;
-		if(!isCorrect) {
-			timer += Time.deltaTime;
-			
-			if((timer >= 900.0f) && (currentState == 0)) {
-				FurtherDecomp();
-			}
-			else if((timer >= 1800.0f) && (currentState == 1)) {
-				BabyDeath();
-			}
-			else if(currentState == 0) {
-				InitialState();
-			}
-		}
-		else {
-			BabyRecovery();
-		}
+	
+	protected override void Awake() {
+		base.Awake();
+		decompTimer = 900f;
+		deathTimer = 1800f;
 	}
 
 	protected override void InitialState ()	{

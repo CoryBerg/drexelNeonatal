@@ -10,7 +10,7 @@ public class RespiratoryCase : MonoBehaviour {
 
 	public int bpm;
 	public string heartRate, Sp02, bloodPressure, temperature;
-	
+	protected float decompTimer, deathTimer;
 	public int currentState = 0;
 	protected SWP_HeartRateMonitor heartMonitor;
 	private float firstTime = 3f;
@@ -23,29 +23,47 @@ public class RespiratoryCase : MonoBehaviour {
 	*/
 	protected virtual void Awake() {
 		InitialState();
+		decompTimer = 300f;
+		deathTimer = 600f;
 		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
 	}
+
+	protected virtual void Start() {
+		StartCoroutine(DecompState());
+		StartCoroutine(DeathCondition());
+		StartCoroutine(WinCondition());
+	}
+
+	protected virtual IEnumerator WinCondition() {
+		while(!isCorrect) {
+			yield return 0;
+		}
+		BabyRecovery();
+		StopCoroutine("DeathCondition");
+		StopCoroutine("DecompState");
+	}
+
+	protected virtual IEnumerator DecompState() {
+		float time = 0f;
+		while(time < decompTimer) {
+			time += Time.deltaTime;
+			yield return 0;
+		} // Wait 300 seconds, if still in state 0--decomp the baby.
+		if(currentState == 0) {
+			FurtherDecomp();
+		}
+	}
+	
+	protected virtual IEnumerator DeathCondition() {
+		yield return new WaitForSeconds(deathTimer); // if 
+		if(currentState != 2) { // If you haven't won after death time is up... kill the baby
+			BabyDeath();
+		}
+	}
+
 	// Update is called once per frame
 	protected virtual void Update () {
 		heartMonitor.BeatsPerMinute = bpm/4;
-		
-		if(!isCorrect) {
-			timer += Time.deltaTime;
-
-			// should be 300f
-			if((timer >= 300.0) && (currentState == 0)) {
-				FurtherDecomp();
-			}
-			else if((timer >= 600.0f) && (currentState == 1)) {
-				BabyDeath();
-			}
-			else if(currentState == 0) {
-				InitialState();
-			}
-		}
-		else {
-			BabyRecovery();
-		}
 	}
 
 	protected void UpdateMonitor() {
@@ -82,7 +100,6 @@ public class RespiratoryCase : MonoBehaviour {
 	
 	// No needle decomp by 5 min (regardless of interations or lack thereof) or needle decomp in incorrect location
 	protected virtual void FurtherDecomp() {
-		print ("DECOMPING");
 		currentState = 1;
 		// Chest retraction
 		// Nasal flaring

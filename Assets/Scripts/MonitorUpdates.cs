@@ -7,8 +7,7 @@ public class MonitorUpdates : MonoBehaviour {
 	void Awake() {
 		Instance = this;
 	}
-	
-	
+
 	public void UpdateMonitor(string so2, string t, string bp, string hr) {
 		print ("Monitor Updating");
 		spO2.Text = so2;
