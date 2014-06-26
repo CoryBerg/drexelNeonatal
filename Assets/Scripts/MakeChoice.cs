@@ -3,15 +3,16 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class MakeChoice : MonoBehaviour {
-	private GameObject baby;
 	public bool IsAnswer;
 
+	private GameObject arms;
+
+	void Awake() {
+		arms = GameObject.Find ("arms");
+	}
+
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
-		baby = GameObject.FindGameObjectWithTag ("Baby");
-		Debug.Log (this.transform.name);
-		print (baby.name);
-		baby.GetComponent<BabyAnimatorController>().currentState = transform.name;
-		baby.GetComponent<BabyAnimatorController>().hasChanged = true;
+		arms.GetComponent<ArmAnimatorController>().TriggerAnimation(transform.name);
 		CaseInitializer.Instance.ActiveCase.isCorrect = IsAnswer;
 	}
 }
