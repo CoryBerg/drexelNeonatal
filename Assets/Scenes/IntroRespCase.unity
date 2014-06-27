@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 1843555348}
   m_GameObject: {fileID: 46787873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: .00166666671, z: 0}
+  m_LocalPosition: {x: .00166666671, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 862612588}
@@ -294,6 +294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CaseToShow: 0
   labelToModify: {fileID: 0}
+  text: {fileID: 0}
   value: One day old male infant born at 36 weeks gestation who was admitted to the
     NICU for suspected neonatal sepsis.
 --- !u!1 &199010812
@@ -498,7 +499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &560578798
 Transform:
   m_ObjectHideFlags: 0
@@ -744,6 +745,7 @@ MonoBehaviour:
   Heart1: {fileID: 8300000, guid: e2d32f2b7c196534fbd0574934a04124, type: 3}
   Heart2: {fileID: 8300000, guid: e486690a11ef54a41a716560bbc771ea, type: 3}
   Flatline: {fileID: 8300000, guid: aac17062d8d0572478682f6db05ddc08, type: 3}
+  BlipOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &862612587
 GameObject:
   m_ObjectHideFlags: 0
