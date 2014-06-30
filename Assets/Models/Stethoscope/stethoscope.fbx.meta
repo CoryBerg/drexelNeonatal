@@ -29,6 +29,11 @@ ModelImporter:
     100046: stethoscope_e_o
     100048: stethoscope_end
     100050: stethoscope_f
+    100052: cluster6Handle
+    100054: mstr_cntrl
+    100056: stethoscope_c2_anim
+    100058: stethoscope_c2_o
+    100060: stethoscope_mesh
     400000: cluster1Handle
     400002: cluster2Handle
     400004: cluster3Handle
@@ -55,9 +60,17 @@ ModelImporter:
     400046: stethoscope_e_o
     400048: stethoscope_end
     400050: stethoscope_f
+    400052: cluster6Handle
+    400054: mstr_cntrl
+    400056: stethoscope_c2_anim
+    400058: stethoscope_c2_o
+    400060: stethoscope_mesh
     4300000: m_stethoscope_kg_2:stethoscope_mesh
+    4300002: stethoscope_mesh
+    7400000: Take 001
     9500000: //RootNode
     13700000: m_stethoscope_kg_2:stethoscope_mesh
+    13700002: stethoscope_mesh
   materials:
     importMaterials: 1
     materialName: 0
@@ -66,6 +79,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
