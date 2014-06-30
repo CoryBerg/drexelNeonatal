@@ -5,19 +5,30 @@ public class ArmAnimatorController : MonoBehaviour {
 	private Animator animator;
 	private ArmAnimationContainer animations;
 	private ArmItemsContainer items;
+	private ArmSpecialCase special;
 
 	// Use this for initialization
 	void Awake() {
 		animations = new ArmAnimationContainer ();
 		items = new ArmItemsContainer ();
 		animator = GetComponent<Animator> ();
+		special = new ArmSpecialCase ();
 
 		items.DisableAllItems ();
 	}
 
 	// Triggers mechanim state for animation
 	public void TriggerAnimation(string animation) {
-		items.EnableItem (animation);
+		if(animation != "ButtonIntubation") {
+			special.ReturnToInitial ();
+		}
+
+		items.NewAnimation (animation);
+
+		if(animation == "ButtonIntubation") {
+			special.EnableSpecialCaseItem (items);
+		}
+
 		animator.SetTrigger (animations.GetAnimation(animation));
 	}
 }

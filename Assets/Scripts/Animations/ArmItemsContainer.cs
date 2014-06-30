@@ -11,13 +11,17 @@ public class ArmItemsContainer {
 		{
 			{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
 			{"ButtonSteth", GameObject.Find ("stethoscope")},
-			//{"ButtonIntubation", GameObject.Find ("laryngoscope")},
+			{"ButtonIntubation", GameObject.Find ("laryngoscope")},
+			{"Intubation", GameObject.Find ("endotrachealTube")}
 		};
 	}
 
-	public void EnableItem(string key) {
+	public void NewAnimation(string animation) {
 		DisableAllItems ();
+		EnableItem (animation);
+	}
 
+	public void EnableItem(string key) {
 		GameObject tmp = null;
 
 		if(items.TryGetValue(key, out tmp)) {
