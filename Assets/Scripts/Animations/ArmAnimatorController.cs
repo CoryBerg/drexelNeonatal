@@ -7,25 +7,33 @@ public class ArmAnimatorController : MonoBehaviour {
 	private ArmItemsContainer items;
 	private ArmSpecialCase special;
 
+	private bool doOnce = true;
+
 	// Use this for initialization
 	void Awake() {
 		animations = new ArmAnimationContainer ();
 		items = new ArmItemsContainer ();
-		animator = GetComponent<Animator> ();
 		special = new ArmSpecialCase ();
+
+		animator = GetComponent<Animator> ();
 
 		items.DisableAllItems ();
 	}
 
-	// Triggers mechanim state for animation
-	public void TriggerAnimation(string animation) {
-		if(animation != "ButtonIntubation") {
+	// Called every frame
+	void Update() {
+		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Return") && doOnce) {
+			doOnce = false;
 			special.ReturnToInitial ();
 		}
+	}
 
+	// Triggers mechanim state for animation
+	public void TriggerAnimation(string animation) {
 		items.NewAnimation (animation);
 
 		if(animation == "ButtonIntubation") {
+			doOnce = true;
 			special.EnableSpecialCaseItem (items);
 		}
 

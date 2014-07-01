@@ -5,14 +5,14 @@ using System.Collections.Generic;
 public class MakeChoice : MonoBehaviour {
 	public bool IsAnswer;
 
-	private GameObject arms;
+	private AnimationHandler handler;
 
 	void Awake() {
-		arms = GameObject.Find ("arms");
+		handler = new AnimationHandler ();
 	}
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
-		arms.GetComponent<ArmAnimatorController>().TriggerAnimation(transform.name);
+		handler.HandleAnimation (transform.name);
 		CaseInitializer.Instance.ActiveCase.isCorrect = IsAnswer;
 	}
 }
