@@ -18,7 +18,6 @@ public class ChestExamHider : MonoBehaviour {
 
 	// When it's selected from exam menu
 	public void HideItems() {
-		print ("Whaaa");
 		foreach(dfButton b in buttonsToHide) {
 			b.IsVisible = false;
 		}
