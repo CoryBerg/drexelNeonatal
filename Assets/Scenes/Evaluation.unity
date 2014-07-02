@@ -307,7 +307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b43a1196f8397347b663f024fbdd493, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: PostTest
+  LevelName: IntroRespCase
 --- !u!65 &217313751
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -371,7 +371,7 @@ MonoBehaviour:
   pressedSprite: button-hilite
   state: 0
   group: {fileID: 0}
-  text: Go to Post Test
+  text: Next Scenario
   textAlign: 1
   vertAlign: 1
   normalColor:
@@ -440,7 +440,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 375420064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .00130208337, y: .00130208337, z: 0}
+  m_LocalPosition: {x: 0, y: .00130208337, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1092662327}
@@ -1124,7 +1124,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &851155354
 Transform:
   m_ObjectHideFlags: 0
