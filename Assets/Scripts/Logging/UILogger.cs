@@ -26,7 +26,8 @@ public class UILogger : MonoBehaviour {
 	}
 
 	public void UpdateCSV() {
-		textbox.Text = ToCSV();
+		// Hiding this for now
+		// textbox.Text = ToCSV();
 	}
 
 	public void CopyText() {
