@@ -24,6 +24,14 @@ public class CaseHandler : MonoBehaviour {
 		currentCase = aCase;
 	}
 
+	public void ActivateNext() {
+		if(currentCase == NeonatalCase.Cardiac) {
+			currentCase = NeonatalCase.Respiratory;
+		} else {
+			currentCase = NeonatalCase.Cardiac;
+		}
+	}
+
 	public void ActivateCardiac() {
 		ActivateCase(NeonatalCase.Cardiac);
 	}

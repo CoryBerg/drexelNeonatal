@@ -18,6 +18,10 @@ public class ArmAnimationContainer {
 	}
 
 	public string GetAnimation(string key) {
-		return animations[key];
+		if(animations.ContainsKey(key)) {
+			return animations[key];
+		} else {
+			return "";
+		}
 	}
 }

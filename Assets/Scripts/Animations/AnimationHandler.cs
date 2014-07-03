@@ -3,11 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class AnimationHandler {
-	private GameObject arms = GameObject.Find ("arms");
-	private GameObject baby = GameObject.Find ("baby");
+	private ArmAnimatorController arms = GameObject.Find ("arms").GetComponent<ArmAnimatorController>();
+	private BabyAnimatorController baby = GameObject.Find ("baby").GetComponent<BabyAnimatorController>();
 
 	public void HandleAnimation(string animation) {
-		arms.GetComponent<ArmAnimatorController> ().TriggerAnimation (animation);
-		baby.GetComponent<BabyAnimatorController> ().TriggerAnimation (animation);
+		// if there the animation doesn't exist... don't play anything so the simulation doesn't break.
+		if(animation == "") {
+			return;
+		}
+		arms.TriggerAnimation (animation);
+		baby.TriggerAnimation (animation);
 	}
 }

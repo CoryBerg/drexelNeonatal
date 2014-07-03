@@ -36,7 +36,12 @@ public class ArmAnimatorController : MonoBehaviour {
 			doOnce = true;
 			special.EnableSpecialCaseItem (items);
 		}
+		string animName = animations.GetAnimation(animation);
+		if(animName == "") {
+			print ("Animation DNE");
+			return;
+		}
 
-		animator.SetTrigger (animations.GetAnimation(animation));
+		animator.SetTrigger (animName);
 	}
 }

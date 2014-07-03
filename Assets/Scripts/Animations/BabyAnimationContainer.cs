@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class BabyAnimationContainer {
+	public static float ANIM_SENTINEL = 1000f;
 	private Dictionary<string, float> animations;
 
 	// Builds dictionary of ButtonPressed:AnimationName
@@ -19,6 +20,9 @@ public class BabyAnimationContainer {
 	}
 
 	public float GetAnimation(string key) {
-		return animations[key];
+		if(animations.ContainsKey(key)) {
+			return animations[key];
+		}
+		return ANIM_SENTINEL; // Sentinel value for trigger animation, this means the animation doesn't exist
 	}
 }
