@@ -1,0 +1,1208 @@
+fileFormatVersion: 2
+guid: 39bcca26977d82844b2c321daca6c952
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: arm_02_Group1
+    100002: arm_root
+    100004: arms
+    100006: //RootNode
+    100008: arms_master_controller
+    100010: bag
+    100012: bag 1
+    100014: bagConntector
+    100016: bagConntector 1
+    100018: bags
+    100020: bags 1
+    100022: chamberAndTube
+    100024: corrgulatedTube
+    100026: EET
+    100028: L_arm
+    100030: L_arm_master
+    100032: L_clavicle
+    100034: L_clavicle_anim
+    100036: L_clavicle_anim_o
+    100038: L_Elbow
+    100040: L_Elbow_FK
+    100042: L_Elbow_FK_anim
+    100044: L_Elbow_FK_o
+    100046: L_Elbow_IK
+    100048: L_Hand
+    100050: L_Hand_FK
+    100052: L_Hand_IK
+    100054: L_index_a
+    100056: L_index_a_anim
+    100058: L_index_a_o
+    100060: L_index_b
+    100062: L_index_b_anim
+    100064: L_index_b_o
+    100066: L_index_c
+    100068: L_index_c_anim
+    100070: L_index_c_o
+    100072: L_index_end
+    100074: L_middle_a
+    100076: L_middle_a_anim
+    100078: L_middle_a_o
+    100080: L_middle_b
+    100082: L_middle_b_anim
+    100084: L_middle_b_o
+    100086: L_middle_c
+    100088: L_middle_c_anim
+    100090: L_middle_c_o
+    100092: L_middle_end
+    100094: L_pinky_a
+    100096: L_pinky_a_anim
+    100098: L_pinky_a_o
+    100100: L_pinky_b
+    100102: L_pinky_b_anim
+    100104: L_pinky_b_o
+    100106: L_pinky_c
+    100108: L_pinky_c_anim
+    100110: L_pinky_c_o
+    100112: L_pinky_end
+    100114: L_ring_a
+    100116: L_ring_a_anim
+    100118: L_ring_a_o
+    100120: L_ring_b
+    100122: L_ring_b_anim
+    100124: L_ring_b_o
+    100126: L_ring_c
+    100128: L_ring_c_anim
+    100130: L_ring_c_o
+    100132: L_ring_end
+    100134: L_shoulder
+    100136: L_shoulder_FK
+    100138: L_shoulder_FK_anim
+    100140: L_shoulder_FK_o
+    100142: L_shoulder_IK
+    100144: L_shoulder_IK_anim
+    100146: L_shoulder_IK_o
+    100148: L_thumb_a
+    100150: L_thumb_a_anim
+    100152: L_thumb_a_o
+    100154: L_thumb_b
+    100156: L_thumb_b_anim
+    100158: L_thumb_b_o
+    100160: L_thumb_c
+    100162: L_thumb_c_anim
+    100164: L_thumb_c_o
+    100166: L_thumb_end
+    100168: L_thumb_end_anim
+    100170: L_thumb_end_o
+    100172: L_Wrist
+    100174: L_Wrist_FK
+    100176: L_Wrist_FK_anim
+    100178: L_Wrist_FK_o
+    100180: L_Wrist_IK
+    100182: m_endotrachealTube_kg_2_Default2
+    100184: m_laryngoscope_kg_2:Default
+    100186: nebulizer
+    100188: nebulizer_bag_only
+    100190: polySurface20
+    100192: R_arm
+    100194: R_arm_master
+    100196: R_clavicle
+    100198: R_clavicle_anim
+    100200: R_clavicle_anim_o
+    100202: R_Elbow
+    100204: R_Elbow_FK
+    100206: R_Elbow_FK_anim
+    100208: R_Elbow_FK_o
+    100210: R_Elbow_IK
+    100212: R_Hand
+    100214: R_Hand_FK
+    100216: R_Hand_IK
+    100218: R_index_a
+    100220: R_index_a_anim
+    100222: R_index_a_o
+    100224: R_index_b
+    100226: R_index_b_anim
+    100228: R_index_b_o
+    100230: R_index_c
+    100232: R_index_c_anim
+    100234: R_index_c_o
+    100236: R_index_end
+    100238: R_middle_a
+    100240: R_middle_a_anim
+    100242: R_middle_a_o
+    100244: R_middle_b
+    100246: R_middle_b_anim
+    100248: R_middle_b_o
+    100250: R_middle_c
+    100252: R_middle_c_anim
+    100254: R_middle_c_o
+    100256: R_middle_end
+    100258: R_pinky_a
+    100260: R_pinky_a_anim
+    100262: R_pinky_a_o
+    100264: R_pinky_b
+    100266: R_pinky_b_anim
+    100268: R_pinky_b_o
+    100270: R_pinky_c
+    100272: R_pinky_c_anim
+    100274: R_pinky_c_o
+    100276: R_pinky_end
+    100278: R_ring_a
+    100280: R_ring_a_anim
+    100282: R_ring_a_o
+    100284: R_ring_b
+    100286: R_ring_b_anim
+    100288: R_ring_b_o
+    100290: R_ring_c
+    100292: R_ring_c_anim
+    100294: R_ring_c_o
+    100296: R_ring_end
+    100298: R_shoulder
+    100300: R_shoulder_FK
+    100302: R_shoulder_FK_anim
+    100304: R_shoulder_FK_o
+    100306: R_shoulder_IK
+    100308: R_shoulder_IK_anim
+    100310: R_shoulder_IK_o
+    100312: R_thumb_a
+    100314: R_thumb_a_anim
+    100316: R_thumb_a_o
+    100318: R_thumb_b
+    100320: R_thumb_b_anim
+    100322: R_thumb_b_o
+    100324: R_thumb_c
+    100326: R_thumb_c_anim
+    100328: R_thumb_c_o
+    100330: R_thumb_end
+    100332: R_Wrist
+    100334: R_Wrist_FK
+    100336: R_Wrist_FK_anim
+    100338: R_Wrist_FK_o
+    100340: R_Wrist_IK
+    100342: secondary_bag
+    100344: secondary_bag 1
+    100346: tPipeEqual
+    400000: arm_02_Group1
+    400002: arm_root
+    400004: arms
+    400006: //RootNode
+    400008: arms_master_controller
+    400010: bag
+    400012: bag 1
+    400014: bagConntector
+    400016: bagConntector 1
+    400018: bags
+    400020: bags 1
+    400022: chamberAndTube
+    400024: corrgulatedTube
+    400026: EET
+    400028: L_arm
+    400030: L_arm_master
+    400032: L_clavicle
+    400034: L_clavicle_anim
+    400036: L_clavicle_anim_o
+    400038: L_Elbow
+    400040: L_Elbow_FK
+    400042: L_Elbow_FK_anim
+    400044: L_Elbow_FK_o
+    400046: L_Elbow_IK
+    400048: L_Hand
+    400050: L_Hand_FK
+    400052: L_Hand_IK
+    400054: L_index_a
+    400056: L_index_a_anim
+    400058: L_index_a_o
+    400060: L_index_b
+    400062: L_index_b_anim
+    400064: L_index_b_o
+    400066: L_index_c
+    400068: L_index_c_anim
+    400070: L_index_c_o
+    400072: L_index_end
+    400074: L_middle_a
+    400076: L_middle_a_anim
+    400078: L_middle_a_o
+    400080: L_middle_b
+    400082: L_middle_b_anim
+    400084: L_middle_b_o
+    400086: L_middle_c
+    400088: L_middle_c_anim
+    400090: L_middle_c_o
+    400092: L_middle_end
+    400094: L_pinky_a
+    400096: L_pinky_a_anim
+    400098: L_pinky_a_o
+    400100: L_pinky_b
+    400102: L_pinky_b_anim
+    400104: L_pinky_b_o
+    400106: L_pinky_c
+    400108: L_pinky_c_anim
+    400110: L_pinky_c_o
+    400112: L_pinky_end
+    400114: L_ring_a
+    400116: L_ring_a_anim
+    400118: L_ring_a_o
+    400120: L_ring_b
+    400122: L_ring_b_anim
+    400124: L_ring_b_o
+    400126: L_ring_c
+    400128: L_ring_c_anim
+    400130: L_ring_c_o
+    400132: L_ring_end
+    400134: L_shoulder
+    400136: L_shoulder_FK
+    400138: L_shoulder_FK_anim
+    400140: L_shoulder_FK_o
+    400142: L_shoulder_IK
+    400144: L_shoulder_IK_anim
+    400146: L_shoulder_IK_o
+    400148: L_thumb_a
+    400150: L_thumb_a_anim
+    400152: L_thumb_a_o
+    400154: L_thumb_b
+    400156: L_thumb_b_anim
+    400158: L_thumb_b_o
+    400160: L_thumb_c
+    400162: L_thumb_c_anim
+    400164: L_thumb_c_o
+    400166: L_thumb_end
+    400168: L_thumb_end_anim
+    400170: L_thumb_end_o
+    400172: L_Wrist
+    400174: L_Wrist_FK
+    400176: L_Wrist_FK_anim
+    400178: L_Wrist_FK_o
+    400180: L_Wrist_IK
+    400182: m_endotrachealTube_kg_2_Default2
+    400184: m_laryngoscope_kg_2:Default
+    400186: nebulizer
+    400188: nebulizer_bag_only
+    400190: polySurface20
+    400192: R_arm
+    400194: R_arm_master
+    400196: R_clavicle
+    400198: R_clavicle_anim
+    400200: R_clavicle_anim_o
+    400202: R_Elbow
+    400204: R_Elbow_FK
+    400206: R_Elbow_FK_anim
+    400208: R_Elbow_FK_o
+    400210: R_Elbow_IK
+    400212: R_Hand
+    400214: R_Hand_FK
+    400216: R_Hand_IK
+    400218: R_index_a
+    400220: R_index_a_anim
+    400222: R_index_a_o
+    400224: R_index_b
+    400226: R_index_b_anim
+    400228: R_index_b_o
+    400230: R_index_c
+    400232: R_index_c_anim
+    400234: R_index_c_o
+    400236: R_index_end
+    400238: R_middle_a
+    400240: R_middle_a_anim
+    400242: R_middle_a_o
+    400244: R_middle_b
+    400246: R_middle_b_anim
+    400248: R_middle_b_o
+    400250: R_middle_c
+    400252: R_middle_c_anim
+    400254: R_middle_c_o
+    400256: R_middle_end
+    400258: R_pinky_a
+    400260: R_pinky_a_anim
+    400262: R_pinky_a_o
+    400264: R_pinky_b
+    400266: R_pinky_b_anim
+    400268: R_pinky_b_o
+    400270: R_pinky_c
+    400272: R_pinky_c_anim
+    400274: R_pinky_c_o
+    400276: R_pinky_end
+    400278: R_ring_a
+    400280: R_ring_a_anim
+    400282: R_ring_a_o
+    400284: R_ring_b
+    400286: R_ring_b_anim
+    400288: R_ring_b_o
+    400290: R_ring_c
+    400292: R_ring_c_anim
+    400294: R_ring_c_o
+    400296: R_ring_end
+    400298: R_shoulder
+    400300: R_shoulder_FK
+    400302: R_shoulder_FK_anim
+    400304: R_shoulder_FK_o
+    400306: R_shoulder_IK
+    400308: R_shoulder_IK_anim
+    400310: R_shoulder_IK_o
+    400312: R_thumb_a
+    400314: R_thumb_a_anim
+    400316: R_thumb_a_o
+    400318: R_thumb_b
+    400320: R_thumb_b_anim
+    400322: R_thumb_b_o
+    400324: R_thumb_c
+    400326: R_thumb_c_anim
+    400328: R_thumb_c_o
+    400330: R_thumb_end
+    400332: R_Wrist
+    400334: R_Wrist_FK
+    400336: R_Wrist_FK_anim
+    400338: R_Wrist_FK_o
+    400340: R_Wrist_IK
+    400342: secondary_bag
+    400344: secondary_bag 1
+    400346: tPipeEqual
+    2300000: bag
+    2300002: bag 1
+    2300004: bagConntector
+    2300006: bagConntector 1
+    2300008: chamberAndTube
+    2300010: corrgulatedTube
+    2300012: EET
+    2300014: m_endotrachealTube_kg_2_Default2
+    2300016: m_laryngoscope_kg_2:Default
+    2300018: polySurface20
+    2300020: secondary_bag
+    2300022: secondary_bag 1
+    2300024: tPipeEqual
+    3300000: bag
+    3300002: bag 1
+    3300004: bagConntector
+    3300006: bagConntector 1
+    3300008: chamberAndTube
+    3300010: corrgulatedTube
+    3300012: EET
+    3300014: m_endotrachealTube_kg_2_Default2
+    3300016: m_laryngoscope_kg_2:Default
+    3300018: polySurface20
+    3300020: secondary_bag
+    3300022: secondary_bag 1
+    3300024: tPipeEqual
+    4300000: m_laryngoscope_kg_2:Default
+    4300002: chamberAndTube
+    4300004: tPipeEqual
+    4300006: corrgulatedTube
+    4300008: polySurface20
+    4300010: bagConntector
+    4300012: secondary_bag
+    4300014: bag
+    4300016: EET
+    4300018: bagConntector
+    4300020: secondary_bag
+    4300022: bag
+    4300024: m_endotrachealTube_kg_2_Default2
+    4300026: R_arm
+    4300028: L_arm
+    7400000: Bag and Mask
+    7400002: Bag and Mask Loop
+    9500000: //RootNode
+    13700000: L_arm
+    13700002: R_arm
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Bag and Mask
+      takeName: Take 001
+      firstFrame: 157
+      lastFrame: 258
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_02_Group1
+        weight: 1
+      - path: arm_02_Group1/L_arm
+        weight: 1
+      - path: arm_02_Group1/R_arm
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: arms/arms_master_controller
+        weight: 1
+      - path: arms/arms_master_controller/arm_root
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumb_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/m_laryngoscope_kg_2:Default
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/m_endotrachealTube_kg_2_Default2
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/bag
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/bagConntector
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/secondary_bag
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/chamberAndTube
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/corrgulatedTube
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/EET
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/polySurface20
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/tPipeEqual
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/bag 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/bagConntector 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/secondary_bag 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c/R_index_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c/R_middle_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c/R_pinky_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c/R_ring_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c/R_thumb_end
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_clavicle_anim_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_clavicle_anim_o/L_clavicle_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim/L_index_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim/L_index_c_o/L_index_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim/L_middle_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim/L_middle_c_o/L_middle_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim/L_pinky_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim/L_pinky_c_o/L_pinky_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim/L_ring_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim/L_ring_c_o/L_ring_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK/L_Hand_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim/L_Wrist_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim/L_Wrist_FK_o/L_Wrist_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK/L_Hand_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK_o/L_shoulder_IK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim/L_thumb_end_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim/L_thumb_end_o/L_thumb_end_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_clavicle_anim_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_clavicle_anim_o/R_clavicle_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim/R_index_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim/R_index_c_o/R_index_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim/R_middle_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim/R_middle_c_o/R_middle_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim/R_pinky_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim/R_pinky_c_o/R_pinky_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim/R_ring_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim/R_ring_c_o/R_ring_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK/R_Hand_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim/R_Wrist_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim/R_Wrist_FK_o/R_Wrist_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK/R_Hand_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK_o/R_shoulder_IK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim/R_thumb_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim/R_thumb_c_o/R_thumb_c_anim
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Bag and Mask Loop
+      takeName: Take 001
+      firstFrame: 259
+      lastFrame: 311
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: arm_02_Group1
+        weight: 1
+      - path: arm_02_Group1/L_arm
+        weight: 1
+      - path: arm_02_Group1/R_arm
+        weight: 1
+      - path: arms
+        weight: 1
+      - path: arms/arms_master_controller
+        weight: 1
+      - path: arms/arms_master_controller/arm_root
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_index_a/L_index_b/L_index_c/L_index_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_middle_a/L_middle_b/L_middle_c/L_middle_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_pinky_a/L_pinky_b/L_pinky_c/L_pinky_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_ring_a/L_ring_b/L_ring_c/L_ring_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumb_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/L_clavicle/L_shoulder/L_Elbow/L_Wrist/L_Hand/m_laryngoscope_kg_2:Default
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/m_endotrachealTube_kg_2_Default2
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/bag
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/bagConntector
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/bags/secondary_bag
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/chamberAndTube
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/corrgulatedTube
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/EET
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/polySurface20
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer/tPipeEqual
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/bag 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/bagConntector 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/nebulizer_bag_only/bags
+          1/secondary_bag 1
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_index_a/R_index_b/R_index_c/R_index_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_middle_a/R_middle_b/R_middle_c/R_middle_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_pinky_a/R_pinky_b/R_pinky_c/R_pinky_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_ring_a/R_ring_b/R_ring_c/R_ring_end
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c
+        weight: 1
+      - path: arms/arms_master_controller/arm_root/R_clavicle/R_shoulder/R_Elbow/R_Wrist/R_Hand/R_thumb_a/R_thumb_b/R_thumb_c/R_thumb_end
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_clavicle_anim_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_clavicle_anim_o/L_clavicle_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim/L_index_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_index_a_o/L_index_a_anim/L_index_b_o/L_index_b_anim/L_index_c_o/L_index_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim/L_middle_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_middle_a_o/L_middle_a_anim/L_middle_b_o/L_middle_b_anim/L_middle_c_o/L_middle_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim/L_pinky_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_pinky_a_o/L_pinky_a_anim/L_pinky_b_o/L_pinky_b_anim/L_pinky_c_o/L_pinky_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim/L_ring_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_ring_a_o/L_ring_a_anim/L_ring_b_o/L_ring_b_anim/L_ring_c_o/L_ring_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK/L_Elbow_FK/L_Wrist_FK/L_Hand_FK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim/L_Wrist_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_FK_o/L_shoulder_FK_anim/L_Elbow_FK_o/L_Elbow_FK_anim/L_Wrist_FK_o/L_Wrist_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK/L_Elbow_IK/L_Wrist_IK/L_Hand_IK
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_shoulder_IK_o/L_shoulder_IK_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim/L_thumb_end_o
+        weight: 1
+      - path: arms/arms_master_controller/L_arm_master/L_thumb_a_o/L_thumb_a_anim/L_thumb_b_o/L_thumb_b_anim/L_thumb_c_o/L_thumb_c_anim/L_thumb_end_o/L_thumb_end_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_clavicle_anim_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_clavicle_anim_o/R_clavicle_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim/R_index_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_index_a_o/R_index_a_anim/R_index_b_o/R_index_b_anim/R_index_c_o/R_index_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim/R_middle_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_middle_a_o/R_middle_a_anim/R_middle_b_o/R_middle_b_anim/R_middle_c_o/R_middle_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim/R_pinky_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_pinky_a_o/R_pinky_a_anim/R_pinky_b_o/R_pinky_b_anim/R_pinky_c_o/R_pinky_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim/R_ring_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_ring_a_o/R_ring_a_anim/R_ring_b_o/R_ring_b_anim/R_ring_c_o/R_ring_c_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK/R_Elbow_FK/R_Wrist_FK/R_Hand_FK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim/R_Wrist_FK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_FK_o/R_shoulder_FK_anim/R_Elbow_FK_o/R_Elbow_FK_anim/R_Wrist_FK_o/R_Wrist_FK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK/R_Elbow_IK/R_Wrist_IK/R_Hand_IK
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_shoulder_IK_o/R_shoulder_IK_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim/R_thumb_c_o
+        weight: 1
+      - path: arms/arms_master_controller/R_arm_master/R_thumb_a_o/R_thumb_a_anim/R_thumb_b_o/R_thumb_b_anim/R_thumb_c_o/R_thumb_c_anim
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .400000006
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
