@@ -14,6 +14,9 @@ public class RespiratoryCase : MonoBehaviour {
 	public int currentState = 0;
 	protected SWP_HeartRateMonitor heartMonitor;
 	private float firstTime = 3f;
+
+	protected Material babyMaterial;
+	protected GameObject babyBody;
 	/*
 	*	States:
 	*		0 - Initial
@@ -22,10 +25,15 @@ public class RespiratoryCase : MonoBehaviour {
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
 	protected virtual void Awake() {
+
+
 		InitialState();
-		decompTimer = 300f;
+		decompTimer = 3f;
 		deathTimer = 600f;
 		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
+		babyBody = GameObject.FindGameObjectWithTag("BabyBody");
+		babyMaterial = babyBody.renderer.material;
+		babyMaterial.SetFloat ("_Blend", 0.0f);
 	}
 
 	protected virtual void Start() {
@@ -72,16 +80,6 @@ public class RespiratoryCase : MonoBehaviour {
 	
 	// Initial state of baby
 	protected virtual void InitialState() {
-		// Chest retractions
-		// Nasal flaring
-		// Grunting
-		
-		// No breathing sounds
-		// Blue color around lips
-		// Left chest does not move
-		
-		// PIP 30, PEEP, Rate 45
-		// FIO2 100%
 		
 		// SpO2 75%
 		Sp02 = "75%";
@@ -95,11 +93,17 @@ public class RespiratoryCase : MonoBehaviour {
 		heartRate = "180";
 		bpm = 180;
 		// Pulse strength weak
+		babyBody = GameObject.FindGameObjectWithTag("BabyBody");
+		babyMaterial = babyBody.renderer.material;
+		babyMaterial.SetFloat ("_Blend", 0.0f); // Healthy Lip
 		UpdateMonitor();
+
 	}
 	
 	// No needle decomp by 5 min (regardless of interations or lack thereof) or needle decomp in incorrect location
 	protected virtual void FurtherDecomp() {
+
+		Debug.Log ("Enter FurtherDecomp");
 		currentState = 1;
 		// Chest retraction
 		// Nasal flaring
@@ -116,6 +120,8 @@ public class RespiratoryCase : MonoBehaviour {
 		bpm = 220;
 		heartRate = "220";
 		// Pulse strength weak
+		babyMaterial.SetFloat ("_Blend", 1.0f); // Blue Lips
+
 		UpdateMonitor();
 	}
 	
@@ -144,6 +150,7 @@ public class RespiratoryCase : MonoBehaviour {
 		//baby.GetComponent<BabyAnimatorController>().currentState = "";
 		
 		Invoke ("ChangeScene", 3.0f);
+		babyMaterial.SetFloat ("_Blend", 0.0f); // Healthy Lips
 		UpdateMonitor();
 	}
 	
@@ -171,6 +178,7 @@ public class RespiratoryCase : MonoBehaviour {
 		// END SCENARIO WITH FAIL
 		
 		Invoke ("ChangeScene", 3.0f);
+		babyMaterial.SetFloat ("_Blend", 1.0f); // Blue Lips
 		UpdateMonitor();
 	}
 

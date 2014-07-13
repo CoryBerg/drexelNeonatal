@@ -8,6 +8,7 @@ TagManager:
   - Camera
   - locator
   - lights
+  - BabyBody
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

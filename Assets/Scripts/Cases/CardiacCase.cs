@@ -9,7 +9,7 @@ public class CardiacCase : RespiratoryCase {
 	
 	protected override void Awake() {
 		base.Awake();
-		decompTimer = 900f;
+		decompTimer = 9f;
 		deathTimer = 1800f;
 	}
 
@@ -20,6 +20,9 @@ public class CardiacCase : RespiratoryCase {
 		heartRate = "180";
 		bpm = 180;
 		UpdateMonitor();
+		babyBody = GameObject.FindGameObjectWithTag("BabyBody");
+		babyMaterial = babyBody.renderer.material;
+		babyMaterial.SetFloat ("_Blend", 0.0f);
 	}
 
 	protected override void BabyDeath () {
@@ -30,6 +33,7 @@ public class CardiacCase : RespiratoryCase {
 		heartRate = "140";
 		bpm = 140;
 		// Pulse strength strong
+		babyMaterial.SetFloat ("_Blend", 1.0f);
 		UpdateMonitor();
 	}
 
@@ -43,6 +47,7 @@ public class CardiacCase : RespiratoryCase {
 		// strong pulse
 		// cyanosis disabled
 		Invoke ("ChangeScene", 3.0f);
+		babyMaterial.SetFloat ("_Blend", 0.0f);
 		UpdateMonitor();
 	}
 
@@ -56,6 +61,7 @@ public class CardiacCase : RespiratoryCase {
 		bloodPressure = "30/10";
 		heartRate = "220";
 		bpm = 220;
+		babyMaterial.SetFloat ("_Blend", 1.0f);
 		UpdateMonitor();
 		// weak pulse strength
 	}

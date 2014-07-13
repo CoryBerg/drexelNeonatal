@@ -18,6 +18,8 @@ public class CaseHandler : MonoBehaviour {
 		}
 		DontDestroyOnLoad(this.gameObject);
 		Instance = this;
+
+		Debug.Log ("CaseHandler");
 	}
 
 	public void ActivateCase(NeonatalCase aCase) {
