@@ -8,6 +8,7 @@ public class DoTest : MonoBehaviour {
 	public dfPanel testPanel;
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
+		print ("NHGGN");
 		if(TestHandler.Instance.TestStatus(TestName)) {
 			resultPanel.IsVisible = true;
 			testPanel.IsVisible = false;
