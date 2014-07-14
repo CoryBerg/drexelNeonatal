@@ -690,8 +690,6 @@ GameObject:
   - 4: {fileID: 18603158}
   - 114: {fileID: 18603162}
   - 65: {fileID: 18603161}
-  - 114: {fileID: 18603160}
-  - 114: {fileID: 18603159}
   - 114: {fileID: 18603163}
   m_Layer: 8
   m_Name: ButtonBloGlu
@@ -711,40 +709,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1785280660}
---- !u!114 &18603159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 18603157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 18603162}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1944577202}
-    MemberName: Show
---- !u!114 &18603160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 18603157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 18603162}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1785280661}
-    MemberName: Hide
 --- !u!65 &18603161
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -868,6 +832,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 1944577202}
   testPanel: {fileID: 1785280661}
+  testButton: {fileID: 0}
 --- !u!1 &20368983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4673,6 +4638,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 1216946011}
   testPanel: {fileID: 1491900200}
+  testButton: {fileID: 0}
 --- !u!1 &158040284
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,6 +7389,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 2000707464}
   testPanel: {fileID: 1491900200}
+  testButton: {fileID: 0}
 --- !u!1 &301694836
 GameObject:
   m_ObjectHideFlags: 0
@@ -8719,6 +8686,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 811161040}
   testPanel: {fileID: 1491900200}
+  testButton: {fileID: 0}
 --- !u!1 &342945430
 GameObject:
   m_ObjectHideFlags: 0
@@ -8729,8 +8697,6 @@ GameObject:
   - 4: {fileID: 342945431}
   - 114: {fileID: 342945435}
   - 65: {fileID: 342945434}
-  - 114: {fileID: 342945433}
-  - 114: {fileID: 342945432}
   - 114: {fileID: 342945436}
   m_Layer: 8
   m_Name: ButtonCBC
@@ -8750,40 +8716,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1785280660}
---- !u!114 &342945432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 342945430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 342945435}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1596501568}
-    MemberName: Show
---- !u!114 &342945433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 342945430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 342945435}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1785280661}
-    MemberName: Hide
 --- !u!65 &342945434
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -8907,6 +8839,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 1596501568}
   testPanel: {fileID: 1785280661}
+  testButton: {fileID: 0}
 --- !u!1 &343744228
 GameObject:
   m_ObjectHideFlags: 0
@@ -9077,8 +9010,6 @@ GameObject:
   - 4: {fileID: 355661765}
   - 114: {fileID: 355661768}
   - 65: {fileID: 355661767}
-  - 114: {fileID: 355661766}
-  - 114: {fileID: 355661769}
   - 114: {fileID: 355661770}
   m_Layer: 8
   m_Name: ButtonBloCul
@@ -9098,23 +9029,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1785280660}
---- !u!114 &355661766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 355661764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 355661768}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1785280661}
-    MemberName: Hide
 --- !u!65 &355661767
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -9223,23 +9137,6 @@ MonoBehaviour:
   shadowOffset: {x: 1, y: -1}
   autoSize: 0
   clickWhenSpacePressed: 1
---- !u!114 &355661769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 355661764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 355661768}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 709066592}
-    MemberName: Show
 --- !u!114 &355661770
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9255,6 +9152,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 709066592}
   testPanel: {fileID: 1785280661}
+  testButton: {fileID: 0}
 --- !u!1 &357493357
 GameObject:
   m_ObjectHideFlags: 0
@@ -22113,8 +22011,6 @@ GameObject:
   - 4: {fileID: 939450668}
   - 114: {fileID: 939450672}
   - 65: {fileID: 939450671}
-  - 114: {fileID: 939450670}
-  - 114: {fileID: 939450669}
   - 114: {fileID: 939450673}
   m_Layer: 8
   m_Name: ButtonBMP
@@ -22134,40 +22030,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1785280660}
---- !u!114 &939450669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 939450667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 939450672}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1968826225}
-    MemberName: Show
---- !u!114 &939450670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 939450667}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 939450672}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1785280661}
-    MemberName: Hide
 --- !u!65 &939450671
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -22291,6 +22153,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 1968826225}
   testPanel: {fileID: 1785280661}
+  testButton: {fileID: 0}
 --- !u!1 &943511411
 GameObject:
   m_ObjectHideFlags: 0
@@ -24122,6 +23985,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 1567803701}
   testPanel: {fileID: 1491900200}
+  testButton: {fileID: 0}
 --- !u!1 &1016154865
 GameObject:
   m_ObjectHideFlags: 0
@@ -41474,8 +41338,6 @@ GameObject:
   - 4: {fileID: 1762687442}
   - 114: {fileID: 1762687446}
   - 65: {fileID: 1762687445}
-  - 114: {fileID: 1762687444}
-  - 114: {fileID: 1762687443}
   - 114: {fileID: 1762687447}
   m_Layer: 8
   m_Name: ButtonInitialABG
@@ -41495,40 +41357,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1785280660}
---- !u!114 &1762687443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1762687441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 1762687446}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 963987305}
-    MemberName: Show
---- !u!114 &1762687444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1762687441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DataSource:
-    Component: {fileID: 1762687446}
-    MemberName: Click
-  DataTarget:
-    Component: {fileID: 1785280661}
-    MemberName: Hide
 --- !u!65 &1762687445
 BoxCollider:
   m_ObjectHideFlags: 2
@@ -41652,6 +41480,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 963987305}
   testPanel: {fileID: 1785280661}
+  testButton: {fileID: 0}
 --- !u!1 &1763206275
 GameObject:
   m_ObjectHideFlags: 0
@@ -43717,6 +43546,7 @@ MonoBehaviour:
   TestLength: 10
   resultPanel: {fileID: 565031183}
   testPanel: {fileID: 1491900200}
+  testButton: {fileID: 0}
 --- !u!1 &1852076502
 GameObject:
   m_ObjectHideFlags: 0

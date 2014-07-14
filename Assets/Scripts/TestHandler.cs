@@ -60,7 +60,7 @@ public class TestHandler : MonoBehaviour {
 		}
 		yield return new WaitForSeconds(aTest.length - t);
 		TestsCompleted[aTest.name] = true;
-		lbl.Text = aTest.name + " Results Available";
+		lbl.Text = aTest.name + " Results Available. Please click on test to view results.";
 		// This tweening will be buggy.
 		if(!tweener.IsPlaying) {
 			tweener.Play();
