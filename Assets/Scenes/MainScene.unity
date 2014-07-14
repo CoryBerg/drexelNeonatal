@@ -23982,7 +23982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TestName: XRay
-  TestLength: 10
+  TestLength: 150
   resultPanel: {fileID: 1567803701}
   testPanel: {fileID: 1491900200}
   testButton: {fileID: 0}
