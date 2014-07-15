@@ -4,6 +4,7 @@ using System.Collections;
 public class MonitorUpdates : MonoBehaviour {
 	public dfLabel pressure, hRate, spO2, temp;
 	public static MonitorUpdates Instance;
+	public float updateGranularity = .1f; // How quickly the monitor updates. Needs to be longer than the length of a frame\, suggested minimum is .1
 
 	public class LabelTween {
 		public float length;
@@ -32,10 +33,12 @@ public class MonitorUpdates : MonoBehaviour {
 		float t = 0;
 		float start = float.Parse(lt.label.Text);
 		while(t < lt.length) {
-			t += Time.deltaTime;
+			t += updateGranularity;
+			if(t > lt.length)
+				t = lt.length;
 			float lerpVal = Mathf.Lerp(start, lt.target, t/lt.length);
 			lt.label.Text = ((int)lerpVal).ToString();
-			yield return 0;
+			yield return new WaitForSeconds(updateGranularity);
 		}
 		while(true) { // Fluctuates the heart rate a bit
 			float c = float.Parse(lt.label.Text);
@@ -44,8 +47,8 @@ public class MonitorUpdates : MonoBehaviour {
 			t = 0f;
 			while(t < lerpSpeed) {
 				lt.label.Text = ((int)Mathf.Lerp(c, tar, t/lerpSpeed)).ToString();
-				t += Time.deltaTime;
-				yield return 0;
+				t += updateGranularity;
+				yield return new WaitForSeconds(updateGranularity);
 			}
 		}
 	}

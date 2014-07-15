@@ -7,8 +7,7 @@ public class TestHandler : MonoBehaviour {
 	public dfLabel lbl;
 	public Dictionary<string,bool> TestsCompleted; // if dict has key, it's in progress, if not--not started.
 	public static TestHandler Instance;
-	public dfTweenFloat tweener, reverseTweener;
-	// If true... results are available
+	public dfTweenFloat tweener, reverseTweener;// If true... results are available
 
 	public class TestStuff {
 		public string name;
