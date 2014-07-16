@@ -9,7 +9,7 @@ public class TransilluHelper : MonoBehaviour {
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
 		Debug.Log (this.transform.name);
 		
-		transillu.GetComponent<Transillumination>().isTriggered = true;
+//		transillu.GetComponent<Transillumination>().isTriggered = true;
 		
 	}
 }

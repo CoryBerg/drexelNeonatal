@@ -28,7 +28,7 @@ public class RespiratoryCase : MonoBehaviour {
 
 
 		InitialState();
-		decompTimer = 3f;
+		decompTimer = 300f;
 		deathTimer = 600f;
 		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
 		babyBody = GameObject.FindGameObjectWithTag("BabyBody");

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Transillumination : MonoBehaviour {
+public class TransilluminationLeft : MonoBehaviour {
 	
 	public Transform target ;
 	public float damping = 6;
