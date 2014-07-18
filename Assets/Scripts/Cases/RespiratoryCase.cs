@@ -25,8 +25,6 @@ public class RespiratoryCase : MonoBehaviour {
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
 	protected virtual void Awake() {
-
-
 		InitialState();
 		decompTimer = 300f;
 		deathTimer = 600f;
@@ -149,7 +147,7 @@ public class RespiratoryCase : MonoBehaviour {
 		
 		//baby.GetComponent<BabyAnimatorController>().currentState = "";
 		
-		Invoke ("ChangeScene", 3.0f);
+		Invoke ("ChangeScene", 60.0f);
 		babyMaterial.SetFloat ("_Blend", 0.0f); // Healthy Lips
 		UpdateMonitor();
 	}
