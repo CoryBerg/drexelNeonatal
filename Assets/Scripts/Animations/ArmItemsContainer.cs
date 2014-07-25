@@ -9,10 +9,11 @@ public class ArmItemsContainer {
 	public ArmItemsContainer() {
 		items = new Dictionary<string, GameObject> ()
 		{
-			{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
-			{"ButtonSteth", GameObject.Find ("stethoscope")},
+			//{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
+			//{"ButtonSteth", GameObject.Find ("stethoscope")},
 			{"ButtonIntubation", GameObject.Find ("laryngoscope")},
-			{"Intubation", GameObject.Find ("endotrachealTube")}
+			//{"Intubation", GameObject.Find ("endotrachealTube")},
+			{"ButtonSunction", GameObject.Find ("bagAndMask")}
 		};
 	}
 
@@ -30,9 +31,8 @@ public class ArmItemsContainer {
 	}
 
 	public void DisableAllItems() {
-		foreach(GameObject item in items.Values)
-		{
-			item.SetActive(false);
+		foreach (GameObject item in items.Values) {
+			item.SetActive (false);
 		}
 	}
 }

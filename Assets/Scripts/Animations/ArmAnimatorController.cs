@@ -24,7 +24,6 @@ public class ArmAnimatorController : MonoBehaviour {
 	void Update() {
 		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Return") && doOnce) {
 			doOnce = false;
-			special.ReturnToInitial ();
 		}
 	}
 

@@ -68,11 +68,11 @@ Material:
       data:
         first:
           name: _Fresnel
-        second: .289999992
+        second: 2.79999995
       data:
         first:
           name: _BumpBias
-        second: 39.7999992
+        second: 0
     m_Colors:
       data:
         first:
@@ -80,9 +80,9 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _Emission
-        second: {r: 0, g: 0, b: 0, a: 0}
-      data:
-        first:
           name: _SpecColor
         second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
