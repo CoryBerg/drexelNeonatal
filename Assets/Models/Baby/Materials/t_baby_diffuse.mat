@@ -68,7 +68,7 @@ Material:
       data:
         first:
           name: _Fresnel
-        second: 2.79999995
+        second: 0
       data:
         first:
           name: _BumpBias
