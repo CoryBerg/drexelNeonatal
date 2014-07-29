@@ -16301,7 +16301,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 896265258}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .00166666671, y: .00166666671, z: 0}
+  m_LocalPosition: {x: 0, y: .00166666671, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 615988969}
@@ -16732,7 +16732,7 @@ Animator:
   m_GameObject: {fileID: 916590352}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 1a58591bc4de7b14a9106df35adc7cdc, type: 3}
-  m_Controller: {fileID: 9100000, guid: 6c12609aadb724877ac3d141e91d5885, type: 2}
+  m_Controller: {fileID: 9100000, guid: ac5ad1980368c0f47911f5b968b6907b, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0
@@ -31318,7 +31318,7 @@ Prefab:
     - target: {fileID: 9500000, guid: 1a58591bc4de7b14a9106df35adc7cdc, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 6c12609aadb724877ac3d141e91d5885, type: 2}
+      objectReference: {fileID: 9100000, guid: ac5ad1980368c0f47911f5b968b6907b, type: 2}
     - target: {fileID: 100004, guid: 1a58591bc4de7b14a9106df35adc7cdc, type: 3}
       propertyPath: m_TagString
       value: BabyBody
