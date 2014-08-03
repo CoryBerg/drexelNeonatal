@@ -14,6 +14,7 @@ public class ArmAnimationContainer {
 				{"ButtonChest", "ChestCompression"},
 				{"ButtonSunctionbaby", "Sunction"},
 				{"ButtonIntubation", "Intubation"},
+				{"Stethescope", "UseStethoscope"} // Unnecessary
 			};
 	}
 

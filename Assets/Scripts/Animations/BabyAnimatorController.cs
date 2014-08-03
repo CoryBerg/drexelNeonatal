@@ -4,9 +4,11 @@ using System.Collections;
 public class BabyAnimatorController : MonoBehaviour {
 	private Animator animator;
 	private BabyAnimationContainer animations;
+	public static BabyAnimatorController Instance;
 
 	// Use this for initialization
 	void Awake() {
+		Instance = this;
 		animations = new BabyAnimationContainer ();
 		animator = GetComponent<Animator> ();
 	}
