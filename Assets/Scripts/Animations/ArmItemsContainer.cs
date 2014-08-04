@@ -9,26 +9,27 @@ public class ArmItemsContainer {
 	public ArmItemsContainer() {
 		items = new Dictionary<string, GameObject> ()
 		{
-			//{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
-			//{"ButtonSteth", GameObject.Find ("stethoscope")},
+			{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
+			{"ButtonSteth", GameObject.Find ("stethoscope")},
 			{"ButtonIntubation", GameObject.Find ("laryngoscope")},
-			//{"Intubation", GameObject.Find ("endotrachealTube")},
-			{"ButtonSunction", GameObject.Find ("bagAndMask")}
+			{"Intubation", GameObject.Find ("endotrachealTube")},
+			{"ButtonSunction", GameObject.Find ("bagAndMask")},
+			{"Extras", GameObject.Find ("extras")}
 		};
 	}
 
 	public void NewAnimation(string animation) {
 		DisableAllItems ();
-		EnableItem (animation);
+		//EnableItem (animation);
 	}
 
-	public void EnableItem(string key) {
+	/*public void EnableItem(string key) {
 		GameObject tmp = null;
 
 		if(items.TryGetValue(key, out tmp)) {
 			items[key].SetActive(true);
 		}
-	}
+	}*/
 
 	public void DisableAllItems() {
 		foreach (GameObject item in items.Values) {

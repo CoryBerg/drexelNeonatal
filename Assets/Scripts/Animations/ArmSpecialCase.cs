@@ -8,6 +8,6 @@ public class ArmSpecialCase {
 	private Dictionary<string, string> actions;
 
 	public void EnableSpecialCaseItem(ArmItemsContainer items) {
-		items.EnableItem ("Intubation");
+		//items.EnableItem ("Intubation");
 	}
 }

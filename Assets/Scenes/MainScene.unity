@@ -10475,6 +10475,14 @@ Prefab:
       propertyPath: m_Name
       value: arms
       objectReference: {fileID: 0}
+    - target: {fileID: 100176, guid: ececdbb0ead3fc24d9f7d5a38e660c91, type: 3}
+      propertyPath: m_Name
+      value: stethoscope
+      objectReference: {fileID: 0}
+    - target: {fileID: 100104, guid: ececdbb0ead3fc24d9f7d5a38e660c91, type: 3}
+      propertyPath: m_Name
+      value: endotrachealTube
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ececdbb0ead3fc24d9f7d5a38e660c91, type: 3}
   m_RootGameObject: {fileID: 909896051}
@@ -15882,7 +15890,7 @@ GameObject:
   - 4: {fileID: 838819972}
   - 137: {fileID: 838819973}
   m_Layer: 0
-  m_Name: stethoscope_mesh
+  m_Name: stethoscope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30025,7 +30033,7 @@ GameObject:
   - 33: {fileID: 1511227795}
   - 23: {fileID: 1511227794}
   m_Layer: 0
-  m_Name: m_endotrachealTube_kg_2_Default1
+  m_Name: endotrachealTube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
