@@ -30954,7 +30954,7 @@ GameObject:
   - 114: {fileID: 1569409989}
   - 114: {fileID: 1569409988}
   m_Layer: 8
-  m_Name: ButtonSunctionbaby
+  m_Name: ButtonSuctionbaby
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31082,7 +31082,7 @@ MonoBehaviour:
   pressedSprite: button-normal
   state: 0
   group: {fileID: 0}
-  text: Sunction baby
+  text: Suction baby
   textAlign: 1
   vertAlign: 1
   normalColor:
@@ -32268,7 +32268,7 @@ GameObject:
   - 114: {fileID: 1618350072}
   - 114: {fileID: 1618350071}
   m_Layer: 8
-  m_Name: ButtonEET
+  m_Name: ButtonETT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32396,7 +32396,7 @@ MonoBehaviour:
   pressedSprite: button-normal
   state: 0
   group: {fileID: 0}
-  text: Attach the EET to the flow inflating bag to hand bag
+  text: Attach the ETT to the flow inflating bag to hand bag
   textAlign: 0
   vertAlign: 1
   normalColor:
