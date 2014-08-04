@@ -9,20 +9,30 @@ public enum NeonatalCase {
 public class CaseHandler : MonoBehaviour {
 	public static CaseHandler Instance;
 	public NeonatalCase currentCase;
-
+	public bool babyAlive;
 	// Use this for initialization
 	void Awake () {
 		if(Instance != null) {
 			Destroy(this.gameObject);
 			return;
 		}
+		babyAlive = true;
 		DontDestroyOnLoad(this.gameObject);
 		Instance = this;
 
 		Debug.Log ("CaseHandler");
 	}
 
+	public void KillBaby() {
+		babyAlive = false;
+	}
+
+	public void ReviveBaby() {
+		babyAlive = true;
+	}
+
 	public void ActivateCase(NeonatalCase aCase) {
+		ReviveBaby();
 		currentCase = aCase;
 	}
 

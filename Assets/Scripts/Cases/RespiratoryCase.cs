@@ -186,6 +186,7 @@ public class RespiratoryCase : MonoBehaviour {
 			//CaseHandler.Instance.ActivateCardiac(); // Beating this activates the cardiac test.
 			Application.LoadLevel ("Success");
 		} else {
+			CaseHandler.Instance.KillBaby();
 			Application.LoadLevel ("Failure");
 		}
 	}

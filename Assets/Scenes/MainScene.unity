@@ -30457,6 +30457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCase: 1
+  babyAlive: 0
 --- !u!4 &1525723583
 Transform:
   m_ObjectHideFlags: 0
