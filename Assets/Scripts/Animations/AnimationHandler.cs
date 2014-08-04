@@ -30,6 +30,12 @@ public class AnimationHandler {
 		if(animation == "") {
 			return;
 		}
+
+		if (inst.arms == null || inst.baby == null) {
+			arms = ArmAnimatorController.Instance;
+			baby = BabyAnimatorController.Instance;
+		}
+
 		arms.TriggerAnimation (animation);
 		baby.TriggerAnimation (animation);
 	}
