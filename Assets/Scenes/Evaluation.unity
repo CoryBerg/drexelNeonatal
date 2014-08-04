@@ -493,7 +493,7 @@ Transform:
   m_PrefabInternal: {fileID: 944955761}
   m_GameObject: {fileID: 354703414}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -.957298279, y: -.205497742, z: 0}
+  m_LocalPosition: {x: -.482035339, y: -.395599365, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1542916650}
@@ -599,10 +599,10 @@ MonoBehaviour:
   layout:
     anchorStyle: 5
     margins:
-      left: -267.601562
-      top: -17.0898438
-      right: 467.601562
-      bottom: 602.089844
+      left: -85.0976562
+      top: 55.9101562
+      right: 285.097656
+      bottom: 529.089844
     owner: {fileID: 354703418}
   renderOrder: 14
   isLocalized: 0
@@ -695,7 +695,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 375420064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: .00130208337, y: .00130208337, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1092662327}
@@ -1401,11 +1401,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 4c067ea9690fc4f4c81d778b5ad2faa8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -.957298279
+      value: -.482035339
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c067ea9690fc4f4c81d778b5ad2faa8, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -.205497742
+      value: -.395599365
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4c067ea9690fc4f4c81d778b5ad2faa8, type: 2}
       propertyPath: m_LocalPosition.z
@@ -2648,6 +2648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentCase: 0
+  babyAlive: 0
 --- !u!4 &1652665417
 Transform:
   m_ObjectHideFlags: 0
@@ -2939,7 +2940,7 @@ MonoBehaviour:
   autoSize: 0
   autoHeight: 0
   wordWrap: 0
-  text: Target Performance
+  text: Gold Standard
   bottomColor:
     serializedVersion: 2
     rgba: 4294967295
@@ -3007,8 +3008,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: .739583373, y: .0989583358, z: .00100000005}
-  m_Center: {x: .369791687, y: -.0494791679, z: 0}
+  m_Size: {x: .739583373, y: .369791687, z: .00100000005}
+  m_Center: {x: .369791687, y: -.184895843, z: 0}
 --- !u!114 &1883187144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3033,7 +3034,7 @@ MonoBehaviour:
   disabledColor:
     serializedVersion: 2
     rgba: 4294967295
-  size: {x: 284, y: 38}
+  size: {x: 284, y: 142}
   minSize: {x: 0, y: 0}
   maxSize: {x: 0, y: 0}
   clipChildren: 0
@@ -3060,7 +3061,15 @@ MonoBehaviour:
   autoSize: 1
   autoHeight: 0
   wordWrap: 0
-  text: 1. Needle Decompression
+  text: '1. Needle Decompression
+
+    2. Use Stethoscope
+
+    3. Transillumnate Chest
+
+    4. Suction the Baby
+
+    5. Attach ETT'
   bottomColor:
     serializedVersion: 2
     rgba: 4294967295

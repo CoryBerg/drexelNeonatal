@@ -18,7 +18,23 @@ public class UserEvaluationPerformance : MonoBehaviour {
 		{"ButtonTransilL","Transilluminate Chest"},
 		{"ButtonETT","Attach ETT"},
 		{"ButtonTransilR","Transilluminate Chest"},
-		{"ButtonXRay","X-Ray"}
+		{"ButtonXRay","X-Ray"},
+		{"SlowNeedle","No Needle"},
+		{"TheBabyDied","Baby Died"},
+		{"ButtonECHO","ECHO Test"},
+		{"ButtonEKG","EKG Test"},
+		{"ButtonChest","Chest Compression"},
+		{"ButtonDopamine","BP Medication"},
+		{"ButtonDobutamine","BP Medication"},
+		{"ButtonEpinephrine","BP Medication"},
+		{"ButtonHydrocortisone","BP Medication"},
+		{"ButtonAdministerSaline","Normal Saline"},
+		{"ButtonIntubation","Intubation"},
+		{"ButtonBMP","BMP Test"},
+		{"ButtonBloGlu","Glucose Test"},
+		{"ButtonBloCul","Blood Culture"},
+		{"ButtonCBC","CBC Test"},
+		{"ButtonInitialABG","ABG Test"}
 	};
 
 	static Dictionary<string, string> _effectiveInterventionDict = new Dictionary<string, string>
@@ -33,12 +49,24 @@ public class UserEvaluationPerformance : MonoBehaviour {
 	static Dictionary<string, string> _ineffectiveInterventionDict = new Dictionary<string, string>
 	{
 		{"Nothing","Filler"},
+		{"ABG Test","You ordered an ABG as part of your diagnostic workup.  The results of the ABG showed a mixed respiratory and metabolic acidosis, which did not necessarily aid in diagnosing the etiology of the patient’s hypoxemia and respiratory distress."},
+		{"CBC Test","The results of the CBC were not particularly helpful or revealing of any particular diagnosis in this case."},
+		{"Blood Culture","Although this infant did not have sepsis, sending a blood culture in an acutely decompensating infant to rule out sepsis is not an unreasonable laboratory test to send."},
+		{"Glucose Test","The blood glucose in this infant was normal."},
+		{"BMP Test","The BMP in this case revealed a low bicarbonate value as a result of the metabolic acidosis which this patient developed."},
+		{"Intubation","Any mechanically ventilated patient who displays an acute change in respiratory status should be thoroughly evaluated.  The possibility that the endotracheal tube has become displaced should be considered, and if no other cause for the acute decompensation is found, reintubation of the infant is a reasonable option.  However, the physical exam finding of absent breath sounds on one side of the chest, such as in this patient, should alert the clinician to the possibility of a pneumothorax, which should be ruled out prior to attempting reintubation."},
+		{"Normal Saline","In this patient, the cause of hypotension and tachycardia was inadequate systemic venous return to the heart.  Although a large fluid bolus may slightly and temporarily increase the blood pressure, this will not result in a resolution of the underlying issue and blood pressure will then continue to fall."},
+		{"BP Medication","Administering blood pressure support medications in the face of hypotension will likely temporarily increase blood pressure that has fallen secondary to a variety of etiologies.  In this case, however, although blood pressure increased slightly and temporarily, these medications cannot reverse the underlying etiology of the fallen blood pressure and as a result, the blood pressure will then continue to fall."},
 		{"No Needle","No needle decompression by 15 minutes (regardless of any other intervention attempted/ medication administered).  Unfortunately, this patient’s tension pneumothorax was not addressed within a timely fashion, and therefore the patient continued to display further clinical deterioration.  As air continued to accumulate in the extrapleural space, the mediastinal structures continued to shift, further exacerbating the patient’s already low venous return to the heart and subsequently, cardiac output.  Therefore, the patient’s blood pressure continued to drop, the patient became more tachycardic, and oxygen saturations continued to deteriorate.   A tension pneumothorax should be addressed in a very prompt manner, as only a matter of minutes may mean the difference between life and death."},
 		{"X-Ray","Chest X Ray. The chest X ray showed absent lung markings on the left side of the chest, indication the presence of a left sided pneumothorax.  Furthermore, the mediastinal structures appear shifted to the opposite side of the chest, further suggesting the presence of a tension pneumothorax. It is important to note, however, that chest X ray should not be relied upon in order to diagnose a tension pneumothorax as this may delay and interfere with prompt life-saving intervention, thereby causing further clinical deterioration and even death."}
 	};
 	static Dictionary<string, string> _inappropriateInterventionDict = new Dictionary<string, string>
 	{
-		{"Nothing","Filler"}
+		{"Nothing","Filler"},
+		{"Chest Compression","Chest compression performed. This patient displays tachycardia, not bradycardia, and therefore chest compressions are not indicated.  Chest compressions are indicated when the patient’s heart rate falls below 60bpm."},
+		{"EKG Test","EKG Test Performed. You chose to perform an EKG on this patient, which demonstrated sinus tachycardia at 180bpm.  While this test is not necessarily harmful to the patient directly, it does not add much additional information to the case and may ultimately delay care and cause the patient to further decompensate in the meantime."},
+		{"ECHO Test","ECHO Test Performed. In an acutely unstable patient such as this patient, physical exam should reveal the primary disturbance, and an ECHO is not indicated as it would only delay treatment to this critically ill infant."},
+		{"Baby Died","Needle decompression attempted in inappropriate location. Needle decompression should only be performed in the second intercostal space in the midclavicular line on the affected side of the chest."}
 	};
 	// Use this for initialization
 	void Start () {
@@ -52,6 +80,9 @@ public class UserEvaluationPerformance : MonoBehaviour {
 //		UILogger.ButtonsPressed.Add("Surrender Now");
 //		UILogger.ButtonsPressed.Add("Or Prepare to Fight");
 //		UILogger.ButtonsPressed.Add("Meowth, That's Right");
+		if(CaseHandler.Instance.babyAlive == false) {
+			UILogger.ButtonsPressed.Add ("TheBabyDied");
+		}
 		if(UILogger.ButtonsPressed != null) {
 			string textVal = string.Format("{0:D}. {1}", 1, UILogger.ButtonsPressed[0]);
 			int c = 1;
