@@ -86,7 +86,7 @@ public class RespiratoryCase : MonoBehaviour {
 		// Respiratory Rate 90 breathes/min
 		babyBreath.respRate = 90f;
 		// Right lung not working
-		babyBreath.both = true;
+		babyBreath.both = false;
 		// Blood pressure 50/25 mmHg
 		bloodPressure = "50/25";
 		// Heart rate
@@ -113,7 +113,7 @@ public class RespiratoryCase : MonoBehaviour {
 		Sp02 = "60%";
 		// Cyanosis enabled
 		// Respiratory rate 120 breathes/min
-		//respRate = "120";
+		babyBreath.respRate = 120f;
 		// Blood pressure 30/10 mmHg
 		bloodPressure = "30/10";
 		// Heart rate 220bpm
@@ -137,7 +137,9 @@ public class RespiratoryCase : MonoBehaviour {
 		Sp02 = "94%";
 		// Cyanosis disabled
 		// Respiratory rate 40 breathes/min
-		//respRate = "40";
+		babyBreath.respRate = 40f;
+		// Both lungs working
+		babyBreath.both = true;
 		// Blood pressure 65/35 mmHg
 		bloodPressure = "65/35";
 		// Heart rate 140 bpm
@@ -168,7 +170,7 @@ public class RespiratoryCase : MonoBehaviour {
 		Sp02 = "30%";
 		// Cyanosis enabled
 		// Respiratory rate 60 breathes/min
-		//respRate = "60";
+		babyBreath.respRate = 0f;
 		// Blood pressure 15/5 mmHg
 		bloodPressure = "15/5";
 		// Heart rate 250 bpm
