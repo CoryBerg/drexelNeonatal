@@ -12,7 +12,6 @@ public class ArmAnimatorController : MonoBehaviour {
 	public static ArmAnimatorController Instance;
 	// Use this for initialization
 	void Awake() {
-		print("Hello arm anim");
 		Instance = this;
 		animations = new ArmAnimationContainer ();
 		items = new ArmItemsContainer ();
@@ -38,7 +37,6 @@ public class ArmAnimatorController : MonoBehaviour {
 	}
 
 	public void Stethescope(Transform target) {
-		print ("Steth");
 		transform.parent = target;
 		transform.localPosition = Vector3.zero;
 		animator.SetTrigger("UseStethoscope");
@@ -47,7 +45,6 @@ public class ArmAnimatorController : MonoBehaviour {
 	// Triggers mechanim state for animation
 	public void TriggerAnimation(string animation) {
 		ResetArms();
-		print (animation);
 		items.NewAnimation (animation);
 
 		if(animation == "ButtonIntubation") {
