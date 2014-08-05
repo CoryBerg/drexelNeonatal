@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class Breathing : MonoBehaviour {
+	public float respRate = 50f;
+	public bool both = false;
 	private float breath;
 	private SkinnedMeshRenderer skinMeshRenderer;
 
@@ -12,7 +14,20 @@ public class Breathing : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		breath = Mathf.Sin(Time.time * 2) *50+50;
+		if (both) {
+			BothLungs ();
+		} else {
+			LeftLung ();
+		}
+	}
+
+	void LeftLung() {
+		breath = Mathf.Sin (Time.time * 2) * respRate + 50;
+		skinMeshRenderer.SetBlendShapeWeight (1, breath);
+	}
+
+	void BothLungs() {
+		breath = Mathf.Sin(Time.time * 2) * respRate + 50;
 		skinMeshRenderer.SetBlendShapeWeight(1, breath);
 		skinMeshRenderer.SetBlendShapeWeight(2, breath);
 	}

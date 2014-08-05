@@ -3,10 +3,9 @@ using System.Collections;
 
 // Also acting as parent class for all cases
 public class RespiratoryCase : MonoBehaviour {
-	public Animator baby;
+	public Breathing babyBreath;
 	public bool isCorrect = false;
 	public float timer = 0.0f;
-
 
 	public int bpm;
 	public string heartRate, Sp02, bloodPressure, temperature;
@@ -25,11 +24,12 @@ public class RespiratoryCase : MonoBehaviour {
 	*		3 - No action 10 minutes, or improper needle decomp x2
 	*/
 	protected virtual void Awake() {
+		babyBreath = GameObject.FindGameObjectWithTag ("Baby").GetComponent<Breathing> ();
+		babyBody = GameObject.FindGameObjectWithTag("BabyBody");
+		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
 		InitialState();
 		decompTimer = 300f;
 		deathTimer = 600f;
-		heartMonitor = GameObject.Find("HeartMonitor").GetComponent<SWP_HeartRateMonitor>();
-		babyBody = GameObject.FindGameObjectWithTag("BabyBody");
 		babyMaterial = babyBody.renderer.material;
 		babyMaterial.SetFloat ("_Blend", 0.0f);
 	}
@@ -84,7 +84,9 @@ public class RespiratoryCase : MonoBehaviour {
 		// Temperature 37.1 C
 		temperature = "37.1";
 		// Respiratory Rate 90 breathes/min
-		//respRate = "90";
+		babyBreath.respRate = 90f;
+		// Right lung not working
+		babyBreath.both = true;
 		// Blood pressure 50/25 mmHg
 		bloodPressure = "50/25";
 		// Heart rate
@@ -149,6 +151,7 @@ public class RespiratoryCase : MonoBehaviour {
 		
 		Invoke ("ChangeScene", 60.0f);
 		babyMaterial.SetFloat ("_Blend", 0.0f); // Healthy Lips
+
 		UpdateMonitor();
 	}
 	
