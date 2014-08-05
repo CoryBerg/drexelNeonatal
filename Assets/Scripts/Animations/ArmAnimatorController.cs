@@ -6,7 +6,8 @@ public class ArmAnimatorController : MonoBehaviour {
 	private ArmAnimationContainer animations;
 	private ArmItemsContainer items;
 	private ArmSpecialCase special;
-
+	private Transform startingParent;
+	private Vector3 startingLocalPos;
 	private bool doOnce = true;
 	public static ArmAnimatorController Instance;
 	// Use this for initialization
@@ -20,6 +21,8 @@ public class ArmAnimatorController : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 
 		items.DisableAllItems ();
+		startingParent = this.transform.parent;
+		startingLocalPos = this.transform.localPosition;
 	}
 
 	// Called every frame
@@ -27,6 +30,11 @@ public class ArmAnimatorController : MonoBehaviour {
 		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Return") && doOnce) {
 			doOnce = false;
 		}
+	}
+
+	void ResetArms() {
+		this.transform.parent = startingParent;
+		this.transform.localPosition = startingLocalPos;
 	}
 
 	public void Stethescope(Transform target) {
@@ -38,6 +46,7 @@ public class ArmAnimatorController : MonoBehaviour {
 
 	// Triggers mechanim state for animation
 	public void TriggerAnimation(string animation) {
+		ResetArms();
 		print (animation);
 		items.NewAnimation (animation);
 
