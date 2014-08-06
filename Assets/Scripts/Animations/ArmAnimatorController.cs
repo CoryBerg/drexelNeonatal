@@ -2,6 +2,8 @@
 using System.Collections;
 
 public class ArmAnimatorController : MonoBehaviour {
+	public static ArmAnimatorController Instance;
+
 	private Animator animator;
 	private ArmAnimationContainer animations;
 	private ArmItemsContainer items;
@@ -9,7 +11,7 @@ public class ArmAnimatorController : MonoBehaviour {
 	private Transform startingParent;
 	private Vector3 startingLocalPos;
 	private bool doOnce = true;
-	public static ArmAnimatorController Instance;
+
 	// Use this for initialization
 	void Awake() {
 		Instance = this;

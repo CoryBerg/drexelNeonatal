@@ -1,6 +1,4 @@
-﻿// This will be heavily refactored.
-
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 

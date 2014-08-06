@@ -22,7 +22,7 @@ public class Breathing : MonoBehaviour {
 	}
 
 	void LeftLung() {
-		breath = Mathf.Sin (Time.time * 2) * respRate + 50;
+		breath = Mathf.Sin (Time.time * 2) * respRate/2 + 50;
 		skinMeshRenderer.SetBlendShapeWeight (1, breath);
 	}
 

@@ -3,37 +3,43 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class ArmItemsContainer {
-	private Dictionary<string, GameObject> items;
+	private Dictionary<string, List<GameObject>> items;
 	
 	// Builds dictionary of ButtonPressed:Item
 	public ArmItemsContainer() {
-		items = new Dictionary<string, GameObject> ()
+		items = new Dictionary<string, List<GameObject>> ()
 		{
-			{"ButtonNeedle", GameObject.Find ("butterflyNeedle")},
-			{"ButtonSteth", GameObject.Find ("stethoscope")},
-			{"ButtonIntubation", GameObject.Find ("laryngoscope")},
-			{"Intubation", GameObject.Find ("endotrachealTube")},
-			{"ButtonSunction", GameObject.Find ("bagAndMask")},
-			{"Extras", GameObject.Find ("extras")}
+			{"ButtonNeedle", 
+				new List<GameObject>() { GameObject.Find ("butterflyNeedle")} 
+			},
+			{"ButtonSteth", new List<GameObject>() { GameObject.Find ("stethoscope")}},
+			{"ButtonIntubation", new List<GameObject>() { GameObject.Find ("laryngoscope")}},
+			{"Intubation", new List<GameObject>() { GameObject.Find ("endotrachealTube")}},
+			{"ButtonSunction", new List<GameObject>() { GameObject.Find ("bagAndMask")}},
+			{"Extras", new List<GameObject>() { GameObject.Find ("extras")} }
 		};
 	}
 
 	public void NewAnimation(string animation) {
 		DisableAllItems ();
-		//EnableItem (animation);
+		EnableItems (animation);
 	}
 
-	/*public void EnableItem(string key) {
-		GameObject tmp = null;
+	public void EnableItems(string key) {
+		List<GameObject> tmp = null;
 
 		if(items.TryGetValue(key, out tmp)) {
-			items[key].SetActive(true);
+			foreach (GameObject item in tmp) {
+				item.SetActive(true);
+			}
 		}
-	}*/
+	}
 
 	public void DisableAllItems() {
-		foreach (GameObject item in items.Values) {
-			item.SetActive (false);
+		foreach (List<GameObject> list in items.Values) {
+			foreach (GameObject item in list) {
+				item.SetActive (false);
+			}
 		}
 	}
 }
