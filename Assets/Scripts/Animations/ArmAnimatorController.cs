@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ArmAnimatorController : MonoBehaviour {
 	public static ArmAnimatorController Instance;
+	public AudioClip armMove;
 
 	private Animator animator;
 	private ArmAnimationContainer animations;
@@ -59,6 +60,8 @@ public class ArmAnimatorController : MonoBehaviour {
 			return;
 		}
 
+		GameObject arms = GameObject.FindGameObjectWithTag ("Arms");
+		AudioSource.PlayClipAtPoint (armMove, arms.transform.position);
 		animator.SetTrigger (animName);
 	}
 }
