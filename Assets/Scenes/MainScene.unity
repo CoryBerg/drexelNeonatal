@@ -8929,6 +8929,14 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: -5.5966692
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 78377a86a213043b48ce72c02f51cfee, type: 2}
+      propertyPath: Heart1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 78377a86a213043b48ce72c02f51cfee, type: 2}
+      propertyPath: Heart2
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 78377a86a213043b48ce72c02f51cfee, type: 2}
   m_RootGameObject: {fileID: 828037752}
@@ -39770,8 +39778,8 @@ MonoBehaviour:
   ScaleAmount: .0299999993
   EnableSound: 1
   HeartVolume: 1
-  Heart1: {fileID: 8300000, guid: e2d32f2b7c196534fbd0574934a04124, type: 3}
-  Heart2: {fileID: 8300000, guid: e486690a11ef54a41a716560bbc771ea, type: 3}
+  Heart1: {fileID: 0}
+  Heart2: {fileID: 0}
   Flatline: {fileID: 8300000, guid: aac17062d8d0572478682f6db05ddc08, type: 3}
   BlipOffset: {x: 0, y: 0, z: 0}
 --- !u!4 &1948426295
