@@ -6,6 +6,8 @@ public class TransilluminationLeft : MonoBehaviour {
 	public Transform target ;
 	public float damping = 6;
 	public bool isTriggered = false;
+	public bool beginProcessBegin = false;
+	public bool endProcessBegin = false;
 
 	public float zoom = 9f;
 	public float normal = 58.1f;
@@ -26,12 +28,29 @@ public class TransilluminationLeft : MonoBehaviour {
 		blipDefaulyFocus = cameraBlip.fieldOfView;
 	}
 
+	public void BeginToggle() {
+		beginProcessBegin = !beginProcessBegin;
+		print (beginProcessBegin);
+		if (beginProcessBegin) {
+			StartCoroutine (BeginProcess(delay));
+		} 
+	}
+
 	public void CamToggle() {
 		isTriggered = !isTriggered;
 		print (isTriggered);
 		if (isTriggered) {
-			StartCoroutine (Process(delay));
+			StartCoroutine (OpperationProcess(delay));
 		} 
+	}
+
+	public void EndToggle(){
+		endProcessBegin = !endProcessBegin;
+		print (endProcessBegin);
+		if (endProcessBegin) {
+			StartCoroutine (EndProcess(delay));		
+		}
+
 	}
 	
 
@@ -39,21 +58,26 @@ public class TransilluminationLeft : MonoBehaviour {
 		this.animation.Play ("transilluminateCamZoom");
 	}
 	
-
-
-	IEnumerator Process (float delay) {
-
+	IEnumerator BeginProcess (float delay) {
+		
 		//Step 1: Camera Zoom In
 		print ("Going in");
 		this.animation ["transilluminateCamZoom"].speed = 1f;
 		CamAnimate ();
-
+		
 		cameraBlip.fieldOfView = zoom;
-
+		
 		//step 2: Lights go out
-
+		
 		light1.intensity = 0.05f;
 		light2.intensity = 0.05f;
+		yield return new WaitForSeconds(1);
+		
+		
+		beginProcessBegin = false;
+	}
+
+	IEnumerator OpperationProcess (float delay) {
 
 		//Step 3: Flash Light Comes In
 		yield return new WaitForSeconds(1);
@@ -69,20 +93,27 @@ public class TransilluminationLeft : MonoBehaviour {
 		flashLight.animation.Play("flashLightFlyIn");
 		yield return new WaitForSeconds(0.25f);
 
-		//Step 5: Camera rows back
 
+		isTriggered = false;
+	}
+
+	IEnumerator EndProcess (float delay) {
+
+		//Step 5: Camera rows back
+		
 		print ("Going out");
 		this.animation ["transilluminateCamZoom"].speed = -.5f;
 		CamAnimate ();
-
+		
 		cameraBlip.fieldOfView = blipDefaulyFocus;
-
+		
 		//Step 6: Lghits go back on
 		
 		light1.intensity = oneDefaultIntensity;
 		light2.intensity = twoDefaultIntensity;
-
-		isTriggered = false;
+		
+		endProcessBegin = false;
+		yield return new WaitForSeconds(0.25f);
 	}
 
 	void Update () {

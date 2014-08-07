@@ -43,17 +43,17 @@ public class TransilluminationRight : MonoBehaviour {
 	
 	IEnumerator Process (float delay) {
 		
-		//Step 1: Camera Zoom In
-		print ("Going in");
-		this.animation ["transilluminateCamZoom"].speed = 1f;
-		CamAnimate ();
-		
-		cameraBlip.fieldOfView = zoom;
-		
-		//step 2: Lights go out
-		
-		light1.intensity = 0.05f;
-		light2.intensity = 0.05f;
+//		//Step 1: Camera Zoom In
+//		print ("Going in");
+//		this.animation ["transilluminateCamZoom"].speed = 1f;
+//		CamAnimate ();
+//		
+//		cameraBlip.fieldOfView = zoom;
+//		
+//		//step 2: Lights go out
+//		
+//		light1.intensity = 0.05f;
+//		light2.intensity = 0.05f;
 		
 		//Step 3: Flash Light Comes In
 		yield return new WaitForSeconds(1);
@@ -68,19 +68,19 @@ public class TransilluminationRight : MonoBehaviour {
 		flashLight.animation ["flashLightFlyInR"].speed = -1f;
 		flashLight.animation.Play("flashLightFlyInR");
 		yield return new WaitForSeconds(0.25f);
-		
-		//Step 5: Camera rows back
-		
-		print ("Going out");
-		this.animation ["transilluminateCamZoom"].speed = -.5f;
-		CamAnimate ();
-		
-		cameraBlip.fieldOfView = blipDefaulyFocus;
-		
-		//Step 6: Lghits go back on
-		
-		light1.intensity = oneDefaultIntensity;
-		light2.intensity = twoDefaultIntensity;
+//		
+//		//Step 5: Camera rows back
+//		
+//		print ("Going out");
+//		this.animation ["transilluminateCamZoom"].speed = -.5f;
+//		CamAnimate ();
+//		
+//		cameraBlip.fieldOfView = blipDefaulyFocus;
+//		
+//		//Step 6: Lghits go back on
+//		
+//		light1.intensity = oneDefaultIntensity;
+//		light2.intensity = twoDefaultIntensity;
 		
 		isTriggered = false;
 	}
