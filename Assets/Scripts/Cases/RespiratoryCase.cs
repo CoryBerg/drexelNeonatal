@@ -76,6 +76,10 @@ public class RespiratoryCase : MonoBehaviour {
 		MonitorUpdates.Instance.UpdateMonitor(Sp02,temperature,bloodPressure,heartRate);
 	}
 	
+	protected void UpdateMonitor(float seconds) {
+		MonitorUpdates.Instance.UpdateMonitor(Sp02,temperature,bloodPressure,heartRate,seconds);
+	}
+	
 	// Initial state of baby
 	protected virtual void InitialState() {
 		
@@ -154,7 +158,7 @@ public class RespiratoryCase : MonoBehaviour {
 		Invoke ("ChangeScene", 60.0f);
 		babyMaterial.SetFloat ("_Blend", 0.0f); // Healthy Lips
 
-		UpdateMonitor();
+		UpdateMonitor(60f);
 	}
 	
 	// No needle decomp by 10 min (5+5, regardless of interations or lack thereof) or needle decomp in incorrect location

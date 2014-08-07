@@ -28,6 +28,15 @@ public class MonitorUpdates : MonoBehaviour {
 		StopCoroutine("MonitorTween");
 		StartCoroutine("MonitorTween",new LabelTween(2.5f,hRate,float.Parse(hr)));
 	}
+	
+	public void UpdateMonitor(string so2, string t, string bp, string hr, float seconds) {
+		print ("Monitor Updating");
+		spO2.Text = so2;
+		temp.Text = t;
+		pressure.Text = bp;
+		StopCoroutine("MonitorTween");
+		StartCoroutine("MonitorTween",new LabelTween(seconds,hRate,float.Parse(hr)));
+	}
 
 	IEnumerator MonitorTween(LabelTween lt) {
 		float t = 0;

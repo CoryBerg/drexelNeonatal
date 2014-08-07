@@ -3,10 +3,11 @@ using System.Collections;
 
 public class Breathing : MonoBehaviour {
 	public float respRate = 50f;
+	private float respiratory;
 	public bool both = false;
 	private float breath;
 	private SkinnedMeshRenderer skinMeshRenderer;
-
+	private float changeTime, changeTarget;
 	// Use this for initialization
 	void Start () {
 		skinMeshRenderer = GetComponentInChildren<SkinnedMeshRenderer>();
