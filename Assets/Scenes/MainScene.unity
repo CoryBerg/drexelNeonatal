@@ -5810,6 +5810,7 @@ GameObject:
   - 114: {fileID: 279918921}
   - 114: {fileID: 279918924}
   - 114: {fileID: 279918925}
+  - 114: {fileID: 279918926}
   m_Layer: 8
   m_Name: ButtonTransil
   m_TagString: Untagged
@@ -5991,6 +5992,23 @@ MonoBehaviour:
   DataTarget:
     Component: {fileID: 1585641694}
     MemberName: Hide
+--- !u!114 &279918926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 279918919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DataSource:
+    Component: {fileID: 279918923}
+    MemberName: Click
+  DataTarget:
+    Component: {fileID: 1947075978}
+    MemberName: BeginToggle
 --- !u!1 &280808257
 GameObject:
   m_ObjectHideFlags: 0
@@ -9840,7 +9858,7 @@ Transform:
   m_GameObject: {fileID: 422203437}
   m_LocalRotation: {x: 0, y: 0, z: -.000308999995, w: 1}
   m_LocalPosition: {x: 0, y: -.400000006, z: 0}
-  m_LocalScale: {x: 1.00000024, y: .99999851, z: 1}
+  m_LocalScale: {x: 1.00000024, y: .999997973, z: 1}
   m_Children: []
   m_Father: {fileID: 1585641692}
   m_RootOrder: 0
@@ -10561,6 +10579,7 @@ GameObject:
   - 65: {fileID: 467099998}
   - 114: {fileID: 467099997}
   - 114: {fileID: 467099996}
+  - 114: {fileID: 467100000}
   m_Layer: 8
   m_Name: Exit
   m_TagString: Untagged
@@ -10724,6 +10743,23 @@ MonoBehaviour:
   shadowOffset: {x: 1, y: -1}
   autoSize: 0
   clickWhenSpacePressed: 1
+--- !u!114 &467100000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 467099994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec4b6d41893ad6e499d2ffcefa532575, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DataSource:
+    Component: {fileID: 467099999}
+    MemberName: Click
+  DataTarget:
+    Component: {fileID: 1947075978}
+    MemberName: EndToggle
 --- !u!1 &471461626
 GameObject:
   m_ObjectHideFlags: 0
@@ -12918,10 +12954,10 @@ Renderer:
   m_LightmapIndex: 255
   m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
   m_Materials:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2100000, guid: e773281c06b5e024db5e1a4f549afe5d, type: 2}
+  - {fileID: 2100000, guid: 02253e4da6363e747b265af6bbd1a954, type: 3}
+  - {fileID: 2100000, guid: 15ec4961902cc5e41bf37d7b73a08882, type: 3}
+  - {fileID: 2100000, guid: b524d7a0bdaa57b49a90a71f6ecbac59, type: 3}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_UseLightProbes: 0
@@ -13386,7 +13422,7 @@ Transform:
   m_GameObject: {fileID: 640738026}
   m_LocalRotation: {x: 0, y: 0, z: -.000308999995, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.00000024, y: .99999845, z: 1}
+  m_LocalScale: {x: 1.00000024, y: .999997914, z: 1}
   m_Children: []
   m_Father: {fileID: 1585641692}
   m_RootOrder: 1
@@ -13525,7 +13561,7 @@ Transform:
   m_GameObject: {fileID: 661242089}
   m_LocalRotation: {x: 0, y: 0, z: -.000308999995, w: 1}
   m_LocalPosition: {x: 0, y: -.600000024, z: 0}
-  m_LocalScale: {x: 1.00000024, y: .99999851, z: 1}
+  m_LocalScale: {x: 1.00000024, y: .999997973, z: 1}
   m_Children: []
   m_Father: {fileID: 1585641692}
   m_RootOrder: 2
@@ -15401,7 +15437,7 @@ Transform:
   m_GameObject: {fileID: 751934915}
   m_LocalRotation: {x: 0, y: 0, z: -.000308999995, w: 1}
   m_LocalPosition: {x: .0100002289, y: -.800000012, z: 0}
-  m_LocalScale: {x: 1.00000024, y: .99999851, z: 1}
+  m_LocalScale: {x: 1.00000024, y: .999997973, z: 1}
   m_Children: []
   m_Father: {fileID: 1585641692}
   m_RootOrder: 3
@@ -22487,7 +22523,7 @@ Transform:
   m_GameObject: {fileID: 1075319798}
   m_LocalRotation: {x: 0, y: 0, z: -.000308999995, w: 1}
   m_LocalPosition: {x: 0, y: -.199999988, z: 0}
-  m_LocalScale: {x: 1.00000024, y: .99999845, z: 1}
+  m_LocalScale: {x: 1.00000024, y: .999997914, z: 1}
   m_Children: []
   m_Father: {fileID: 1585641692}
   m_RootOrder: 4
@@ -41289,6 +41325,8 @@ MonoBehaviour:
   target: {fileID: 0}
   damping: 6
   isTriggered: 0
+  beginProcessBegin: 0
+  endProcessBegin: 0
   zoom: 9
   normal: 58.0999985
   smooth: 4.5
