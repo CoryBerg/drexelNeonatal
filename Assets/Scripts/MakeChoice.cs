@@ -19,6 +19,8 @@ public class MakeChoice : MonoBehaviour {
 		if(StethescopeOverride && StethescopeTarget != null) {
 			handler.HandleStethescopeAnimation(StethescopeTarget);
 			return;
+		} else if(StethescopeTarget == null) {
+			throw new MissingReferenceException("Stethoscope target is missing");
 		}
 		handler.HandleAnimation (transform.name);
 		CaseInitializer.Instance.ActiveCase.isCorrect = IsAnswer;
