@@ -19,7 +19,7 @@ public class MakeChoice : MonoBehaviour {
 		if(StethescopeOverride && StethescopeTarget != null) {
 			handler.HandleStethescopeAnimation(StethescopeTarget);
 			return;
-		} else if(StethescopeTarget == null) {
+		} else if(StethescopeTarget == null && StethescopeOverride) {
 			throw new MissingReferenceException("Stethoscope target is missing");
 		}
 		handler.HandleAnimation (transform.name);
