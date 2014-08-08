@@ -2,25 +2,24 @@
 using System.Collections;
 
 public class ChestCompressionController : MonoBehaviour {
-	public dfButton[] mainButtons;
-	public ArmAnimatorController animController;
+	public dfPanel mainPanel;
 
 	public void HideMainButtons() {
 		ButtonChange(false);
 	}
 
 	void ButtonChange(bool on) {
-		foreach(dfButton b in mainButtons) {
-			b.IsVisible = on;
-		}
+		mainPanel.IsVisible = on;
 	}
 
 	public void BeginCompression() {
 		// starts compression or continues if it's already going
+		ArmAnimatorController.Instance.TriggerAnimation ("StartCC");
 	}
 
 	public void StopCompression() {
 		// ends compression, closes controls
+		ArmAnimatorController.Instance.TriggerAnimation ("EndCC");
 		ButtonChange(true);
 	}
 }

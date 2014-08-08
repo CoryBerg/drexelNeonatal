@@ -29,7 +29,7 @@ public class ArmAnimatorController : MonoBehaviour {
 
 	// Called every frame
 	void Update() {
-		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Return") && doOnce) {
+		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Idle") && doOnce) {
 			doOnce = false;
 		}
 	}

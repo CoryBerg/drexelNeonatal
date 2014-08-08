@@ -50,6 +50,18 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+  - m_Name: StartCC
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
+  - m_Name: EndCC
+    m_Type: 9
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 3
     m_Name: Base Layer
@@ -92,7 +104,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .944954157
   m_Atomic: 1
@@ -128,7 +140,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .75
   m_Atomic: 1
@@ -164,7 +176,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -181,8 +193,8 @@ Transition:
   m_TransitionDuration: .0705882311
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: Sunction
+  - m_ConditionMode: 1
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .929411769
   m_Atomic: 1
@@ -218,7 +230,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -236,7 +248,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -254,7 +266,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -272,7 +284,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -296,6 +308,24 @@ Transition:
   m_Atomic: 1
   m_Solo: 0
   m_Mute: 0
+--- !u!1101 &110150997
+Transition:
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 
+  m_SrcState: {fileID: 110272663}
+  m_DstState: {fileID: 110210885}
+  m_TransitionDuration: .100000001
+  m_TransitionOffset: 0
+  m_Conditions:
+  - m_ConditionMode: 1
+    m_ConditionEvent: EndCC
+    m_EventTreshold: 0
+    m_ExitTime: .899999976
+  m_Atomic: 1
+  m_Solo: 0
+  m_Mute: 0
 --- !u!1101 &110158831
 Transition:
   m_ObjectHideFlags: 3
@@ -308,7 +338,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .899999976
   m_Atomic: 1
@@ -344,7 +374,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .940594077
   m_Atomic: 1
@@ -380,7 +410,7 @@ Transition:
   m_TransitionOffset: 0
   m_Conditions:
   - m_ConditionMode: 5
-    m_ConditionEvent: 
+    m_ConditionEvent: StartCC
     m_EventTreshold: 0
     m_ExitTime: .949999988
   m_Atomic: 1
@@ -415,8 +445,8 @@ Transition:
   m_TransitionDuration: .181818157
   m_TransitionOffset: 0
   m_Conditions:
-  - m_ConditionMode: 5
-    m_ConditionEvent: 
+  - m_ConditionMode: 1
+    m_ConditionEvent: EndCC
     m_EventTreshold: 0
     m_ExitTime: .818181872
   m_Atomic: 1
@@ -449,7 +479,7 @@ State:
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
-  - {fileID: 7400006, guid: ececdbb0ead3fc24d9f7d5a38e660c91, type: 3}
+  - {fileID: 0}
   m_ParentStateMachine: {fileID: 110700000}
   m_Position: {x: 252, y: -12, z: 0}
   m_IKOnFeet: 0
@@ -505,7 +535,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: New State
+  m_Name: ExitChestComp
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -655,7 +685,7 @@ State:
   m_ObjectHideFlags: 3
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: chestCompression
+  m_Name: enterChestComp
   m_Speed: 1
   m_CycleOffset: 0
   m_Motions:
@@ -693,10 +723,6 @@ StateMachine:
   m_ChildStateMachinePosition: []
   m_OrderedTransitions:
     data:
-      first: {fileID: 110204808}
-      second:
-      - {fileID: 110142830}
-    data:
       first: {fileID: 0}
       second: []
     data:
@@ -707,6 +733,10 @@ StateMachine:
       - {fileID: 110168960}
       - {fileID: 110129482}
       - {fileID: 110107887}
+    data:
+      first: {fileID: 110204808}
+      second:
+      - {fileID: 110142830}
     data:
       first: {fileID: 110207592}
       second:
@@ -759,6 +789,7 @@ StateMachine:
       first: {fileID: 110272663}
       second:
       - {fileID: 110125542}
+      - {fileID: 110150997}
   m_MotionSetCount: 1
   m_AnyStatePosition: {x: -48, y: -156, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
