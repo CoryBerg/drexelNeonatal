@@ -42,6 +42,7 @@ public class ArmAnimatorController : MonoBehaviour {
 	public void Stethescope(Transform target) {
 		transform.parent = target;
 		transform.localPosition = Vector3.zero;
+		items.NewAnimation ("ButtonSteth");
 		animator.SetTrigger("UseStethoscope");
 	}
 
