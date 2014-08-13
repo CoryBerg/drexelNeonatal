@@ -14,9 +14,8 @@ public class ArmItemsContainer {
 			},
 			{"ButtonSteth", new List<GameObject>() { GameObject.Find ("stethoscope")}},
 			{"ButtonIntubation", new List<GameObject>() { GameObject.Find ("laryngoscope")}},
-			{"Intubation", new List<GameObject>() { GameObject.Find ("endotrachealTube")}},
-			{"ButtonSunction", new List<GameObject>() { GameObject.Find ("bagAndMask")}},
-			{"Extras", new List<GameObject>() { GameObject.Find ("extras")} }
+			{"Intubation", new List<GameObject>() { }},
+			{"ButtonSunction", new List<GameObject>() { GameObject.Find ("bagAndMask")}}
 		};
 	}
 

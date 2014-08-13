@@ -357,39 +357,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -569,39 +569,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -781,39 +781,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -993,39 +993,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -1205,39 +1205,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -1417,39 +1417,39 @@ ModelImporter:
       - path: root/spine1/spine2/spine3/L_clavicle/L_shoulder/L_elbow/L_wrist/L_hand/L_thumb_a/L_thumb_b/L_thumb_c/L_thumbEnd
         weight: 1
       - path: root/spine1/spine2/spine3/neck
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/headEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/jaw/jawEnd
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_btmLid/L_btmLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_eye/L_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/L_topLid/L_topLid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_btmRid/R_btmRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_eye/R_eye 1
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/neck/head/R_topRid/R_topRid_end
-        weight: 1
+        weight: 0
       - path: root/spine1/spine2/spine3/R_clavicle
         weight: 1
       - path: root/spine1/spine2/spine3/R_clavicle/R_shoulder
@@ -1505,14 +1505,14 @@ ModelImporter:
     - serializedVersion: 16
       name: Head
       takeName: Take 001
-      firstFrame: 250
-      lastFrame: 750
+      firstFrame: 350
+      lastFrame: 500
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1551,27 +1551,27 @@ ModelImporter:
       - path: root
         weight: 1
       - path: root/pelvis
-        weight: 1
+        weight: 0
       - path: root/pelvis/L_hip
-        weight: 1
+        weight: 0
       - path: root/pelvis/L_hip/L_knee
-        weight: 1
+        weight: 0
       - path: root/pelvis/L_hip/L_knee/L_ankle
-        weight: 1
+        weight: 0
       - path: root/pelvis/L_hip/L_knee/L_ankle/L_ball
-        weight: 1
+        weight: 0
       - path: root/pelvis/L_hip/L_knee/L_ankle/L_ball/L_toe
-        weight: 1
+        weight: 0
       - path: root/pelvis/R_hip
-        weight: 1
+        weight: 0
       - path: root/pelvis/R_hip/R_knee
-        weight: 1
+        weight: 0
       - path: root/pelvis/R_hip/R_knee/R_ankle
-        weight: 1
+        weight: 0
       - path: root/pelvis/R_hip/R_knee/R_ankle/R_ball
-        weight: 1
+        weight: 0
       - path: root/pelvis/R_hip/R_knee/R_ankle/R_ball/R_toe
-        weight: 1
+        weight: 0
       - path: root/spine1
         weight: 1
       - path: root/spine1/spine2

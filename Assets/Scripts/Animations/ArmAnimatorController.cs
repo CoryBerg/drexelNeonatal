@@ -31,6 +31,7 @@ public class ArmAnimatorController : MonoBehaviour {
 	void Update() {
 		if (animator.GetCurrentAnimatorStateInfo (0).IsName ("Idle") && doOnce) {
 			doOnce = false;
+			GameObject.FindGameObjectWithTag("Baby").GetComponent<Animator>().SetFloat("Intubation", 0.0f);
 		}
 	}
 
@@ -52,8 +53,8 @@ public class ArmAnimatorController : MonoBehaviour {
 		items.NewAnimation (animation);
 
 		if(animation == "ButtonIntubation") {
+			GameObject.FindGameObjectWithTag("Baby").GetComponent<Animator>().SetFloat("Intubation", 0.5f);
 			doOnce = true;
-			special.EnableSpecialCaseItem (items);
 		}
 		string animName = animations.GetAnimation(animation);
 		if(animName == "") {

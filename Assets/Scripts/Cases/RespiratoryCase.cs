@@ -6,6 +6,7 @@ public class RespiratoryCase : MonoBehaviour {
 	public Breathing babyBreath;
 	public bool isCorrect = false;
 	public float timer = 0.0f;
+	public Transform mouthTarget;
 
 	public int bpm;
 	public string heartRate, Sp02, bloodPressure, temperature;
@@ -32,6 +33,8 @@ public class RespiratoryCase : MonoBehaviour {
 		deathTimer = 600f;
 		babyMaterial = babyBody.renderer.material;
 		babyMaterial.SetFloat ("_Blend", 0.0f);
+		mouthTarget = GameObject.Find ("mouthTarget").transform;
+		GameObject.Find ("endotrachealTube").transform.parent = mouthTarget;
 	}
 
 	protected virtual void Start() {
