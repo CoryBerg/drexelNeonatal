@@ -34,7 +34,8 @@ public class UserEvaluationPerformance : MonoBehaviour {
 		{"ButtonBloGlu","Glucose Test"},
 		{"ButtonBloCul","Blood Culture"},
 		{"ButtonCBC","CBC Test"},
-		{"ButtonInitialABG","ABG Test"}
+		{"ButtonInitialABG","ABG Test"},
+		{"Debug","Nothing"}
 	};
 
 	static Dictionary<string, string> _effectiveInterventionDict = new Dictionary<string, string>
@@ -71,15 +72,10 @@ public class UserEvaluationPerformance : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 //		For Debugging in scene...
-//		UILogger.ButtonsPressed = new List<string>();
-//		UILogger.ButtonsPressed.Add("Jesse");
-//		UILogger.ButtonsPressed.Add("James");
-//		UILogger.ButtonsPressed.Add("Team Rocket");
-//		UILogger.ButtonsPressed.Add("Blasting Off");
-//		UILogger.ButtonsPressed.Add("Speed of Light");
-//		UILogger.ButtonsPressed.Add("Surrender Now");
-//		UILogger.ButtonsPressed.Add("Or Prepare to Fight");
-//		UILogger.ButtonsPressed.Add("Meowth, That's Right");
+//		UILogger.ButtonsPressed = new List<string> ();
+//		for (int i = 0; i < 15; i++) {
+//			UILogger.ButtonsPressed.Add ("Debug");
+//		}
 		if(CaseHandler.Instance.babyAlive == false) {
 			UILogger.ButtonsPressed.Add ("TheBabyDied");
 		}
