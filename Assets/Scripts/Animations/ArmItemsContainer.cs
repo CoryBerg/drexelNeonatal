@@ -9,12 +9,9 @@ public class ArmItemsContainer {
 	public ArmItemsContainer() {
 		items = new Dictionary<string, List<GameObject>> ()
 		{
-			{"ButtonNeedle", 
-				new List<GameObject>() { GameObject.Find ("butterflyNeedle")} 
-			},
+			{"ButtonNeedle", new List<GameObject>() { GameObject.Find ("butterflyNeedle")}},
 			{"ButtonSteth", new List<GameObject>() { GameObject.Find ("stethoscope")}},
 			{"ButtonIntubation", new List<GameObject>() { GameObject.Find ("laryngoscope")}},
-			{"Intubation", new List<GameObject>() { }},
 			{"ButtonSunction", new List<GameObject>() { GameObject.Find ("bagAndMask")}}
 		};
 	}
