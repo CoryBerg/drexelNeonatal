@@ -13,7 +13,7 @@ public class RespiratoryCase : MonoBehaviour {
 	protected float decompTimer, deathTimer;
 	public int currentState = 0;
 	protected SWP_HeartRateMonitor heartMonitor;
-	private float firstTime = 3f;
+//	private float firstTime = 3f;
 
 	protected Material babyMaterial;
 	protected GameObject babyBody;

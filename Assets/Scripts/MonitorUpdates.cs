@@ -21,7 +21,6 @@ public class MonitorUpdates : MonoBehaviour {
 	}
 
 	public void UpdateMonitor(string so2, string t, string bp, string hr) {
-		print ("Monitor Updating");
 		spO2.Text = so2;
 		temp.Text = t;
 		pressure.Text = bp;
@@ -30,7 +29,6 @@ public class MonitorUpdates : MonoBehaviour {
 	}
 	
 	public void UpdateMonitor(string so2, string t, string bp, string hr, float seconds) {
-		print ("Monitor Updating");
 		spO2.Text = so2;
 		temp.Text = t;
 		pressure.Text = bp;

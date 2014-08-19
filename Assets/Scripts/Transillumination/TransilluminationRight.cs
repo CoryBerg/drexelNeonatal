@@ -14,16 +14,12 @@ public class TransilluminationRight : MonoBehaviour {
 	public Camera cameraBlip ;
 	
 	public Light light1, light2;
-	private float oneDefaultIntensity, twoDefaultIntensity, blipDefaulyFocus;
 	
 	public float delay = 4f;
 	
 	public GameObject flashLight;
 	
 	void Awake () {
-		oneDefaultIntensity = light1.intensity;
-		twoDefaultIntensity = light2.intensity;
-		blipDefaulyFocus = cameraBlip.fieldOfView;
 	}
 	
 	public void CamToggle() {

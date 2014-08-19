@@ -20,7 +20,6 @@ public class AnimationHandler {
 	}
 
 	public AnimationHandler() {
-		Debug.Log("Making anim. handler");
 		arms = ArmAnimatorController.Instance;
 		baby = BabyAnimatorController.Instance;
 	}

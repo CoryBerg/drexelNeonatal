@@ -9,7 +9,7 @@ public class CustomTextPopUp : MonoBehaviour {
 
 	private GameObject popup;
 	public string text;
-	private int clickCount = 0;
+//	private int clickCount = 0;
 
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {

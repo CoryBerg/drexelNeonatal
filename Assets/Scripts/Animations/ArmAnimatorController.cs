@@ -7,8 +7,7 @@ public class ArmAnimatorController : MonoBehaviour {
 
 	private Animator animator;
 	private ArmAnimationContainer animations;
-	private ArmItemsContainer items;
-	private ArmSpecialCase special;
+//	private ArmSpecialCase special;
 	private Transform startingParent;
 	private Vector3 startingLocalPos;
 	private bool doOnce = true;
@@ -18,12 +17,11 @@ public class ArmAnimatorController : MonoBehaviour {
         startingLocalPos = this.transform.localPosition;
 		Instance = this;
 		animations = new ArmAnimationContainer ();
-		items = new ArmItemsContainer ();
-		special = new ArmSpecialCase ();
+//		special = new ArmSpecialCase ();
 
 		animator = GetComponent<Animator> ();
 
-		items.DisableAllItems ();
+		ArmItemsContainer.Instance.DisableAllItems ();
 		startingParent = this.transform.parent;
 	}
 
@@ -43,14 +41,14 @@ public class ArmAnimatorController : MonoBehaviour {
 	public void Stethescope(Transform target) {
 		transform.parent = target;
 		transform.localPosition = Vector3.zero;
-		items.NewAnimation ("ButtonSteth");
+		ArmItemsContainer.Instance.NewAnimation ("ButtonSteth");
 		animator.SetTrigger("UseStethoscope");
 	}
 
 	// Triggers mechanim state for animation
 	public void TriggerAnimation(string animation) {
 		ResetArms();
-		items.NewAnimation (animation);
+		ArmItemsContainer.Instance.NewAnimation (animation);
 
 		if(animation == "ButtonIntubation") {
 			GameObject.FindGameObjectWithTag("Baby").GetComponent<Animator>().SetFloat("Intubation", 0.5f);

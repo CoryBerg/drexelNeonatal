@@ -19,8 +19,6 @@ public class CaseHandler : MonoBehaviour {
 		babyAlive = true;
 		DontDestroyOnLoad(this.gameObject);
 		Instance = this;
-
-		Debug.Log ("CaseHandler");
 	}
 
 	public void KillBaby() {

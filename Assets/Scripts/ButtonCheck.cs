@@ -17,7 +17,7 @@ public class ButtonCheck : MonoBehaviour {
 
 
 	public void OnClick(dfControl control, dfMouseEventArgs mouseEvent) {
-		Debug.Log (this.transform.name);
+//		Debug.Log (this.transform.name);
 
 		if (showCurrentOperation) 
 		{
@@ -28,9 +28,7 @@ public class ButtonCheck : MonoBehaviour {
 		clickCount += 1;
 		//PlayerPrefs.SetInt(this.transform.name, clickCount);
 		UpdateButtonCount (action, clickCount);
-		Debug.Log ( this.transform.name + "has been pressed " + PlayerPrefs.GetInt(this.transform.name) + " times.");
-		//Debug.Log (PlayerPrefs.GetString ("buttonCount", ""));
-
+//		Debug.Log ( this.transform.name + "has been pressed " + PlayerPrefs.GetInt(this.transform.name) + " times.");
 	}
 
 	public void UpdateButtonCount(string button, int clickCount)
