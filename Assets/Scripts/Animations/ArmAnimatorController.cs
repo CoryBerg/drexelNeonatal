@@ -14,7 +14,8 @@ public class ArmAnimatorController : MonoBehaviour {
 	private bool doOnce = true;
 
 	// Use this for initialization
-	void Awake() {
+    void Awake() {
+        startingLocalPos = this.transform.localPosition;
 		Instance = this;
 		animations = new ArmAnimationContainer ();
 		items = new ArmItemsContainer ();
@@ -24,7 +25,6 @@ public class ArmAnimatorController : MonoBehaviour {
 
 		items.DisableAllItems ();
 		startingParent = this.transform.parent;
-		startingLocalPos = this.transform.localPosition;
 	}
 
 	// Called every frame
