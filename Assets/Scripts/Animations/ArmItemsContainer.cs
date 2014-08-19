@@ -17,8 +17,8 @@ public class ArmItemsContainer {
 	}
 
 	public void NewAnimation(string animation) {
-		DisableAllItems ();
-		EnableItems (animation);
+		//DisableAllItems ();
+		//EnableItems (animation);
 	}
 
 	public void EnableItems(string key) {
