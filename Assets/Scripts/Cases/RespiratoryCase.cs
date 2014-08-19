@@ -34,7 +34,8 @@ public class RespiratoryCase : MonoBehaviour {
 		babyMaterial = babyBody.renderer.material;
 		babyMaterial.SetFloat ("_Blend", 0.0f);
 		mouthTarget = GameObject.Find ("mouthTarget").transform;
-		GameObject.Find ("endotrachealTube").transform.parent = mouthTarget;
+		//TODO: Fix this, currently Setting this in inspector to avoid null ref.
+//		GameObject.Find ("endotrachealTube").transform.parent = mouthTarget;
 	}
 
 	protected virtual void Start() {
